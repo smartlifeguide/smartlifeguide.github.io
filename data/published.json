@@ -75,8 +75,46 @@
       "file_path": "/home/runner/work/matomeai2025-spec.github.io/matomeai2025-spec.github.io/site/content/en/best-smart-home-devices.md",
       "published_at": "2026-02-17T06:16:06.607951+00:00",
       "has_affiliate_links": true
+    },
+    {
+      "slug": "タスク管理ツール",
+      "keyword": "タスク管理ツール",
+      "lang": "ja",
+      "title": "もうタスクに追われない！あなたに最適なタスク管理ツールを見つける完全ガイド",
+      "tags": [
+        "タスク管理ツール",
+        "生産性向上",
+        "仕事効率化",
+        "プロジェクト管理",
+        "アプリ"
+      ],
+      "categories": [
+        "生産性ツール・アプリ"
+      ],
+      "file_path": "/home/runner/work/smartlifeguide.github.io/smartlifeguide.github.io/site/content/ja/タスク管理ツール.md",
+      "published_at": "2026-02-17T06:39:56.354299+00:00",
+      "has_affiliate_links": true
+    },
+    {
+      "slug": "task-management-software",
+      "keyword": "task management software",
+      "lang": "en",
+      "title": "Unlocking Peak Productivity: The Ultimate Guide to Task Management Software",
+      "tags": [
+        "task management",
+        "productivity tools",
+        "project management",
+        "workflow automation",
+        "team collaboration"
+      ],
+      "categories": [
+        "Productivity Tools & Apps"
+      ],
+      "file_path": "/home/runner/work/smartlifeguide.github.io/smartlifeguide.github.io/site/content/en/task-management-software.md",
+      "published_at": "2026-02-17T06:40:29.213240+00:00",
+      "has_affiliate_links": true
     }
   ],
-  "total_count": 4,
-  "last_published": "2026-02-17T06:16:06.607951+00:00"
+  "total_count": 6,
+  "last_published": "2026-02-17T06:40:29.213240+00:00"
 }
