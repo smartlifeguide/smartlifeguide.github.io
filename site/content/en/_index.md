@@ -1,4 +1,4 @@
 ---
-title: "Tech & Life Guide"
-description: "Practical guides for technology, productivity, and modern living"
+title: "Smart Life Guide"
+description: "Helping families save money, stay healthy, and make smarter choices for everyday life"
 ---

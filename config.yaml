@@ -1,8 +1,8 @@
 # Global Configuration
 site:
   base_url: "https://smartlifeguide.github.io/"
-  title: "Tech & Life Guide"
-  description: "Practical guides for technology, productivity, and modern living"
+  title: "Smart Life Guide"
+  description: "Helping families save money, stay healthy, and make smarter choices for everyday life"
   languages:
     - ja
     - en
@@ -33,11 +33,11 @@ affiliate:
 
 # Niche categories to target
 niches:
-  - "productivity tools"
-  - "smart home devices"
-  - "personal finance apps"
-  - "health and wellness tech"
-  - "remote work setup"
+  - "home appliances"
+  - "saving money"
+  - "health and body care"
+  - "education and family finance"
+  - "senior care"
 
 # Publishing
 publishing:

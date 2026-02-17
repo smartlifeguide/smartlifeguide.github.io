@@ -5,6 +5,18 @@ AI (Gemini API) を活用した完全自動SEOブログ記事生成・公開・�
 GitHub Actions で毎日自動実行し、Hugo + GitHub Pages で日英バイリンガルブログを運営する。
 月額コスト0円で不労所得を目指す。
 
+## ターゲットペルソナ
+- **メイン**: 40〜50代の主婦・パート勤務の女性 (例: 45歳、パート勤務の母親)
+- **行動**: Google検索で「○○ おすすめ」「○○ 比較」と調べる層。SNSやAIチャットではなくブログ記事を参考にする
+- **関心**: 家電選び、節約術、健康ケア、教育費、シニア親の見守り
+
+## ニッチカテゴリ (ペルソナ最適化済み)
+1. 家電・生活家電 (ロボット掃除機、食洗機、空気清浄機、ドラム式洗濯機)
+2. 節約・家計管理 (電気代節約、食費節約、格安SIM、家計簿)
+3. 健康・体のケア (肩こり、目の疲れ、腰痛マットレス、睡眠改善)
+4. 教育費・子育てマネー (教育費、学資保険、タブレット学習、塾選び)
+5. 見守り・シニアケア (見守りサービス、シニアスマホ、介護保険、見守りカメラ)
+
 ## 進捗サマリー
 - [x] Step 1: プロジェクト基盤 (pyproject.toml, requirements.txt, config.yaml, .gitignore)
 - [x] Step 2: 設定モジュール + データファイル (pipeline/config.py, data/*.json)
@@ -22,6 +34,9 @@ GitHub Actions で毎日自動実行し、Hugo + GitHub Pages で日英バイリ
 - [x] Step 14: SDK移行 (google.generativeai → google.genai) + レート制限対応
 - [x] Step 15: 初回テスト実行成功 (JA: スマート照明 24KB, EN: productivity apps 20KB)
 - [x] Step 16: GitHub デプロイ完了 → https://smartlifeguide.github.io/ で公開中
+- [x] Step 17: ペルソナ再定義 + ニッチピボット (テック系 → 生活密着型)
+- [x] Step 18: サイト名変更 (Smart Life Guide / スマートライフガイド) + ブランディング更新
+- [x] Step 19: 旧記事・旧キーワード削除 + データリセット
 
 ## デプロイ情報
 - **サイトURL**: https://smartlifeguide.github.io/

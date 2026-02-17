@@ -1,39 +1,39 @@
 {
   "niches": [
     {
-      "id": "productivity",
-      "name_en": "Productivity Tools & Apps",
-      "name_ja": "生産性ツール・アプリ",
-      "seed_keywords_en": ["best productivity apps", "time management tools", "task management software", "note taking apps"],
-      "seed_keywords_ja": ["おすすめ生産性アプリ", "タスク管理ツール", "時間管理アプリ", "ノートアプリ比較"]
+      "id": "home_appliances",
+      "name_en": "Home Appliances & Gadgets",
+      "name_ja": "家電・生活家電",
+      "seed_keywords_en": ["best robot vacuum for pet hair", "dishwasher comparison", "best air purifier for allergies", "portable washing machine review"],
+      "seed_keywords_ja": ["ロボット掃除機 おすすめ", "食洗機 工事不要 おすすめ", "空気清浄機 比較", "ドラム式洗濯機 おすすめ"]
     },
     {
-      "id": "smart_home",
-      "name_en": "Smart Home Devices",
-      "name_ja": "スマートホームデバイス",
-      "seed_keywords_en": ["best smart home devices", "smart speaker comparison", "home automation guide", "smart lighting setup"],
-      "seed_keywords_ja": ["スマートホーム おすすめ", "スマートスピーカー 比較", "ホームオートメーション", "スマート照明"]
+      "id": "saving_money",
+      "name_en": "Saving Money & Household Budget",
+      "name_ja": "節約・家計管理",
+      "seed_keywords_en": ["how to save on electricity bill", "best budgeting apps for families", "cheap meal planning ideas", "how to reduce grocery bill"],
+      "seed_keywords_ja": ["電気代 節約 方法", "食費 節約 コツ", "格安SIM 比較 おすすめ", "家計簿 つけ方 初心者"]
     },
     {
-      "id": "personal_finance",
-      "name_en": "Personal Finance Apps",
-      "name_ja": "家計管理アプリ",
-      "seed_keywords_en": ["best budgeting apps", "investment apps for beginners", "money saving apps", "expense tracker"],
-      "seed_keywords_ja": ["家計簿アプリ おすすめ", "投資アプリ 初心者", "節約アプリ", "資産管理アプリ"]
+      "id": "health_wellness",
+      "name_en": "Health & Body Care",
+      "name_ja": "健康・体のケア",
+      "seed_keywords_en": ["best back pain relief products", "eye strain from screen solution", "best walking shoes for women", "sleep quality improvement tips"],
+      "seed_keywords_ja": ["肩こり 解消 グッズ", "目の疲れ 対策", "腰痛 マットレス おすすめ", "睡眠 質 改善 方法"]
     },
     {
-      "id": "health_tech",
-      "name_en": "Health & Wellness Tech",
-      "name_ja": "ヘルステック",
-      "seed_keywords_en": ["best fitness trackers", "meditation apps", "sleep tracking devices", "health monitoring apps"],
-      "seed_keywords_ja": ["フィットネストラッカー おすすめ", "瞑想アプリ", "睡眠トラッカー", "健康管理アプリ"]
+      "id": "education_childcare",
+      "name_en": "Education & Family Finance",
+      "name_ja": "教育費・子育てマネー",
+      "seed_keywords_en": ["education savings plan for kids", "college fund best options", "online tutoring comparison", "best tablets for students"],
+      "seed_keywords_ja": ["教育費 貯め方", "学資保険 おすすめ", "子供 タブレット学習 比較", "高校受験 塾 選び方"]
     },
     {
-      "id": "remote_work",
-      "name_en": "Remote Work Setup",
-      "name_ja": "リモートワーク環境",
-      "seed_keywords_en": ["best home office setup", "remote work tools", "ergonomic desk accessories", "video conferencing equipment"],
-      "seed_keywords_ja": ["在宅勤務 環境整備", "リモートワーク ツール", "デスク周り おすすめ", "Web会議 機材"]
+      "id": "senior_care",
+      "name_en": "Senior Care & Safety",
+      "name_ja": "見守り・シニアケア",
+      "seed_keywords_en": ["best elderly monitoring systems", "senior friendly smartphone", "medical alert systems comparison", "aging parent care tips"],
+      "seed_keywords_ja": ["親 見守り サービス おすすめ", "シニア スマホ おすすめ", "介護保険 使い方", "高齢者 見守りカメラ 比較"]
     }
   ]
 }

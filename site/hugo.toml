@@ -1,5 +1,5 @@
 baseURL = "https://smartlifeguide.github.io/"
-title = "Tech & Life Guide"
+title = "Smart Life Guide"
 theme = "minimal-seo"
 
 # Enable sitemap, RSS, robots.txt
@@ -22,8 +22,8 @@ enableGitInfo = false
   section = ["HTML", "RSS"]
 
 [params]
-  description = "Practical guides for technology, productivity, and modern living"
-  author = "Tech & Life Guide"
+  description = "Helping families save money, stay healthy, and make smarter choices for everyday life"
+  author = "Smart Life Guide"
   # Google AdSense - replace with your publisher ID
   adsense_publisher_id = "ca-pub-XXXXXXXXXXXXXXXX"
   adsense_enabled = false
@@ -41,17 +41,17 @@ defaultContentLanguageInSubdir = true
     languageName = "English"
     weight = 1
     contentDir = "content/en"
-    title = "Tech & Life Guide"
+    title = "Smart Life Guide"
     [languages.en.params]
-      description = "Practical guides for technology, productivity, and modern living"
+      description = "Helping families save money, stay healthy, and make smarter choices for everyday life"
 
   [languages.ja]
     languageName = "日本語"
     weight = 2
     contentDir = "content/ja"
-    title = "テック＆ライフガイド"
+    title = "スマートライフガイド"
     [languages.ja.params]
-      description = "テクノロジー、生産性、現代生活の実用ガイド"
+      description = "家電選び・節約術・健康管理・教育費など、毎日の暮らしに役立つ情報をお届けします"
 
 [taxonomies]
   tag = "tags"
