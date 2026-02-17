@@ -1,0 +1,45 @@
+{
+  "_comment": "A8.net アフィリエイトプログラム設定。提携後にリンクを追加してください。",
+  "programs": [
+    {
+      "niche_id": "home_appliances",
+      "name": "（例）家電レンタルサービス",
+      "link": "",
+      "description": "人気家電をお試しレンタル",
+      "keywords": ["家電", "レンタル"],
+      "enabled": false
+    },
+    {
+      "niche_id": "saving_money",
+      "name": "（例）格安SIM比較サイト",
+      "link": "",
+      "description": "あなたに合った格安SIMが見つかる",
+      "keywords": ["格安SIM", "スマホ", "通信費"],
+      "enabled": false
+    },
+    {
+      "niche_id": "health_wellness",
+      "name": "（例）マットレス通販",
+      "link": "",
+      "description": "腰痛対策に人気のマットレス",
+      "keywords": ["マットレス", "腰痛", "睡眠"],
+      "enabled": false
+    },
+    {
+      "niche_id": "education_childcare",
+      "name": "（例）オンライン学習サービス",
+      "link": "",
+      "description": "お子様の学力アップをサポート",
+      "keywords": ["タブレット学習", "オンライン", "塾"],
+      "enabled": false
+    },
+    {
+      "niche_id": "senior_care",
+      "name": "（例）見守りサービス",
+      "link": "",
+      "description": "離れて暮らす親御さんを安心見守り",
+      "keywords": ["見守り", "シニア", "介護"],
+      "enabled": false
+    }
+  ]
+}
