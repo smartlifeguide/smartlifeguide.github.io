@@ -28,7 +28,7 @@ enableGitInfo = false
   adsense_publisher_id = "ca-pub-XXXXXXXXXXXXXXXX"
   adsense_enabled = false
   # Google Analytics
-  google_analytics = ""
+  google_analytics = "G-406TH99LZT"
   # OGP
   og_image = "/images/og-default.png"
 
