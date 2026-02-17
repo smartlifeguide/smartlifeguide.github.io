@@ -1,5 +1,45 @@
 {
-  "articles": [],
-  "total_count": 0,
-  "last_published": null
+  "articles": [
+    {
+      "slug": "ドラム式洗濯機-おすすめ",
+      "keyword": "ドラム式洗濯機 おすすめ",
+      "lang": "ja",
+      "title": "【2024年版】ドラム式洗濯機のおすすめ！時短で家事をもっと楽にする賢い選び方",
+      "tags": [
+        "ドラム式洗濯機",
+        "洗濯機",
+        "時短家電",
+        "家事楽",
+        "節水",
+        "乾燥機能"
+      ],
+      "categories": [
+        "家電・生活家電"
+      ],
+      "file_path": "/home/runner/work/smartlifeguide.github.io/smartlifeguide.github.io/site/content/ja/ドラム式洗濯機-おすすめ.md",
+      "published_at": "2026-02-17T07:44:20.754724+00:00",
+      "has_affiliate_links": false
+    },
+    {
+      "slug": "dishwasher-comparison",
+      "keyword": "dishwasher comparison",
+      "lang": "en",
+      "title": "Dishwasher Comparison Guide: Finding the Perfect Fit for Your Family Kitchen",
+      "tags": [
+        "dishwasher comparison",
+        "best dishwasher",
+        "kitchen appliances",
+        "home upgrade",
+        "family kitchen"
+      ],
+      "categories": [
+        "Home Appliances & Gadgets"
+      ],
+      "file_path": "/home/runner/work/smartlifeguide.github.io/smartlifeguide.github.io/site/content/en/dishwasher-comparison.md",
+      "published_at": "2026-02-17T07:44:48.452549+00:00",
+      "has_affiliate_links": false
+    }
+  ],
+  "total_count": 2,
+  "last_published": "2026-02-17T07:44:48.452549+00:00"
 }
