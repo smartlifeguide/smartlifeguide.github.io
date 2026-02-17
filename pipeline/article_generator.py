@@ -18,8 +18,11 @@ RATE_LIMIT_WAIT = 60
 
 def _build_prompt_ja(keyword: str, niche: str) -> str:
     """Build the Japanese article generation prompt."""
+    current_year = datetime.now(timezone.utc).year
     return f"""あなたはSEOに精通した日本語のプロフェッショナルライターです。
 以下のキーワードに関する包括的で有益なブログ記事を書いてください。
+
+**重要: 現在は{current_year}年です。記事中の年号は必ず{current_year}年を使用してください。「{current_year}年版」「{current_year}年最新」のように書いてください。2024年や2025年など古い年号は絶対に使わないでください。**
 
 ## ターゲット読者
 - 40〜50代の主婦・パート勤務の女性
@@ -83,8 +86,11 @@ categories: ["カテゴリ"]
 
 def _build_prompt_en(keyword: str, niche: str) -> str:
     """Build the English article generation prompt."""
+    current_year = datetime.now(timezone.utc).year
     return f"""You are a professional SEO content writer.
 Write a comprehensive, helpful blog article about the following keyword.
+
+**IMPORTANT: The current year is {current_year}. Always use {current_year} when referencing the current year in the article (e.g. "Best ... in {current_year}", "{current_year} Guide"). Never use 2024 or 2025.**
 
 ## Target Reader
 - Families looking for practical advice on household topics
