@@ -21,10 +21,19 @@ GitHub Actions で毎日自動実行し、Hugo + GitHub Pages で日英バイリ
 - [x] Step 13: パイプライン統合 (main.py に内部リンクステップ追加)
 - [x] Step 14: SDK移行 (google.generativeai → google.genai) + レート制限対応
 - [x] Step 15: 初回テスト実行成功 (JA: スマート照明 24KB, EN: productivity apps 20KB)
+- [x] Step 16: GitHub デプロイ完了 → https://smartlifeguide.github.io/ で公開中
+
+## デプロイ情報
+- **サイトURL**: https://smartlifeguide.github.io/
+- **GitHub アカウント**: smartlifeguide (ブログ専用、開発用 kawataro とは分離)
+- **リポジトリ**: smartlifeguide/smartlifeguide.github.io (Public)
+- **SSH**: `~/.ssh/id_ed25519_matomeai` / Host `github-matomeai`
+- **自動実行**: 毎日 UTC 0:00 (JST 9:00) に GitHub Actions で記事生成 + デプロイ
 
 ## 技術メモ
 - Gemini API: `gemini-2.0-flash` は新規キーで quota 0 になる場合あり。`gemini-2.5-flash` を使用
 - .env ファイルで API キー管理 (GEMINI_API_KEY)。.gitignore 済み
+- GitHub Secrets に GEMINI_API_KEY を設定済み
 - レート制限 (429) 時は attempt × 60秒 待機してリトライ
 
 ## ルール
