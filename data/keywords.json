@@ -153,6 +153,14 @@
       "researched_at": "2026-02-17T04:54:28.751119+00:00"
     },
     {
+      "keyword": "best smart home devices for google home",
+      "interest": 1.23,
+      "word_count": 7,
+      "score": 3.68,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063108+00:00"
+    },
+    {
       "keyword": "タスク管理ツール google",
       "interest": 2.15,
       "word_count": 2,
@@ -183,6 +191,14 @@
       "score": 3.1,
       "lang": "en",
       "researched_at": "2026-02-17T04:55:15.823452+00:00"
+    },
+    {
+      "keyword": "best smart home devices for seniors",
+      "interest": 1.01,
+      "word_count": 6,
+      "score": 3.03,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063111+00:00"
     },
     {
       "keyword": "best productivity apps for android",
@@ -249,6 +265,14 @@
       "researched_at": "2026-02-17T04:54:28.751134+00:00"
     },
     {
+      "keyword": "タスク管理ツール 個人",
+      "interest": 1.0,
+      "word_count": 2,
+      "score": 1.67,
+      "lang": "ja",
+      "researched_at": "2026-02-17T06:14:34.777797+00:00"
+    },
+    {
       "keyword": "時間管理アプリ pc",
       "interest": 0.95,
       "word_count": 2,
@@ -287,6 +311,14 @@
       "score": 1.09,
       "lang": "en",
       "researched_at": "2026-02-17T04:55:15.823465+00:00"
+    },
+    {
+      "keyword": "time management tools reddit",
+      "interest": 0.45,
+      "word_count": 4,
+      "score": 1.05,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063131+00:00"
     },
     {
       "keyword": "best smart home devices for home assistant",
@@ -329,6 +361,14 @@
       "researched_at": "2026-02-17T04:54:28.751143+00:00"
     },
     {
+      "keyword": "best productivity apps for adhd",
+      "interest": 0.17,
+      "word_count": 5,
+      "score": 0.46,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063146+00:00"
+    },
+    {
       "keyword": "タスク管理ツール 無料",
       "interest": 0.27,
       "word_count": 2,
@@ -343,6 +383,14 @@
       "score": 0.26,
       "lang": "en",
       "researched_at": "2026-02-17T04:55:15.823474+00:00"
+    },
+    {
+      "keyword": "note taking apps for iphone",
+      "interest": 0.09,
+      "word_count": 5,
+      "score": 0.23,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063156+00:00"
     },
     {
       "keyword": "note taking apps for students",
@@ -799,7 +847,63 @@
       "score": 0.0,
       "lang": "en",
       "researched_at": "2026-02-17T04:55:15.823511+00:00"
+    },
+    {
+      "keyword": "タスク管理ツール notion",
+      "interest": 0.0,
+      "word_count": 2,
+      "score": 0.0,
+      "lang": "ja",
+      "researched_at": "2026-02-17T06:14:34.777829+00:00"
+    },
+    {
+      "keyword": "スマート照明とは",
+      "interest": 0.0,
+      "word_count": 1,
+      "score": 0.0,
+      "lang": "ja",
+      "researched_at": "2026-02-17T06:14:34.777877+00:00"
+    },
+    {
+      "keyword": "time management tools for teens",
+      "interest": 0.0,
+      "word_count": 5,
+      "score": 0.0,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063175+00:00"
+    },
+    {
+      "keyword": "task management software reddit",
+      "interest": 0.0,
+      "word_count": 4,
+      "score": 0.0,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063178+00:00"
+    },
+    {
+      "keyword": "task management software for individuals",
+      "interest": 0.0,
+      "word_count": 5,
+      "score": 0.0,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063180+00:00"
+    },
+    {
+      "keyword": "note taking apps for macbook",
+      "interest": 0.0,
+      "word_count": 5,
+      "score": 0.0,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063189+00:00"
+    },
+    {
+      "keyword": "note taking apps for ipad with apple pencil",
+      "interest": 0.0,
+      "word_count": 8,
+      "score": 0.0,
+      "lang": "en",
+      "researched_at": "2026-02-17T06:15:15.063191+00:00"
     }
   ],
-  "last_updated": "2026-02-17T04:55:15.823695+00:00"
+  "last_updated": "2026-02-17T06:15:15.063753+00:00"
 }

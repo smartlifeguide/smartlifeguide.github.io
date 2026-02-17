@@ -37,8 +37,46 @@
       "file_path": "/Users/nori/PycharmProjects/passive_income_002/site/content/en/best-productivity-apps-2025.md",
       "published_at": "2026-02-17T05:08:33.873099+00:00",
       "has_affiliate_links": true
+    },
+    {
+      "slug": "スマートホーム-おすすめ",
+      "keyword": "スマートホーム おすすめ",
+      "lang": "ja",
+      "title": "【2024年最新版】スマートホーム おすすめデバイスで始める！快適で便利な暮らしへの第一歩",
+      "tags": [
+        "スマートホーム",
+        "スマートデバイス",
+        "IoT",
+        "快適生活",
+        "QOL向上"
+      ],
+      "categories": [
+        "スマートホームデバイス"
+      ],
+      "file_path": "/home/runner/work/matomeai2025-spec.github.io/matomeai2025-spec.github.io/site/content/ja/スマートホーム-おすすめ.md",
+      "published_at": "2026-02-17T06:15:42.007718+00:00",
+      "has_affiliate_links": true
+    },
+    {
+      "slug": "best-smart-home-devices",
+      "keyword": "best smart home devices",
+      "lang": "en",
+      "title": "Unlocking the Future: Discover the Best Smart Home Devices for Modern Living",
+      "tags": [
+        "smart home",
+        "home automation",
+        "smart devices",
+        "connected home",
+        "smart technology"
+      ],
+      "categories": [
+        "Smart Home Devices"
+      ],
+      "file_path": "/home/runner/work/matomeai2025-spec.github.io/matomeai2025-spec.github.io/site/content/en/best-smart-home-devices.md",
+      "published_at": "2026-02-17T06:16:06.607951+00:00",
+      "has_affiliate_links": true
     }
   ],
-  "total_count": 2,
-  "last_published": "2026-02-17T05:08:33.873099+00:00"
+  "total_count": 4,
+  "last_published": "2026-02-17T06:16:06.607951+00:00"
 }
