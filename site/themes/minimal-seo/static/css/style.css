@@ -7,9 +7,9 @@
   --color-primary: #0066cc;
   --color-secondary: #4a4a68;
   --color-border: #e2e8f0;
-  --color-surface: #f8fafc;
-  --max-width: 740px;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-surface: #f7f8fa;
+  --max-width: 780px;
+  --font-sans: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-serif: Georgia, "Times New Roman", serif;
 }
 
@@ -17,8 +17,9 @@ body {
   font-family: var(--font-sans);
   color: var(--color-text);
   background: var(--color-bg);
-  line-height: 1.8;
-  font-size: 16px;
+  line-height: 1.9;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -50,15 +51,15 @@ body {
   color: var(--color-secondary);
   text-decoration: none;
   margin-left: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 .site-nav a:hover { color: var(--color-primary); }
 
 .lang-switch { margin-left: 1rem; }
 .lang-switch a {
-  font-size: 0.8rem;
-  padding: 0.2rem 0.5rem;
+  font-size: 0.85rem;
+  padding: 0.25rem 0.6rem;
   border: 1px solid var(--color-border);
   border-radius: 4px;
 }
@@ -93,75 +94,88 @@ main { padding: 2rem 0 4rem; }
 }
 
 .article-summary time {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--color-secondary);
 }
 
 .article-summary p {
   margin-top: 0.5rem;
   color: var(--color-secondary);
+  line-height: 1.8;
 }
 
 /* Single article */
 .article-header { margin-bottom: 2rem; }
 .article-header h1 {
   font-size: 1.8rem;
-  line-height: 1.3;
+  line-height: 1.4;
   margin-bottom: 0.5rem;
 }
 
 .article-meta {
   color: var(--color-secondary);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 .keyword {
   display: inline-block;
   background: var(--color-surface);
-  padding: 0.1rem 0.5rem;
+  padding: 0.15rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   margin-left: 0.3rem;
 }
 
+/* Article body — readability first */
 .article-content {
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  line-height: 2;
+  letter-spacing: 0.02em;
 }
 
 .article-content h2 {
-  font-family: var(--font-sans);
-  font-size: 1.4rem;
-  margin: 2.5rem 0 1rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 2px solid var(--color-primary);
+  font-size: 1.5rem;
+  margin: 3rem 0 1.2rem;
+  padding: 0.5rem 0 0.4rem;
+  border-bottom: 3px solid var(--color-primary);
+  line-height: 1.4;
 }
 
 .article-content h3 {
-  font-family: var(--font-sans);
-  font-size: 1.15rem;
-  margin: 2rem 0 0.8rem;
+  font-size: 1.25rem;
+  margin: 2.5rem 0 1rem;
+  padding-left: 0.8rem;
+  border-left: 4px solid var(--color-primary);
+  line-height: 1.4;
 }
 
-.article-content p { margin-bottom: 1.2rem; }
+.article-content p {
+  margin-bottom: 1.5rem;
+}
 
 .article-content ul, .article-content ol {
-  margin: 1rem 0 1.2rem 1.5rem;
+  margin: 1.2rem 0 1.5rem 1.5rem;
 }
 
-.article-content li { margin-bottom: 0.4rem; }
+.article-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.9;
+}
 
 .article-content a {
   color: var(--color-primary);
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .article-content blockquote {
-  border-left: 3px solid var(--color-primary);
-  padding-left: 1rem;
+  border-left: 4px solid var(--color-primary);
+  padding: 1rem 1.2rem;
   margin: 1.5rem 0;
+  background: var(--color-surface);
+  border-radius: 0 6px 6px 0;
   color: var(--color-secondary);
-  font-style: italic;
 }
 
 .article-content code {
@@ -186,6 +200,91 @@ main { padding: 2rem 0 4rem; }
   margin: 1.5rem 0;
 }
 
+/* Decoration boxes — for article readability */
+.point-box, .warning-box, .memo-box {
+  margin: 1.5rem 0;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+
+.point-box::before, .warning-box::before, .memo-box::before {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.point-box {
+  background: #eef6ff;
+  border: 1px solid #b3d4fc;
+}
+.point-box::before {
+  content: "\2714  ポイント";
+  color: #0066cc;
+}
+.point-box.en::before {
+  content: "\2714  Key Point";
+}
+
+.warning-box {
+  background: #fff8e6;
+  border: 1px solid #ffd666;
+}
+.warning-box::before {
+  content: "\26A0  注意";
+  color: #b8860b;
+}
+.warning-box.en::before {
+  content: "\26A0  Warning";
+}
+
+.memo-box {
+  background: #f0f9f0;
+  border: 1px solid #a3d9a5;
+}
+.memo-box::before {
+  content: "\1F4DD  メモ";
+  color: #2d7d32;
+}
+.memo-box.en::before {
+  content: "\1F4DD  Note";
+}
+
+/* Comparison table */
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.article-content th, .article-content td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-border);
+  text-align: left;
+  line-height: 1.6;
+}
+
+.article-content th {
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 600;
+}
+
+.article-content tr:nth-child(even) {
+  background: var(--color-surface);
+}
+
+/* Hero image */
+.article-hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
 /* Article nav */
 .article-nav {
   display: flex;
@@ -198,7 +297,7 @@ main { padding: 2rem 0 4rem; }
 .article-nav a {
   color: var(--color-primary);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 /* AdSense container */
@@ -214,7 +313,7 @@ main { padding: 2rem 0 4rem; }
   padding: 2rem 0;
   text-align: center;
   color: var(--color-secondary);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 .site-footer a {
@@ -224,13 +323,35 @@ main { padding: 2rem 0 4rem; }
 
 .site-footer a:hover { color: var(--color-primary); }
 
-/* Responsive */
+/* Responsive — mobile readability */
 @media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+
   .site-header .container {
     flex-direction: column;
     gap: 0.5rem;
   }
-  .site-nav a { margin-left: 0.8rem; }
+
+  .site-nav a {
+    margin-left: 0.8rem;
+    font-size: 1rem;
+  }
+
   .hero h1 { font-size: 1.5rem; }
+  .hero p { font-size: 1rem; }
+
   .article-header h1 { font-size: 1.4rem; }
+
+  .article-content {
+    font-size: 1.05rem;
+    line-height: 2;
+  }
+
+  .article-content h2 { font-size: 1.3rem; }
+  .article-content h3 { font-size: 1.15rem; }
+
+  .container { padding: 0 1rem; }
 }

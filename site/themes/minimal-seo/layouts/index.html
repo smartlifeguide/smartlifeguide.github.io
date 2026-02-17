@@ -12,7 +12,7 @@
     {{ range first 10 .Site.RegularPages }}
     <article class="article-summary">
       <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ if eq .Lang "ja" }}{{ .Date.Format "2006年1月2日" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}</time>
       <p>{{ .Description | default (.Summary | truncate 200) }}</p>
     </article>
     {{ end }}

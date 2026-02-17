@@ -5,10 +5,12 @@ from __future__ import annotations
 import json
 import logging
 import sys
+from pathlib import Path
 
 from pipeline.affiliate_linker import insert_affiliate_links
 from pipeline.article_generator import generate_article
 from pipeline.config import get_data_path, load_config
+from pipeline.image_fetcher import fetch_image
 from pipeline.internal_linker import insert_internal_links, update_existing_articles
 from pipeline.keyword_researcher import get_unused_keyword, research_keywords
 from pipeline.publisher import get_published_slugs, git_commit_and_push, publish_article
@@ -86,16 +88,24 @@ def run_pipeline(skip_research: bool = False, skip_git: bool = False) -> None:
             logger.error("Failed to generate article for '%s'", keyword)
             continue
 
+        # Fetch eye-catch image
+        logger.info("--- Step 3: Fetching eye-catch image ---")
+        site_dir = Path(__file__).resolve().parent.parent / "site"
+        image_path = fetch_image(keyword, lang, config, site_dir)
+        if image_path:
+            article["image"] = image_path
+            logger.info("Image set: %s", image_path)
+
         # Insert internal links to related articles
-        logger.info("--- Step 3: Inserting internal links ---")
+        logger.info("--- Step 4: Inserting internal links ---")
         article = insert_internal_links(article, config)
 
         # Insert affiliate links
-        logger.info("--- Step 4: Inserting affiliate links ---")
+        logger.info("--- Step 5: Inserting affiliate links ---")
         article = insert_affiliate_links(article, config)
 
         # Publish
-        logger.info("--- Step 5: Publishing article ---")
+        logger.info("--- Step 6: Publishing article ---")
         success = publish_article(article, config)
         if success:
             articles_published += 1
@@ -103,16 +113,16 @@ def run_pipeline(skip_research: bool = False, skip_git: bool = False) -> None:
             logger.info("Successfully published: %s", article["front_matter"].get("title"))
 
             # Update existing articles with links to the new article
-            logger.info("--- Step 6: Updating existing articles with internal links ---")
+            logger.info("--- Step 7: Updating existing articles with internal links ---")
             updated = update_existing_articles(article, config)
             if updated:
                 logger.info("Updated %d existing article(s) with internal links", updated)
         else:
             logger.error("Failed to publish article for '%s'", keyword)
 
-    # Step 7: Git commit and push
+    # Step 8: Git commit and push
     if not skip_git and articles_published > 0:
-        logger.info("--- Step 7: Git commit and push ---")
+        logger.info("--- Step 8: Git commit and push ---")
         git_commit_and_push(config)
     elif articles_published == 0:
         logger.warning("No articles were published in this run")

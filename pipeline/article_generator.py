@@ -21,6 +21,11 @@ def _build_prompt_ja(keyword: str, niche: str) -> str:
     return f"""あなたはSEOに精通した日本語のプロフェッショナルライターです。
 以下のキーワードに関する包括的で有益なブログ記事を書いてください。
 
+## ターゲット読者
+- 40〜50代の主婦・パート勤務の女性
+- ITに詳しくなく、Google検索で情報を探す層
+- わかりやすく、やさしい言葉で書いてください
+
 ## 要件
 
 - **メインキーワード**: {keyword}
@@ -35,7 +40,27 @@ def _build_prompt_ja(keyword: str, niche: str) -> str:
   - キーワードをタイトル、最初の100文字、見出しに含める
   - 関連キーワードを自然に散りばめる
   - 読みやすい文章（一文は短く、箇条書きを活用）
-- **トーン**: 友好的で信頼できる専門家
+- **トーン**: 友好的で信頼できる、近所のお姉さんのようなやさしい口調
+
+## 装飾ボックス
+記事中で以下のHTMLボックスを適切な箇所に使ってください（合計2〜4個）:
+
+ポイントや要点を伝える時:
+<div class="point-box">
+<p>ここに重要なポイントを書く</p>
+</div>
+
+注意点を伝える時:
+<div class="warning-box">
+<p>ここに注意点を書く</p>
+</div>
+
+補足情報やメモ:
+<div class="memo-box">
+<p>ここに補足情報を書く</p>
+</div>
+
+また、比較記事の場合は必ずMarkdownの表（テーブル）を使って比較してください。
 
 ## 出力形式
 
@@ -61,6 +86,10 @@ def _build_prompt_en(keyword: str, niche: str) -> str:
     return f"""You are a professional SEO content writer.
 Write a comprehensive, helpful blog article about the following keyword.
 
+## Target Reader
+- Families looking for practical advice on household topics
+- Clear, easy-to-read language for general audience
+
 ## Requirements
 
 - **Main keyword**: {keyword}
@@ -76,6 +105,26 @@ Write a comprehensive, helpful blog article about the following keyword.
   - Naturally sprinkle related keywords throughout
   - Use short sentences and bullet points for readability
 - **Tone**: Friendly, authoritative expert
+
+## Decoration Boxes
+Use these HTML boxes at appropriate points in the article (2-4 total):
+
+For key points:
+<div class="point-box en">
+<p>Key point here</p>
+</div>
+
+For warnings or cautions:
+<div class="warning-box en">
+<p>Warning here</p>
+</div>
+
+For tips or notes:
+<div class="memo-box en">
+<p>Note here</p>
+</div>
+
+For comparison articles, always use Markdown tables.
 
 ## Output Format
 

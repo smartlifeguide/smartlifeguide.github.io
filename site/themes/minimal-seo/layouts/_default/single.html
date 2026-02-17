@@ -4,7 +4,7 @@
     <h1 itemprop="headline">{{ .Title }}</h1>
     <div class="article-meta">
       <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">
-        {{ .Date.Format "January 2, 2006" }}
+        {{ if eq .Lang "ja" }}{{ .Date.Format "2006年1月2日" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}
       </time>
       {{ with .Params.keywords }}
       <span class="keywords">
@@ -15,6 +15,10 @@
       {{ end }}
     </div>
   </header>
+
+  {{ with .Params.image }}
+  <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="article-hero-image" itemprop="image">
+  {{ end }}
 
   {{ partial "adsense.html" . }}
 

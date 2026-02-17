@@ -66,9 +66,17 @@ def publish_article(article: dict, config: dict) -> bool:
         f'keywords: ["{keyword}"]',
         f"tags: [{tags_str}]",
         f"categories: [{categories_str}]",
+    ]
+
+    # Add image if available
+    image_path = article.get("image")
+    if image_path:
+        front_matter_lines.append(f'image: "{image_path}"')
+
+    front_matter_lines.extend([
         "draft: false",
         "---",
-    ]
+    ])
 
     content = "\n".join(front_matter_lines) + "\n\n" + article["body"] + "\n"
 
@@ -134,7 +142,7 @@ def git_commit_and_push(config: dict) -> bool:
     try:
         # Stage content and data files
         subprocess.run(
-            ["git", "add", "site/content/", "data/"],
+            ["git", "add", "site/content/", "site/static/images/", "data/"],
             check=True,
             capture_output=True,
         )

@@ -8,9 +8,9 @@
   {{ range .Paginator.Pages }}
   <article class="article-summary">
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ if eq .Lang "ja" }}{{ .Date.Format "2006年1月2日" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}</time>
     <p>{{ .Description | default (.Summary | truncate 200) }}</p>
-    <a href="{{ .Permalink }}">Read more &rarr;</a>
+    <a href="{{ .Permalink }}">{{ if eq .Lang "ja" }}続きを読む &rarr;{{ else }}Read more &rarr;{{ end }}</a>
   </article>
   {{ end }}
 </div>
