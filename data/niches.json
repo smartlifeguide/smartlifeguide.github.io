@@ -1,0 +1,39 @@
+{
+  "niches": [
+    {
+      "id": "productivity",
+      "name_en": "Productivity Tools & Apps",
+      "name_ja": "生産性ツール・アプリ",
+      "seed_keywords_en": ["best productivity apps", "time management tools", "task management software", "note taking apps"],
+      "seed_keywords_ja": ["おすすめ生産性アプリ", "タスク管理ツール", "時間管理アプリ", "ノートアプリ比較"]
+    },
+    {
+      "id": "smart_home",
+      "name_en": "Smart Home Devices",
+      "name_ja": "スマートホームデバイス",
+      "seed_keywords_en": ["best smart home devices", "smart speaker comparison", "home automation guide", "smart lighting setup"],
+      "seed_keywords_ja": ["スマートホーム おすすめ", "スマートスピーカー 比較", "ホームオートメーション", "スマート照明"]
+    },
+    {
+      "id": "personal_finance",
+      "name_en": "Personal Finance Apps",
+      "name_ja": "家計管理アプリ",
+      "seed_keywords_en": ["best budgeting apps", "investment apps for beginners", "money saving apps", "expense tracker"],
+      "seed_keywords_ja": ["家計簿アプリ おすすめ", "投資アプリ 初心者", "節約アプリ", "資産管理アプリ"]
+    },
+    {
+      "id": "health_tech",
+      "name_en": "Health & Wellness Tech",
+      "name_ja": "ヘルステック",
+      "seed_keywords_en": ["best fitness trackers", "meditation apps", "sleep tracking devices", "health monitoring apps"],
+      "seed_keywords_ja": ["フィットネストラッカー おすすめ", "瞑想アプリ", "睡眠トラッカー", "健康管理アプリ"]
+    },
+    {
+      "id": "remote_work",
+      "name_en": "Remote Work Setup",
+      "name_ja": "リモートワーク環境",
+      "seed_keywords_en": ["best home office setup", "remote work tools", "ergonomic desk accessories", "video conferencing equipment"],
+      "seed_keywords_ja": ["在宅勤務 環境整備", "リモートワーク ツール", "デスク周り おすすめ", "Web会議 機材"]
+    }
+  ]
+}

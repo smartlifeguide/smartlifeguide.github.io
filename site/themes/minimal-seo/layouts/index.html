@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="hero">
+  <h1>{{ .Site.Title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+</section>
+
+{{ partial "adsense.html" . }}
+
+<section class="recent-articles">
+  <h2>{{ if eq .Lang "ja" }}最新記事{{ else }}Latest Articles{{ end }}</h2>
+  <div class="article-list">
+    {{ range first 10 .Site.RegularPages }}
+    <article class="article-summary">
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <p>{{ .Description | default (.Summary | truncate 200) }}</p>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,7 @@
+name = "minimal-seo"
+license = "MIT"
+description = "Minimal SEO-optimized theme with AdSense support"
+min_version = "0.120.0"
+
+[author]
+  name = "Auto Generated"

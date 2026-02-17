@@ -1,0 +1,19 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+{{ partial "adsense.html" . }}
+
+<div class="article-list">
+  {{ range .Paginator.Pages }}
+  <article class="article-summary">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    <p>{{ .Description | default (.Summary | truncate 200) }}</p>
+    <a href="{{ .Permalink }}">Read more &rarr;</a>
+  </article>
+  {{ end }}
+</div>
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}

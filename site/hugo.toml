@@ -1,0 +1,68 @@
+baseURL = "https://yourusername.github.io/passive_income_002/"
+title = "Tech & Life Guide"
+theme = "minimal-seo"
+
+# Enable sitemap, RSS, robots.txt
+enableRobotsTXT = true
+enableGitInfo = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[params]
+  description = "Practical guides for technology, productivity, and modern living"
+  author = "Tech & Life Guide"
+  # Google AdSense - replace with your publisher ID
+  adsense_publisher_id = "ca-pub-XXXXXXXXXXXXXXXX"
+  adsense_enabled = false
+  # Google Analytics
+  google_analytics = ""
+  # OGP
+  og_image = "/images/og-default.png"
+
+# Default language
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    title = "Tech & Life Guide"
+    [languages.en.params]
+      description = "Practical guides for technology, productivity, and modern living"
+
+  [languages.ja]
+    languageName = "日本語"
+    weight = 2
+    contentDir = "content/ja"
+    title = "テック＆ライフガイド"
+    [languages.ja.params]
+      description = "テクノロジー、生産性、現代生活の実用ガイド"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2

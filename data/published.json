@@ -1,0 +1,44 @@
+{
+  "articles": [
+    {
+      "slug": "スマート照明",
+      "keyword": "スマート照明",
+      "lang": "ja",
+      "title": "スマート照明で劇的に変わる快適な暮らし！選び方から活用術まで徹底解説",
+      "tags": [
+        "スマート照明",
+        "スマートホーム",
+        "IoT",
+        "QOL向上",
+        "省エネ"
+      ],
+      "categories": [
+        "スマートホームデバイス"
+      ],
+      "file_path": "/Users/nori/PycharmProjects/passive_income_002/site/content/ja/スマート照明.md",
+      "published_at": "2026-02-17T05:08:08.090402+00:00",
+      "has_affiliate_links": true
+    },
+    {
+      "slug": "best-productivity-apps-2025",
+      "keyword": "best productivity apps 2025",
+      "lang": "en",
+      "title": "Unlocking Peak Performance: The Best Productivity Apps for 2025",
+      "tags": [
+        "productivity apps",
+        "workflow optimization",
+        "task management",
+        "time management",
+        "AI tools"
+      ],
+      "categories": [
+        "Productivity"
+      ],
+      "file_path": "/Users/nori/PycharmProjects/passive_income_002/site/content/en/best-productivity-apps-2025.md",
+      "published_at": "2026-02-17T05:08:33.873099+00:00",
+      "has_affiliate_links": true
+    }
+  ],
+  "total_count": 2,
+  "last_published": "2026-02-17T05:08:33.873099+00:00"
+}

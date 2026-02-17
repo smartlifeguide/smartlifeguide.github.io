@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article class="article-full" itemscope itemtype="https://schema.org/Article">
+  <header class="article-header">
+    <h1 itemprop="headline">{{ .Title }}</h1>
+    <div class="article-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      {{ with .Params.keywords }}
+      <span class="keywords">
+        {{ range . }}
+        <span class="keyword">{{ . }}</span>
+        {{ end }}
+      </span>
+      {{ end }}
+    </div>
+  </header>
+
+  {{ partial "adsense.html" . }}
+
+  <div class="article-content" itemprop="articleBody">
+    {{ .Content }}
+  </div>
+
+  {{ partial "adsense.html" . }}
+
+  <nav class="article-nav">
+    {{ with .PrevInSection }}
+    <a href="{{ .Permalink }}" class="prev">&larr; {{ .Title }}</a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}" class="next">{{ .Title }} &rarr;</a>
+    {{ end }}
+  </nav>
+</article>
+{{ end }}

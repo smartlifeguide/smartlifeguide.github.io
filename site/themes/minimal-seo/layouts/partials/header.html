@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="container">
+    <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a>
+    <nav class="site-nav">
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+      <!-- Language switcher -->
+      {{ if .IsTranslated }}
+      <span class="lang-switch">
+        {{ range .Translations }}
+        <a href="{{ .Permalink }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </span>
+      {{ end }}
+    </nav>
+  </div>
+</header>
