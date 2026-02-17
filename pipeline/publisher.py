@@ -142,10 +142,18 @@ def git_commit_and_push(config: dict) -> bool:
     try:
         # Stage content and data files
         subprocess.run(
-            ["git", "add", "site/content/", "site/static/images/", "data/"],
+            ["git", "add", "site/content/", "data/"],
             check=True,
             capture_output=True,
         )
+        # Stage images if directory exists
+        images_dir = Path("site/static/images")
+        if images_dir.exists():
+            subprocess.run(
+                ["git", "add", "site/static/images/"],
+                check=True,
+                capture_output=True,
+            )
 
         # Check if there are changes to commit
         result = subprocess.run(
