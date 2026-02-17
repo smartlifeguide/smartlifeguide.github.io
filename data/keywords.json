@@ -49,6 +49,14 @@
       "researched_at": "2026-02-17T07:43:19.991289+00:00"
     },
     {
+      "keyword": "best air purifier for allergies",
+      "interest": 9.66,
+      "word_count": 5,
+      "score": 25.75,
+      "lang": "en",
+      "researched_at": "2026-02-17T08:00:52.695299+00:00"
+    },
+    {
       "keyword": "bosch dishwasher comparison",
       "interest": 10.19,
       "word_count": 3,
@@ -801,5 +809,5 @@
       "researched_at": "2026-02-17T07:43:56.584546+00:00"
     }
   ],
-  "last_updated": "2026-02-17T07:43:56.584785+00:00"
+  "last_updated": "2026-02-17T08:00:52.695966+00:00"
 }
