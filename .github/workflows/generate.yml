@@ -60,10 +60,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: main  # Ensure we get the latest commit from generate job
-
-      - name: Pull latest changes
-        run: git pull origin main
+          ref: main
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
