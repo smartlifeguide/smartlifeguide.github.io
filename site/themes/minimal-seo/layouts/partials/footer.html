@@ -2,10 +2,10 @@
   <div class="container">
     {{ if eq .Lang "ja" }}
     <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
-    <p><a href="/privacy/">プライバシーポリシー</a> | <a href="/disclaimer/">免責事項</a></p>
+    <p><a href="/ja/privacy/">プライバシーポリシー</a> | <a href="/ja/about/">このサイトについて</a></p>
     {{ else }}
     <p>&copy; {{ now.Year }} {{ .Site.Title }}. All rights reserved.</p>
-    <p><a href="/privacy/">Privacy Policy</a> | <a href="/disclaimer/">Disclaimer</a></p>
+    <p><a href="/en/privacy/">Privacy Policy</a> | <a href="/en/about/">About</a></p>
     {{ end }}
   </div>
 </footer>
