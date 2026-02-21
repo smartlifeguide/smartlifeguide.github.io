@@ -4,6 +4,21 @@
   <p>{{ .Site.Params.description }}</p>
 </section>
 
+<!-- Category navigation -->
+{{ $categories := .Site.Taxonomies.categories }}
+{{ if $categories }}
+<section class="category-nav">
+  <h2>{{ if eq .Lang "ja" }}カテゴリから探す{{ else }}Browse by Category{{ end }}</h2>
+  <div class="category-list">
+    {{ range $name, $pages := $categories }}
+    <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}/" class="category-chip">
+      {{ $name }} <span class="category-count">{{ len $pages }}</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
 {{ partial "adsense.html" . }}
 
 <section class="recent-articles">
@@ -17,5 +32,14 @@
     </article>
     {{ end }}
   </div>
+  {{ if gt (len .Site.RegularPages) 10 }}
+  <div class="view-all">
+    {{ if eq .Lang "ja" }}
+    <a href="{{ "/page/1/" | relLangURL }}">すべての記事を見る ({{ len .Site.RegularPages }}件) &rarr;</a>
+    {{ else }}
+    <a href="{{ "/page/1/" | relLangURL }}">View all articles ({{ len .Site.RegularPages }}) &rarr;</a>
+    {{ end }}
+  </div>
+  {{ end }}
 </section>
 {{ end }}
