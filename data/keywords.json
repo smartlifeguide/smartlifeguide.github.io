@@ -241,6 +241,14 @@
       "researched_at": "2026-02-17T07:43:19.991316+00:00"
     },
     {
+      "keyword": "ドラム式洗濯機 おすすめ柔軟剤",
+      "interest": 1.55,
+      "word_count": 2,
+      "score": 2.58,
+      "lang": "ja",
+      "researched_at": "2026-02-22T13:56:48.995442+00:00"
+    },
+    {
       "keyword": "portable laundry machine review",
       "interest": 1.08,
       "word_count": 4,
@@ -359,6 +367,14 @@
       "score": 0.39,
       "lang": "en",
       "researched_at": "2026-02-17T07:43:56.584494+00:00"
+    },
+    {
+      "keyword": "肩こり 解消 グッズ 男性",
+      "interest": 0.09,
+      "word_count": 4,
+      "score": 0.2,
+      "lang": "ja",
+      "researched_at": "2026-02-22T13:56:48.995481+00:00"
     },
     {
       "keyword": "ドラム式洗濯機 おすすめ 安い",
@@ -849,5 +865,5 @@
       "researched_at": "2026-02-22T09:57:59.196858+00:00"
     }
   ],
-  "last_updated": "2026-02-22T09:57:59.197564+00:00"
+  "last_updated": "2026-02-22T13:57:27.116863+00:00"
 }
