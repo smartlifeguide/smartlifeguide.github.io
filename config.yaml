@@ -29,6 +29,8 @@ seo:
 affiliate:
   amazon_associate_tag_ja: "your-tag-22"
   amazon_associate_tag_en: "your-tag-20"
+  # Moshimo affiliate (楽天市場)
+  moshimo_rakuten_a_id: "5399514"
   enabled: true
 
 # Niche categories to target

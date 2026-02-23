@@ -1,4 +1,4 @@
-"""Affiliate link insertion module (Amazon Associates + A8.net)."""
+"""Affiliate link insertion module (Amazon Associates + Rakuten via Moshimo + A8.net)."""
 
 from __future__ import annotations
 
@@ -6,6 +6,7 @@ import json
 import logging
 import re
 from pathlib import Path
+from urllib.parse import quote
 
 from pipeline.config import get_data_path
 
@@ -47,6 +48,13 @@ PRODUCT_PATTERNS_EN = {
 
 AMAZON_SEARCH_URL_JA = "https://www.amazon.co.jp/s?k={query}&tag={tag}"
 AMAZON_SEARCH_URL_EN = "https://www.amazon.com/s?k={query}&tag={tag}"
+
+# Moshimo affiliate (楽天市場)
+MOSHIMO_RAKUTEN_URL = (
+    "https://af.moshimo.com/af/c/click?a_id={a_id}"
+    "&p_id=54&pc_id=54&pl_id=616"
+    "&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F{query}%2F"
+)
 
 
 def _load_a8_programs() -> list[dict]:
@@ -136,6 +144,15 @@ def insert_affiliate_links(article: dict, config: dict) -> dict:
         else:
             sections.append(_build_amazon_section_en(main_link, keyword))
 
+    # --- Rakuten via Moshimo (Japanese only) ---
+    rakuten_a_id = config.get("affiliate", {}).get("moshimo_rakuten_a_id", "")
+    if lang == "ja" and has_amazon_category and rakuten_a_id:
+        search_query = quote(keyword, safe="")
+        rakuten_link = MOSHIMO_RAKUTEN_URL.format(
+            a_id=rakuten_a_id, query=search_query,
+        )
+        sections.append(_build_rakuten_section_ja(rakuten_link, keyword))
+
     # --- A8.net (Japanese only) ---
     if lang == "ja":
         a8_matches = _find_a8_links(article)
@@ -146,8 +163,9 @@ def insert_affiliate_links(article: dict, config: dict) -> dict:
         article["body"] = body + "\n\n" + "\n\n".join(sections)
         article["has_affiliate_links"] = True
         logger.info(
-            "Inserted affiliate links for '%s' (%s): Amazon=%s, A8=%d",
+            "Inserted affiliate links for '%s' (%s): Amazon=%s, Rakuten=%s, A8=%d",
             keyword, lang, has_amazon_category,
+            bool(rakuten_a_id) if lang == "ja" else False,
             len(_find_a8_links(article)) if lang == "ja" else 0,
         )
 
@@ -176,6 +194,11 @@ def _build_amazon_section_ja(link: str, keyword: str) -> str:
 {keyword}をお探しですか？高評価の商品をチェックしてみてください：
 
 **[{keyword}の人気商品をAmazonで見る]({link})**"""
+
+
+def _build_rakuten_section_ja(link: str, keyword: str) -> str:
+    """Build Japanese Rakuten recommendation section via Moshimo."""
+    return f"""**[{keyword}を楽天市場で探す]({link})**"""
 
 
 def _build_a8_section(programs: list[dict]) -> str:
