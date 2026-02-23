@@ -24,7 +24,8 @@
 <section class="recent-articles">
   <h2>{{ if eq .Lang "ja" }}最新記事{{ else }}Latest Articles{{ end }}</h2>
   <div class="article-list">
-    {{ range first 10 .Site.RegularPages }}
+    {{ $paginator := .Paginate .Site.RegularPages 10 }}
+    {{ range $paginator.Pages }}
     <article class="article-summary">
       <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ if eq .Lang "ja" }}{{ .Date.Format "2006年1月2日" }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}</time>
@@ -32,14 +33,20 @@
     </article>
     {{ end }}
   </div>
-  {{ if gt (len .Site.RegularPages) 10 }}
-  <div class="view-all">
-    {{ if eq .Lang "ja" }}
-    <a href="{{ "/page/1/" | relLangURL }}">すべての記事を見る ({{ len .Site.RegularPages }}件) &rarr;</a>
-    {{ else }}
-    <a href="{{ "/page/1/" | relLangURL }}">View all articles ({{ len .Site.RegularPages }}) &rarr;</a>
+
+  <!-- Pagination -->
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="pagination-link">&larr; {{ if eq .Lang "ja" }}前のページ{{ else }}Previous{{ end }}</a>
     {{ end }}
-  </div>
+    <span class="pagination-info">
+      {{ if eq .Lang "ja" }}{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }} ページ{{ else }}Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}{{ end }}
+    </span>
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="pagination-link">{{ if eq .Lang "ja" }}次のページ{{ else }}Next{{ end }} &rarr;</a>
+    {{ end }}
+  </nav>
   {{ end }}
 </section>
 {{ end }}
