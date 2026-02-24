@@ -66,6 +66,10 @@ def _build_prompt_ja(keyword: str, niche: str) -> str:
 
 また、比較記事の場合は必ずMarkdownの表（テーブル）を使って比較してください。
 
+## 要件（必ず守ること）
+- 記事内では必ず実在する具体的な商品名・型番を3つ以上紹介してください（例: パナソニック NA-LX129C、日立 BD-STX130J など）。
+- A社・B社のような架空名は絶対に使わないでください。
+
 ## 出力形式
 
 以下の形式でMarkdownとして出力してください:
@@ -79,17 +83,15 @@ categories: ["カテゴリ"]
 
 （本文をMarkdownで記述）
 
+```json
+{{"products": ["実在する商品名1", "実在する商品名2", "実在する商品名3"]}}
+```
+
 重要:
 - front matter の --- は必ず含めてください。title, description, tags, categories は必須です。
 - tags は記事の内容に関連する具体的なキーワードを3〜5個選んでください（日本語で）。
 - categories はニッチのカテゴリを1つ選んでください。
-
-## 商品推薦データ
-記事本文の最後に、記事で紹介・言及した具体的な商品名（実在する商品・型番）を以下のJSON形式で出力してください。
-架空の商品やA社・B社などの例は含めないでください。実在する商品名のみ記載してください。
-```json
-{{"products": ["商品名1", "商品名2", "商品名3"]}}
-```"""
+- **記事本文の最後に必ず上記の```json```ブロックを出力してください。** 記事中で紹介した実在する商品名を3つ記載してください。このJSONブロックがないと記事は不完全として拒否されます。"""
 
 
 def _build_prompt_en(keyword: str, niche: str) -> str:
@@ -119,6 +121,7 @@ Write a comprehensive, helpful blog article about the following keyword.
   - Naturally sprinkle related keywords throughout
   - Use short sentences and bullet points for readability
 - **Tone**: Friendly, authoritative expert
+- **IMPORTANT**: You MUST mention at least 3 real, specific product names with model numbers in the article (e.g. "iRobot Roomba j9+", "Dyson V15 Detect"). Never use fictional names like "Brand A" or "Product X".
 
 ## Decoration Boxes
 Use these HTML boxes at appropriate points in the article (2-4 total):
@@ -153,17 +156,15 @@ categories: ["Category"]
 
 (Article body in Markdown)
 
+```json
+{{"products": ["Real Product Name 1", "Real Product Name 2", "Real Product Name 3"]}}
+```
+
 Important:
 - Always include the --- front matter delimiters. title, description, tags, categories are required.
 - tags should be 3-5 specific keywords related to the article content (in English).
 - categories should be 1 niche category name.
-
-## Product Recommendations
-At the very end of the article body, output a JSON block with specific real product names mentioned in the article.
-Do not include fictional products. Only include real, existing product names with model numbers.
-```json
-{{"products": ["Product Name 1", "Product Name 2", "Product Name 3"]}}
-```"""
+- **You MUST include the ```json``` block at the very end with 3 real product names from the article. The article will be rejected without this block.**"""
 
 
 def generate_article(
