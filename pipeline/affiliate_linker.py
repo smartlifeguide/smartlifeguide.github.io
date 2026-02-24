@@ -50,11 +50,7 @@ AMAZON_SEARCH_URL_JA = "https://www.amazon.co.jp/s?k={query}&tag={tag}"
 AMAZON_SEARCH_URL_EN = "https://www.amazon.com/s?k={query}&tag={tag}"
 
 # Moshimo affiliate (楽天市場)
-MOSHIMO_RAKUTEN_URL = (
-    "https://af.moshimo.com/af/c/click?a_id={a_id}"
-    "&p_id=54&pc_id=54&pl_id=616"
-    "&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F{query}%2F"
-)
+MOSHIMO_BASE = "https://af.moshimo.com/af/c/click?a_id={a_id}&p_id=54&pc_id=54&pl_id=616&url={encoded_url}"
 
 
 def _load_a8_programs() -> list[dict]:
@@ -147,9 +143,12 @@ def insert_affiliate_links(article: dict, config: dict) -> dict:
     # --- Rakuten via Moshimo (Japanese only) ---
     rakuten_a_id = config.get("affiliate", {}).get("moshimo_rakuten_a_id", "")
     if lang == "ja" and has_amazon_category and rakuten_a_id:
-        search_query = quote(keyword, safe="")
-        rakuten_link = MOSHIMO_RAKUTEN_URL.format(
-            a_id=rakuten_a_id, query=search_query,
+        rakuten_search_url = "https://search.rakuten.co.jp/search/mall/{}/".format(
+            quote(keyword, safe=""),
+        )
+        rakuten_link = MOSHIMO_BASE.format(
+            a_id=rakuten_a_id,
+            encoded_url=quote(rakuten_search_url, safe=""),
         )
         sections.append(_build_rakuten_section_ja(rakuten_link, keyword))
 
