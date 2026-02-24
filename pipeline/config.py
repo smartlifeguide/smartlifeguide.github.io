@@ -41,6 +41,8 @@ def load_config() -> dict:
         cfg["affiliate"]["amazon_associate_tag_en"] = tag
     if api_key := os.getenv("GEMINI_API_KEY"):
         cfg["gemini"]["api_key"] = api_key
+    if rakuten_id := os.getenv("RAKUTEN_APP_ID"):
+        cfg["affiliate"]["rakuten_app_id"] = rakuten_id
 
     return cfg
 

@@ -102,8 +102,8 @@ def _find_a8_links(article: dict) -> list[dict]:
 def insert_affiliate_links(article: dict, config: dict) -> dict:
     """Insert affiliate links into an article's body.
 
-    Adds Amazon product recommendations and A8.net program links
-    based on article content and niche.
+    If product_keywords are available (from LLM output), searches Rakuten API
+    for specific products. Otherwise falls back to generic search links.
     """
     if not config.get("affiliate", {}).get("enabled", True):
         return article
@@ -111,10 +111,23 @@ def insert_affiliate_links(article: dict, config: dict) -> dict:
     lang = article.get("lang", "en")
     body = article["body"]
     keyword = article.get("keyword", "")
+    product_keywords = article.get("product_keywords", [])
 
     sections = []
 
-    # --- Amazon Associates ---
+    # --- Specific Product Links (Rakuten API + Moshimo) ---
+    if lang == "ja" and product_keywords:
+        from pipeline.product_searcher import search_products_for_article
+
+        products = search_products_for_article(product_keywords, config)
+        if products:
+            sections.append(_build_product_cards_ja(products))
+            logger.info(
+                "Inserted %d specific product links for '%s'",
+                len(products), keyword,
+            )
+
+    # --- Amazon Associates (generic search fallback) ---
     if lang == "ja":
         tag = config["affiliate"]["amazon_associate_tag_ja"]
         patterns = PRODUCT_PATTERNS_JA
@@ -124,7 +137,6 @@ def insert_affiliate_links(article: dict, config: dict) -> dict:
         patterns = PRODUCT_PATTERNS_EN
         search_url_template = AMAZON_SEARCH_URL_EN
 
-    # Detect product categories mentioned in the article
     has_amazon_category = False
     for pattern, category in patterns.items():
         if category and re.search(pattern, body, re.IGNORECASE):
@@ -134,15 +146,15 @@ def insert_affiliate_links(article: dict, config: dict) -> dict:
     if has_amazon_category and tag and not tag.startswith("your-tag"):
         search_query = keyword.replace(" ", "+")
         main_link = search_url_template.format(query=search_query, tag=tag)
-
         if lang == "ja":
             sections.append(_build_amazon_section_ja(main_link, keyword))
         else:
             sections.append(_build_amazon_section_en(main_link, keyword))
 
-    # --- Rakuten via Moshimo (Japanese only) ---
+    # --- Generic Rakuten search fallback (only if no specific products found) ---
     rakuten_a_id = config.get("affiliate", {}).get("moshimo_rakuten_a_id", "")
-    if lang == "ja" and has_amazon_category and rakuten_a_id:
+    has_specific_products = any("楽天市場で見る" in s for s in sections)
+    if lang == "ja" and has_amazon_category and rakuten_a_id and not has_specific_products:
         rakuten_search_url = "https://search.rakuten.co.jp/search/mall/{}/".format(
             quote(keyword, safe=""),
         )
@@ -162,13 +174,35 @@ def insert_affiliate_links(article: dict, config: dict) -> dict:
         article["body"] = body + "\n\n" + "\n\n".join(sections)
         article["has_affiliate_links"] = True
         logger.info(
-            "Inserted affiliate links for '%s' (%s): Amazon=%s, Rakuten=%s, A8=%d",
-            keyword, lang, has_amazon_category,
-            bool(rakuten_a_id) if lang == "ja" else False,
+            "Inserted affiliate links for '%s' (%s): products=%d, Amazon=%s, A8=%d",
+            keyword, lang, len(product_keywords),
+            has_amazon_category,
             len(_find_a8_links(article)) if lang == "ja" else 0,
         )
 
     return article
+
+
+def _build_product_cards_ja(products: list[dict]) -> str:
+    """Build specific product recommendation cards for Japanese articles."""
+    lines = ["---", "", "## おすすめ商品", ""]
+    for p in products[:3]:  # Max 3 product cards
+        name = p["name"]
+        # Truncate long product names
+        if len(name) > 80:
+            name = name[:77] + "..."
+        price = f"¥{p['price']:,}" if p.get("price") else ""
+        link = p.get("affiliate_url", p.get("url", ""))
+        lines.append(f"### {name}")
+        if price:
+            lines.append(f"**価格**: {price}（税込）")
+        lines.append(f"**[楽天市場で見る]({link})**")
+        lines.append("")
+    lines.append(
+        "*当サイトはアフィリエイトプログラムに参加しています。"
+        "購入者様に追加費用は発生しません。*"
+    )
+    return "\n".join(lines)
 
 
 def _build_amazon_section_en(link: str, keyword: str) -> str:

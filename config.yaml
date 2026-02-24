@@ -31,6 +31,8 @@ affiliate:
   amazon_associate_tag_en: "your-tag-20"
   # Moshimo affiliate (楽天市場)
   moshimo_rakuten_a_id: "5399514"
+  # Rakuten Web Service API (for specific product search)
+  rakuten_app_id: ""
   enabled: true
 
 # Niche categories to target

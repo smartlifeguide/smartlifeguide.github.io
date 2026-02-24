@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import logging
 import re
 import time
@@ -81,7 +82,14 @@ categories: ["カテゴリ"]
 重要:
 - front matter の --- は必ず含めてください。title, description, tags, categories は必須です。
 - tags は記事の内容に関連する具体的なキーワードを3〜5個選んでください（日本語で）。
-- categories はニッチのカテゴリを1つ選んでください。"""
+- categories はニッチのカテゴリを1つ選んでください。
+
+## 商品推薦データ
+記事本文の最後に、記事で紹介・言及した具体的な商品名（実在する商品・型番）を以下のJSON形式で出力してください。
+架空の商品やA社・B社などの例は含めないでください。実在する商品名のみ記載してください。
+```json
+{{"products": ["商品名1", "商品名2", "商品名3"]}}
+```"""
 
 
 def _build_prompt_en(keyword: str, niche: str) -> str:
@@ -148,7 +156,14 @@ categories: ["Category"]
 Important:
 - Always include the --- front matter delimiters. title, description, tags, categories are required.
 - tags should be 3-5 specific keywords related to the article content (in English).
-- categories should be 1 niche category name."""
+- categories should be 1 niche category name.
+
+## Product Recommendations
+At the very end of the article body, output a JSON block with specific real product names mentioned in the article.
+Do not include fictional products. Only include real, existing product names with model numbers.
+```json
+{{"products": ["Product Name 1", "Product Name 2", "Product Name 3"]}}
+```"""
 
 
 def generate_article(
@@ -274,7 +289,39 @@ def _parse_article(raw_text: str) -> dict | None:
         first_sentence = body.split("。")[0] if "。" in body else body[:150]
         front_matter["description"] = first_sentence[:160]
 
-    return {"front_matter": front_matter, "body": body}
+    # Extract product keywords JSON from end of body
+    product_keywords = _extract_product_keywords(body)
+    # Remove the JSON block from the article body
+    body = _strip_product_json(body)
+
+    result = {"front_matter": front_matter, "body": body}
+    if product_keywords:
+        result["product_keywords"] = product_keywords
+    return result
+
+
+def _extract_product_keywords(body: str) -> list[str]:
+    """Extract product keywords from a JSON block at the end of the article body."""
+    # Match ```json ... ``` block containing "products"
+    pattern = r'```json\s*\n?\s*(\{[^`]*"products"[^`]*\})\s*\n?\s*```'
+    match = re.search(pattern, body, re.DOTALL)
+    if not match:
+        return []
+
+    try:
+        data = json.loads(match.group(1))
+        products = data.get("products", [])
+        if isinstance(products, list):
+            return [p for p in products if isinstance(p, str) and p.strip()]
+    except (json.JSONDecodeError, TypeError):
+        logger.warning("Failed to parse product JSON block")
+    return []
+
+
+def _strip_product_json(body: str) -> str:
+    """Remove the product JSON block from article body."""
+    pattern = r'\s*```json\s*\n?\s*\{[^`]*"products"[^`]*\}\s*\n?\s*```\s*$'
+    return re.sub(pattern, "", body, flags=re.DOTALL).rstrip()
 
 
 def _salvage_article(raw_text: str) -> dict | None:
