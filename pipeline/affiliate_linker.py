@@ -116,6 +116,13 @@ def insert_affiliate_links(article: dict, config: dict) -> dict:
     sections = []
 
     # --- Specific Product Links (Rakuten API + Moshimo) ---
+    # If LLM didn't output product keywords, extract from article body
+    if lang == "ja" and not product_keywords:
+        from pipeline.product_searcher import extract_product_names
+        product_keywords = extract_product_names(body, lang)
+        if product_keywords:
+            logger.info("Extracted product names from body: %s", product_keywords)
+
     if lang == "ja" and product_keywords:
         from pipeline.product_searcher import search_products_for_article
 

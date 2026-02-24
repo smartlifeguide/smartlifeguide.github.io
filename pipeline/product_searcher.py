@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 import time
 from urllib.parse import quote
 
@@ -63,6 +64,67 @@ def build_moshimo_link(product_url: str, a_id: str) -> str:
         a_id=a_id,
         encoded_url=quote(product_url, safe=""),
     )
+
+
+# Known brand names for extraction from article body
+_BRANDS_JA = [
+    "パナソニック", "日立", "シャープ", "東芝", "三菱", "ダイキン",
+    "アイリスオーヤマ", "象印", "タイガー", "サーモス", "ティファール",
+    "ブラウン", "フィリップス", "ダイソン", "iRobot", "ルンバ", "ブラーバ",
+    "Roborock", "Anker", "Eufy", "エコバックス", "ECOVACS",
+    "バルミューダ", "デロンギ", "ネスプレッソ", "ボニーク", "BONIQ",
+    "オムロン", "タニタ", "ファイテン", "ドクターエア",
+]
+
+_PRODUCT_PATTERN_JA = re.compile(
+    r"(?:「|【|＜|<|\*\*)"
+    r"([^」】＞>\*\n]{4,40})"
+    r"(?:」|】|＞|>|\*\*)",
+)
+
+
+def extract_product_names(body: str, lang: str = "ja") -> list[str]:
+    """Extract specific product names from article body text.
+
+    Uses brand name matching and quoted product name patterns.
+    """
+    if lang != "ja":
+        return []
+
+    found = []
+
+    def _clean(name: str) -> str:
+        """Strip brackets and whitespace from extracted name."""
+        return name.strip().strip("「」【】＜＞<>").strip()
+
+    def _is_duplicate(name: str, existing: list[str]) -> bool:
+        """Check if name is a substring of or contains an existing entry."""
+        for e in existing:
+            if name in e or e in name:
+                return True
+        return False
+
+    # Method 1: Find quoted/bold product names that contain a known brand
+    for match in _PRODUCT_PATTERN_JA.finditer(body):
+        name = _clean(match.group(1))
+        # Must contain a brand AND be longer than just the brand name
+        for brand in _BRANDS_JA:
+            if brand in name and len(name) > len(brand) + 2:
+                if not _is_duplicate(name, found):
+                    found.append(name)
+                break
+
+    # Method 2: Find "Brand + model" patterns in table cells or plain text
+    for brand in _BRANDS_JA:
+        pattern = re.compile(
+            rf"{re.escape(brand)}\s*[A-Za-z0-9\-]+[\s\-]*[A-Za-z0-9]*"
+        )
+        for m in pattern.finditer(body):
+            name = m.group(0).strip()
+            if len(name) > len(brand) + 2 and not _is_duplicate(name, found):
+                found.append(name)
+
+    return found[:5]  # Max 5 products
 
 
 def search_products_for_article(
