@@ -12,7 +12,7 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-RAKUTEN_API_URL = "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601"
+RAKUTEN_API_URL = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20220601"
 
 MOSHIMO_BASE = (
     "https://af.moshimo.com/af/c/click?a_id={a_id}"
@@ -21,23 +21,34 @@ MOSHIMO_BASE = (
 )
 
 
-def search_product(keyword: str, app_id: str, affiliate_id: str = "") -> dict | None:
+def search_product(
+    keyword: str,
+    application_id: str,
+    access_key: str,
+    affiliate_id: str = "",
+) -> dict | None:
     """Search Rakuten Ichiba for a product and return the top result.
 
     Returns dict with: name, price, url, affiliate_url, image_url, or None.
     """
     params = {
-        "applicationId": app_id,
+        "applicationId": application_id,
+        "accessKey": access_key,
         "keyword": keyword,
-        "hits": 3,
+        "hits": 10,
         "formatVersion": 2,
         "sort": "standard",
     }
     if affiliate_id:
         params["affiliateId"] = affiliate_id
 
+    headers = {
+        "User-Agent": "SmartLifeGuide",
+        "Origin": "https://smartlifeguide.github.io",
+    }
+
     try:
-        resp = requests.get(RAKUTEN_API_URL, params=params, timeout=10)
+        resp = requests.get(RAKUTEN_API_URL, params=params, headers=headers, timeout=10)
         resp.raise_for_status()
         data = resp.json()
     except Exception as e:
@@ -49,7 +60,12 @@ def search_product(keyword: str, app_id: str, affiliate_id: str = "") -> dict | 
         logger.info("No Rakuten results for '%s'", keyword)
         return None
 
-    item = items[0]
+    # Filter out accessories, parts, and used items - prefer the actual product
+    item = _pick_best_item(items)
+    if not item:
+        logger.info("No suitable Rakuten results for '%s' (all filtered)", keyword)
+        return None
+
     return {
         "name": item.get("itemName", ""),
         "price": item.get("itemPrice", 0),
@@ -57,6 +73,27 @@ def search_product(keyword: str, app_id: str, affiliate_id: str = "") -> dict | 
         "affiliate_url": item.get("affiliateUrl", ""),
         "image_url": (item.get("mediumImageUrls") or [""])[0] if item.get("mediumImageUrls") else "",
     }
+
+
+# Words that indicate an accessory/part rather than the main product
+_SKIP_WORDS = [
+    "交換用", "互換品", "純正品", "フィルター", "ブラシ", "紙パック",
+    "ダストバッグ", "リユース", "中古", "ジャンク", "訳あり",
+    "パーツ", "部品", "バッテリー", "リモコン", "カバー", "ケース",
+    "洗剤", "クリーナー", "メンテナンス", "消耗品", "充電台", "充電器",
+    "アダプター", "延長保証",
+]
+
+
+def _pick_best_item(items: list[dict]) -> dict | None:
+    """Pick the best item from search results, filtering out accessories."""
+    for item in items:
+        name = item.get("itemName", "")
+        if any(w in name for w in _SKIP_WORDS):
+            continue
+        return item
+    # If all filtered, return None rather than a bad match
+    return None
 
 
 def build_moshimo_link(product_url: str, a_id: str) -> str:
@@ -101,16 +138,29 @@ def extract_product_names(body: str, lang: str = "ja") -> list[str]:
                 return True
         return False
 
+    def _looks_like_product(name: str) -> bool:
+        """Check if the name looks like an actual product (has model number or specific name)."""
+        # Must contain at least one alphanumeric model-like part
+        has_model = bool(re.search(r'[A-Z]{1,3}[\-]?[A-Z0-9]{2,}', name))
+        # Or a known specific product name (katakana product series)
+        has_series = bool(re.search(r'[ァ-ヶー]{3,}', name))
+        # Reject if it's just a description/sentence
+        too_long = len(name) > 35
+        has_verb = any(w in name for w in ['する', 'した', 'なら', 'って', 'ための', 'について', 'ですか', 'どう'])
+        if has_verb or too_long:
+            return False
+        return has_model or has_series
+
     # Method 1: Find quoted/bold product names that contain a known brand
     for match in _PRODUCT_PATTERN_JA.finditer(body):
         name = _clean(match.group(1))
         for brand in _BRANDS_JA:
             if brand in name and len(name) > len(brand) + 2:
-                if not _is_duplicate(name, found):
+                if _looks_like_product(name) and not _is_duplicate(name, found):
                     found.append(name)
                 break
 
-    # Method 2: Find "Brand + model" patterns in table cells or plain text
+    # Method 2: Find "Brand + model" patterns (e.g. "パナソニック NA-LX129C")
     for brand in _BRANDS_JA:
         pattern = re.compile(
             rf"{re.escape(brand)}\s*[A-Za-z0-9\-]+[\s\-]*[A-Za-z0-9]*"
@@ -132,15 +182,19 @@ def search_products_for_article(
     Uses Rakuten affiliate ID for direct affiliate URLs when available,
     falls back to Moshimo link wrapping.
     """
-    app_id = config.get("affiliate", {}).get("rakuten_app_id", "")
-    if not app_id:
-        app_id = os.environ.get("RAKUTEN_APP_ID", "")
-    if not app_id:
-        logger.warning("No Rakuten App ID configured, skipping product search")
+    aff_cfg = config.get("affiliate", {})
+
+    # New Rakuten API requires both applicationId (UUID) and accessKey
+    application_id = aff_cfg.get("rakuten_application_id", "")
+    access_key = aff_cfg.get("rakuten_access_key", "")
+    if not access_key:
+        access_key = os.environ.get("RAKUTEN_ACCESS_KEY", "")
+    if not application_id or not access_key:
+        logger.warning("Rakuten applicationId or accessKey not configured, skipping product search")
         return []
 
-    affiliate_id = config.get("affiliate", {}).get("rakuten_affiliate_id", "")
-    moshimo_a_id = config.get("affiliate", {}).get("moshimo_rakuten_a_id", "")
+    affiliate_id = aff_cfg.get("rakuten_affiliate_id", "")
+    moshimo_a_id = aff_cfg.get("moshimo_rakuten_a_id", "")
 
     if not affiliate_id and not moshimo_a_id:
         logger.warning("No affiliate ID configured, skipping product search")
@@ -148,7 +202,7 @@ def search_products_for_article(
 
     results = []
     for kw in product_keywords[:5]:
-        product = search_product(kw, app_id, affiliate_id)
+        product = search_product(kw, application_id, access_key, affiliate_id)
         if not product or not product["url"]:
             time.sleep(1)
             continue

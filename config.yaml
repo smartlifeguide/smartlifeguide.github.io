@@ -31,8 +31,9 @@ affiliate:
   amazon_associate_tag_en: "your-tag-20"
   # Moshimo affiliate (楽天市場)
   moshimo_rakuten_a_id: "5399514"
-  # Rakuten Web Service API (for specific product search)
-  rakuten_app_id: ""
+  # Rakuten Web Service API (new 2026 format)
+  rakuten_application_id: "d8f16f3c-33e8-48e0-8644-2c7045a20bb6"
+  rakuten_access_key: ""  # Set via RAKUTEN_ACCESS_KEY env var / secret
   # Rakuten Affiliate ID (for direct affiliate URLs from API)
   rakuten_affiliate_id: "514a3312.7ad5d35c.514a3313.b2c0272c"
   enabled: true

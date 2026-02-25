@@ -41,8 +41,11 @@ def load_config() -> dict:
         cfg["affiliate"]["amazon_associate_tag_en"] = tag
     if api_key := os.getenv("GEMINI_API_KEY"):
         cfg["gemini"]["api_key"] = api_key
-    if rakuten_id := os.getenv("RAKUTEN_APP_ID"):
-        cfg["affiliate"]["rakuten_app_id"] = rakuten_id
+    if rakuten_key := os.getenv("RAKUTEN_ACCESS_KEY"):
+        cfg["affiliate"]["rakuten_access_key"] = rakuten_key
+    # Legacy env var name fallback
+    if not cfg["affiliate"].get("rakuten_access_key") and (legacy := os.getenv("RAKUTEN_APP_ID")):
+        cfg["affiliate"]["rakuten_access_key"] = legacy
 
     return cfg
 
