@@ -290,6 +290,9 @@ def _parse_article(raw_text: str) -> dict | None:
         first_sentence = body.split("。")[0] if "。" in body else body[:150]
         front_matter["description"] = first_sentence[:160]
 
+    # Clean up LLM artifacts
+    body = _clean_body(body)
+
     # Extract product keywords JSON from end of body
     product_keywords = _extract_product_keywords(body)
     # Remove the JSON block from the article body
@@ -299,6 +302,21 @@ def _parse_article(raw_text: str) -> dict | None:
     if product_keywords:
         result["product_keywords"] = product_keywords
     return result
+
+
+def _clean_body(body: str) -> str:
+    """Remove LLM-generated artifacts from article body."""
+    # Remove broken image tags with example.com or placeholder URLs
+    body = re.sub(r'!\[[^\]]*\]\(https?://(?:www\.)?example\.com[^)]*\)(?:\{[^}]*\})?', '', body)
+    # Remove broken Kramdown-style image attributes: {: width="..." height="..."}
+    body = re.sub(r'\{:\s*width="[^"]*"\s*height="[^"]*"\s*\}', '', body)
+    # Remove placeholder image notes like ※画像はイメージです
+    body = re.sub(r'※画像はイメージです。?', '', body)
+    # Remove orphaned image alt text without URL: ![text]() or ![text]
+    body = re.sub(r'!\[[^\]]*\]\(\s*\)', '', body)
+    # Clean up multiple blank lines
+    body = re.sub(r'\n{3,}', '\n\n', body)
+    return body.strip()
 
 
 def _extract_product_keywords(body: str) -> list[str]:
