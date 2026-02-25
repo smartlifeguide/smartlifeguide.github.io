@@ -1,4 +1,4 @@
-"""Product search module using Rakuten Ichiba API + Moshimo affiliate links."""
+"""Product search module using Rakuten Ichiba API + affiliate links."""
 
 from __future__ import annotations
 
@@ -21,27 +21,27 @@ MOSHIMO_BASE = (
 )
 
 
-def search_product(keyword: str, app_id: str) -> dict | None:
+def search_product(keyword: str, app_id: str, affiliate_id: str = "") -> dict | None:
     """Search Rakuten Ichiba for a product and return the top result.
 
-    Returns dict with: name, price, url, image_url, or None if not found.
+    Returns dict with: name, price, url, affiliate_url, image_url, or None.
     """
+    params = {
+        "applicationId": app_id,
+        "keyword": keyword,
+        "hits": 3,
+        "formatVersion": 2,
+        "sort": "standard",
+    }
+    if affiliate_id:
+        params["affiliateId"] = affiliate_id
+
     try:
-        resp = requests.get(
-            RAKUTEN_API_URL,
-            params={
-                "applicationId": app_id,
-                "keyword": keyword,
-                "hits": 3,
-                "formatVersion": 2,
-                "sort": "standard",
-            },
-            timeout=10,
-        )
+        resp = requests.get(RAKUTEN_API_URL, params=params, timeout=10)
         resp.raise_for_status()
         data = resp.json()
-    except Exception:
-        logger.warning("Rakuten API request failed for '%s'", keyword)
+    except Exception as e:
+        logger.warning("Rakuten API request failed for '%s': %s", keyword, e)
         return None
 
     items = data.get("Items", [])
@@ -54,6 +54,7 @@ def search_product(keyword: str, app_id: str) -> dict | None:
         "name": item.get("itemName", ""),
         "price": item.get("itemPrice", 0),
         "url": item.get("itemUrl", ""),
+        "affiliate_url": item.get("affiliateUrl", ""),
         "image_url": (item.get("mediumImageUrls") or [""])[0] if item.get("mediumImageUrls") else "",
     }
 
@@ -74,6 +75,7 @@ _BRANDS_JA = [
     "Roborock", "Anker", "Eufy", "エコバックス", "ECOVACS",
     "バルミューダ", "デロンギ", "ネスプレッソ", "ボニーク", "BONIQ",
     "オムロン", "タニタ", "ファイテン", "ドクターエア",
+    "ピップ", "ルルド", "コイズミ", "テスコム",
 ]
 
 _PRODUCT_PATTERN_JA = re.compile(
@@ -84,21 +86,16 @@ _PRODUCT_PATTERN_JA = re.compile(
 
 
 def extract_product_names(body: str, lang: str = "ja") -> list[str]:
-    """Extract specific product names from article body text.
-
-    Uses brand name matching and quoted product name patterns.
-    """
+    """Extract specific product names from article body text."""
     if lang != "ja":
         return []
 
     found = []
 
     def _clean(name: str) -> str:
-        """Strip brackets and whitespace from extracted name."""
         return name.strip().strip("「」【】＜＞<>").strip()
 
     def _is_duplicate(name: str, existing: list[str]) -> bool:
-        """Check if name is a substring of or contains an existing entry."""
         for e in existing:
             if name in e or e in name:
                 return True
@@ -107,7 +104,6 @@ def extract_product_names(body: str, lang: str = "ja") -> list[str]:
     # Method 1: Find quoted/bold product names that contain a known brand
     for match in _PRODUCT_PATTERN_JA.finditer(body):
         name = _clean(match.group(1))
-        # Must contain a brand AND be longer than just the brand name
         for brand in _BRANDS_JA:
             if brand in name and len(name) > len(brand) + 2:
                 if not _is_duplicate(name, found):
@@ -124,16 +120,17 @@ def extract_product_names(body: str, lang: str = "ja") -> list[str]:
             if len(name) > len(brand) + 2 and not _is_duplicate(name, found):
                 found.append(name)
 
-    return found[:5]  # Max 5 products
+    return found[:5]
 
 
 def search_products_for_article(
     product_keywords: list[str],
     config: dict,
 ) -> list[dict]:
-    """Search Rakuten for each product keyword and return results with Moshimo links.
+    """Search Rakuten for each product keyword and return results with affiliate links.
 
-    Returns list of dicts: {name, price, url, affiliate_url, image_url}
+    Uses Rakuten affiliate ID for direct affiliate URLs when available,
+    falls back to Moshimo link wrapping.
     """
     app_id = config.get("affiliate", {}).get("rakuten_app_id", "")
     if not app_id:
@@ -142,19 +139,28 @@ def search_products_for_article(
         logger.warning("No Rakuten App ID configured, skipping product search")
         return []
 
-    a_id = config.get("affiliate", {}).get("moshimo_rakuten_a_id", "")
-    if not a_id:
-        logger.warning("No Moshimo a_id configured, skipping product search")
+    affiliate_id = config.get("affiliate", {}).get("rakuten_affiliate_id", "")
+    moshimo_a_id = config.get("affiliate", {}).get("moshimo_rakuten_a_id", "")
+
+    if not affiliate_id and not moshimo_a_id:
+        logger.warning("No affiliate ID configured, skipping product search")
         return []
 
     results = []
-    for kw in product_keywords[:5]:  # Max 5 products per article
-        product = search_product(kw, app_id)
-        if product and product["url"]:
-            product["affiliate_url"] = build_moshimo_link(product["url"], a_id)
+    for kw in product_keywords[:5]:
+        product = search_product(kw, app_id, affiliate_id)
+        if not product or not product["url"]:
+            time.sleep(1)
+            continue
+
+        # Use Rakuten's direct affiliate URL if available, otherwise Moshimo
+        if not product.get("affiliate_url") and moshimo_a_id:
+            product["affiliate_url"] = build_moshimo_link(product["url"], moshimo_a_id)
+
+        if product.get("affiliate_url"):
             results.append(product)
             logger.info("Found product: %s (¥%s)", product["name"][:50], product["price"])
-        # Rate limit: 1 request per second
+
         time.sleep(1)
 
     return results

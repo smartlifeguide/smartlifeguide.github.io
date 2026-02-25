@@ -33,6 +33,8 @@ affiliate:
   moshimo_rakuten_a_id: "5399514"
   # Rakuten Web Service API (for specific product search)
   rakuten_app_id: ""
+  # Rakuten Affiliate ID (for direct affiliate URLs from API)
+  rakuten_affiliate_id: "514a3312.7ad5d35c.514a3313.b2c0272c"
   enabled: true
 
 # Niche categories to target
