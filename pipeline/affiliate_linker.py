@@ -200,7 +200,10 @@ def _build_product_cards_ja(products: list[dict]) -> str:
             name = name[:77] + "..."
         price = f"¥{p['price']:,}" if p.get("price") else ""
         link = p.get("affiliate_url", p.get("url", ""))
+        image_url = _get_large_image(p.get("image_url", ""))
         lines.append(f"### {name}")
+        if image_url:
+            lines.append(f"[![{name}]({image_url})]({link})")
         if price:
             lines.append(f"**価格**: {price}（税込）")
         lines.append(f"**[楽天市場で見る]({link})**")
@@ -210,6 +213,16 @@ def _build_product_cards_ja(products: list[dict]) -> str:
         "購入者様に追加費用は発生しません。*"
     )
     return "\n".join(lines)
+
+
+def _get_large_image(url: str) -> str:
+    """Convert Rakuten thumbnail URL to a larger size (240x240)."""
+    if not url:
+        return ""
+    # Rakuten image URLs end with ?_ex=128x128; replace with larger size
+    if "?_ex=" in url:
+        return url.split("?_ex=")[0] + "?_ex=240x240"
+    return url
 
 
 def _build_amazon_section_en(link: str, keyword: str) -> str:
