@@ -5,35 +5,35 @@
       "name_en": "Home Appliances & Gadgets",
       "name_ja": "家電・生活家電",
       "seed_keywords_en": ["best robot vacuum for pet hair", "dishwasher comparison", "best air purifier for allergies", "portable washing machine review"],
-      "seed_keywords_ja": ["ロボット掃除機 おすすめ", "食洗機 工事不要 おすすめ", "空気清浄機 比較", "ドラム式洗濯機 おすすめ"]
+      "seed_keywords_ja": ["ロボット掃除機 おすすめ", "食洗機 工事不要 おすすめ", "空気清浄機 比較", "ドラム式洗濯機 おすすめ", "加湿器 おすすめ", "除湿機 おすすめ", "衣類乾燥機 おすすめ", "コードレス掃除機 おすすめ", "電子レンジ おすすめ", "炊飯器 おすすめ"]
     },
     {
       "id": "saving_money",
       "name_en": "Saving Money & Household Budget",
       "name_ja": "節約・家計管理",
       "seed_keywords_en": ["how to save on electricity bill", "best budgeting apps for families", "cheap meal planning ideas", "how to reduce grocery bill"],
-      "seed_keywords_ja": ["電気代 節約 方法", "食費 節約 コツ", "格安SIM 比較 おすすめ", "家計簿 つけ方 初心者"]
+      "seed_keywords_ja": ["電気代 節約 方法", "食費 節約 コツ", "格安SIM 比較 おすすめ", "家計簿 つけ方 初心者", "ふるさと納税 やり方", "水道代 節約", "ガス代 節約", "日用品 節約 コツ", "ポイ活 おすすめ"]
     },
     {
       "id": "health_wellness",
       "name_en": "Health & Body Care",
       "name_ja": "健康・体のケア",
       "seed_keywords_en": ["best back pain relief products", "eye strain from screen solution", "best walking shoes for women", "sleep quality improvement tips"],
-      "seed_keywords_ja": ["肩こり 解消 グッズ", "目の疲れ 対策", "腰痛 マットレス おすすめ", "睡眠 質 改善 方法"]
+      "seed_keywords_ja": ["肩こり 解消 グッズ", "目の疲れ 対策", "腰痛 マットレス おすすめ", "睡眠 質 改善 方法", "足のむくみ 解消", "冷え性 対策 グッズ", "疲労回復 サプリ おすすめ", "血圧計 おすすめ 家庭用", "体重計 おすすめ 体組成計"]
     },
     {
       "id": "education_childcare",
       "name_en": "Education & Family Finance",
       "name_ja": "教育費・子育てマネー",
       "seed_keywords_en": ["education savings plan for kids", "college fund best options", "online tutoring comparison", "best tablets for students"],
-      "seed_keywords_ja": ["教育費 貯め方", "学資保険 おすすめ", "子供 タブレット学習 比較", "高校受験 塾 選び方"]
+      "seed_keywords_ja": ["教育費 貯め方", "学資保険 おすすめ", "子供 タブレット学習 比較", "高校受験 塾 選び方", "習い事 おすすめ 小学生", "中学生 通信教育 比較", "子供 スマホ いつから", "お小遣い 管理 子供"]
     },
     {
       "id": "senior_care",
       "name_en": "Senior Care & Safety",
       "name_ja": "見守り・シニアケア",
       "seed_keywords_en": ["best elderly monitoring systems", "senior friendly smartphone", "medical alert systems comparison", "aging parent care tips"],
-      "seed_keywords_ja": ["親 見守り サービス おすすめ", "シニア スマホ おすすめ", "介護保険 使い方", "高齢者 見守りカメラ 比較"]
+      "seed_keywords_ja": ["親 見守り サービス おすすめ", "シニア スマホ おすすめ", "介護保険 使い方", "高齢者 見守りカメラ 比較", "親の介護 費用", "遠距離介護 グッズ", "シニア 杖 おすすめ", "補聴器 おすすめ 値段"]
     }
   ]
 }
