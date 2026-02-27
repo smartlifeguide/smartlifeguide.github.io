@@ -337,6 +337,14 @@
       "researched_at": "2026-02-26T14:45:09.744003+00:00"
     },
     {
+      "keyword": "新NISA おすすめ 銘柄",
+      "interest": 5.77,
+      "word_count": 3,
+      "score": 11.55,
+      "lang": "ja",
+      "researched_at": "2026-02-27T05:08:10.054803+00:00"
+    },
+    {
       "keyword": "how to save on electricity bills",
       "interest": 3.76,
       "word_count": 6,
@@ -1505,6 +1513,14 @@
       "researched_at": "2026-02-26T22:02:39.729823+00:00"
     },
     {
+      "keyword": "食洗機 据え置き おすすめ",
+      "interest": 1.08,
+      "word_count": 3,
+      "score": 2.15,
+      "lang": "ja",
+      "researched_at": "2026-02-27T05:08:10.054824+00:00"
+    },
+    {
       "keyword": "加湿器 おすすめ リビング",
       "interest": 1.06,
       "word_count": 3,
@@ -1719,6 +1735,14 @@
       "score": 1.79,
       "lang": "ja",
       "researched_at": "2026-02-26T22:02:39.729827+00:00"
+    },
+    {
+      "keyword": "足のむくみ マッサージ器",
+      "interest": 1.08,
+      "word_count": 2,
+      "score": 1.79,
+      "lang": "ja",
+      "researched_at": "2026-02-27T05:08:10.054827+00:00"
     },
     {
       "keyword": "電子レンジ おすすめ パナソニック",
@@ -1999,6 +2023,14 @@
       "score": 0.54,
       "lang": "ja",
       "researched_at": "2026-02-26T02:56:47.098071+00:00"
+    },
+    {
+      "keyword": "iDeCo おすすめ 証券会社",
+      "interest": 0.27,
+      "word_count": 3,
+      "score": 0.54,
+      "lang": "ja",
+      "researched_at": "2026-02-27T05:08:10.054830+00:00"
     },
     {
       "keyword": "腰痛 マットレス おすすめ ニトリ",
@@ -3967,39 +3999,7 @@
       "score": 0.0,
       "lang": "ja",
       "researched_at": "2026-02-26T05:14:18.201467+00:00"
-    },
-    {
-      "keyword": "quiet dishwasher comparison for families",
-      "interest": 0.0,
-      "word_count": 5,
-      "score": 0.0,
-      "lang": "en",
-      "researched_at": "2026-02-26T05:14:48.373410+00:00"
-    },
-    {
-      "keyword": "smart thermostat for family homes",
-      "interest": 0.0,
-      "word_count": 5,
-      "score": 0.0,
-      "lang": "en",
-      "researched_at": "2026-02-26T05:14:48.373412+00:00"
-    },
-    {
-      "keyword": "ways to reduce grocery bill weekly",
-      "interest": 0.0,
-      "word_count": 6,
-      "score": 0.0,
-      "lang": "en",
-      "researched_at": "2026-02-26T05:14:48.373415+00:00"
-    },
-    {
-      "keyword": "family meal planning on a budget",
-      "interest": 0.0,
-      "word_count": 6,
-      "score": 0.0,
-      "lang": "en",
-      "researched_at": "2026-02-26T05:14:48.373418+00:00"
     }
   ],
-  "last_updated": "2026-02-26T22:03:09.764070+00:00"
+  "last_updated": "2026-02-27T05:08:24.272893+00:00"
 }
