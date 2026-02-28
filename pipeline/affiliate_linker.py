@@ -172,9 +172,11 @@ def insert_affiliate_links(article: dict, config: dict) -> dict:
             sections.append(_build_amazon_section_en(main_link, keyword))
 
     # --- Generic Rakuten search fallback (only if no product cards found) ---
+    from pipeline.product_searcher import _NON_PRODUCT_KEYWORDS
     rakuten_a_id = config.get("affiliate", {}).get("moshimo_rakuten_a_id", "")
     has_product_cards = any("楽天市場で見る" in s for s in sections)
-    if lang == "ja" and has_amazon_category and rakuten_a_id and not has_product_cards:
+    is_non_product = any(skip in keyword for skip in _NON_PRODUCT_KEYWORDS)
+    if lang == "ja" and has_amazon_category and rakuten_a_id and not has_product_cards and not is_non_product:
         rakuten_search_url = "https://search.rakuten.co.jp/search/mall/{}/".format(
             quote(keyword, safe=""),
         )
