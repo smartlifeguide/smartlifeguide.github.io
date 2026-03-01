@@ -537,6 +537,14 @@
       "researched_at": "2026-02-27T14:12:18.907053+00:00"
     },
     {
+      "keyword": "education savings plan for child",
+      "interest": 2.98,
+      "word_count": 5,
+      "score": 7.94,
+      "lang": "en",
+      "researched_at": "2026-03-01T15:47:59.543413+00:00"
+    },
+    {
       "keyword": "炊飯器 おすすめ 3合",
       "interest": 3.91,
       "word_count": 3,
@@ -1793,6 +1801,22 @@
       "researched_at": "2026-02-26T11:29:41.196486+00:00"
     },
     {
+      "keyword": "how to reduce grocery bill",
+      "interest": 1.03,
+      "word_count": 5,
+      "score": 2.75,
+      "lang": "en",
+      "researched_at": "2026-03-01T15:47:59.543431+00:00"
+    },
+    {
+      "keyword": "best tablets for students on a budget",
+      "interest": 0.91,
+      "word_count": 7,
+      "score": 2.74,
+      "lang": "en",
+      "researched_at": "2026-03-01T15:47:59.543435+00:00"
+    },
+    {
       "keyword": "medical alert systems comparison chart",
       "interest": 1.02,
       "word_count": 5,
@@ -2527,6 +2551,14 @@
       "score": 2.2,
       "lang": "ja",
       "researched_at": "2026-03-01T07:49:21.100868+00:00"
+    },
+    {
+      "keyword": "学資保険 おすすめ ランキング",
+      "interest": 1.1,
+      "word_count": 3,
+      "score": 2.2,
+      "lang": "ja",
+      "researched_at": "2026-03-01T15:47:37.501348+00:00"
     },
     {
       "keyword": "衣類乾燥機 おすすめ 除湿機",
@@ -3967,39 +3999,7 @@
       "score": 0.4,
       "lang": "en",
       "researched_at": "2026-02-26T18:06:28.453213+00:00"
-    },
-    {
-      "keyword": "smart home security systems review",
-      "interest": 0.15,
-      "word_count": 5,
-      "score": 0.4,
-      "lang": "en",
-      "researched_at": "2026-02-26T22:03:09.763934+00:00"
-    },
-    {
-      "keyword": "best robot vacuum for pet hair on hardwood floors",
-      "interest": 0.13,
-      "word_count": 9,
-      "score": 0.39,
-      "lang": "en",
-      "researched_at": "2026-02-17T07:43:56.584494+00:00"
-    },
-    {
-      "keyword": "炊飯器 おすすめ アメリカ",
-      "interest": 0.19,
-      "word_count": 3,
-      "score": 0.39,
-      "lang": "ja",
-      "researched_at": "2026-02-26T03:09:21.745698+00:00"
-    },
-    {
-      "keyword": "ポイ活 おすすめ 歩く",
-      "interest": 0.18,
-      "word_count": 3,
-      "score": 0.37,
-      "lang": "ja",
-      "researched_at": "2026-02-26T03:33:17.774814+00:00"
     }
   ],
-  "last_updated": "2026-03-01T13:52:50.516233+00:00"
+  "last_updated": "2026-03-01T15:47:59.544049+00:00"
 }
