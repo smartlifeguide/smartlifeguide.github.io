@@ -125,7 +125,8 @@ def run_pipeline(skip_research: bool = False, skip_git: bool = False) -> None:
         logger.info("--- Step 8: Git commit and push ---")
         git_commit_and_push(config)
     elif articles_published == 0:
-        logger.warning("No articles were published in this run")
+        logger.error("No articles were published in this run")
+        sys.exit(1)
 
     logger.info(
         "=== Pipeline complete. Published %d article(s) ===",

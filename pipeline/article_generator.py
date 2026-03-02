@@ -209,6 +209,7 @@ def generate_article(
                 config=types.GenerateContentConfig(
                     max_output_tokens=gemini_cfg.get("max_output_tokens", 8192),
                     temperature=gemini_cfg.get("temperature", 0.7),
+                    thinking_config=types.ThinkingConfig(thinking_budget=2048),
                 ),
             )
 
