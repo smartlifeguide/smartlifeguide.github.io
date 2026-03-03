@@ -1257,6 +1257,14 @@
       "researched_at": "2026-02-26T03:10:00.181389+00:00"
     },
     {
+      "keyword": "目の疲れ 対策",
+      "interest": 2.66,
+      "word_count": 2,
+      "score": 4.43,
+      "lang": "ja",
+      "researched_at": "2026-03-03T19:54:34.219707+00:00"
+    },
+    {
       "keyword": "水道代 節約 100 均",
       "interest": 1.89,
       "word_count": 4,
@@ -1295,6 +1303,14 @@
       "score": 4.31,
       "lang": "ja",
       "researched_at": "2026-03-01T05:12:58.423250+00:00"
+    },
+    {
+      "keyword": "習い事 おすすめ 小学生",
+      "interest": 2.15,
+      "word_count": 3,
+      "score": 4.31,
+      "lang": "ja",
+      "researched_at": "2026-03-03T19:54:34.219729+00:00"
     },
     {
       "keyword": "足のむくみ 解消 マッサージ",
@@ -1495,6 +1511,14 @@
       "score": 3.78,
       "lang": "ja",
       "researched_at": "2026-02-28T21:41:51.373425+00:00"
+    },
+    {
+      "keyword": "ふるさと納税 やり方 初心者",
+      "interest": 1.88,
+      "word_count": 3,
+      "score": 3.76,
+      "lang": "ja",
+      "researched_at": "2026-03-03T19:54:34.219733+00:00"
     },
     {
       "keyword": "衣類乾燥機 おすすめ メーカー",
@@ -2183,6 +2207,14 @@
       "score": 2.93,
       "lang": "en",
       "researched_at": "2026-03-03T07:59:18.867072+00:00"
+    },
+    {
+      "keyword": "steps to improve sleep quality",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-03T19:54:53.900135+00:00"
     },
     {
       "keyword": "ふるさと納税 やり方 サラリーマン",
@@ -3225,6 +3257,14 @@
       "researched_at": "2026-02-28T07:18:03.043351+00:00"
     },
     {
+      "keyword": "コードレス掃除機 おすすめ 一人暮らし",
+      "interest": 1.14,
+      "word_count": 3,
+      "score": 2.29,
+      "lang": "ja",
+      "researched_at": "2026-03-03T19:54:34.219736+00:00"
+    },
+    {
       "keyword": "senior friendly phones",
       "interest": 1.14,
       "word_count": 3,
@@ -3959,47 +3999,7 @@
       "score": 2.15,
       "lang": "ja",
       "researched_at": "2026-02-28T19:01:04.012617+00:00"
-    },
-    {
-      "keyword": "save money on utility bills",
-      "interest": 0.8,
-      "word_count": 5,
-      "score": 2.14,
-      "lang": "en",
-      "researched_at": "2026-03-03T11:07:36.846221+00:00"
-    },
-    {
-      "keyword": "加湿器 おすすめ リビング",
-      "interest": 1.06,
-      "word_count": 3,
-      "score": 2.13,
-      "lang": "ja",
-      "researched_at": "2026-02-26T02:56:47.098057+00:00"
-    },
-    {
-      "keyword": "高血圧 改善 食事 メニュー",
-      "interest": 0.91,
-      "word_count": 4,
-      "score": 2.13,
-      "lang": "ja",
-      "researched_at": "2026-02-26T08:04:52.692217+00:00"
-    },
-    {
-      "keyword": "ホットアイマスク おすすめ 口コミ",
-      "interest": 1.06,
-      "word_count": 3,
-      "score": 2.13,
-      "lang": "ja",
-      "researched_at": "2026-02-26T11:29:11.358346+00:00"
-    },
-    {
-      "keyword": "best elderly monitoring systems",
-      "interest": 0.91,
-      "word_count": 4,
-      "score": 2.13,
-      "lang": "en",
-      "researched_at": "2026-02-27T19:50:21.854780+00:00"
     }
   ],
-  "last_updated": "2026-03-03T17:32:04.302213+00:00"
+  "last_updated": "2026-03-03T19:54:53.900745+00:00"
 }
