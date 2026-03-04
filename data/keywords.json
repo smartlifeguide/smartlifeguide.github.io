@@ -289,6 +289,14 @@
       "researched_at": "2026-03-03T07:59:18.867061+00:00"
     },
     {
+      "keyword": "best compact air fryer",
+      "interest": 9.95,
+      "word_count": 4,
+      "score": 23.21,
+      "lang": "en",
+      "researched_at": "2026-03-04T17:27:18.752021+00:00"
+    },
+    {
       "keyword": "ふるさと納税 やり方 確定申告",
       "interest": 11.15,
       "word_count": 3,
@@ -641,6 +649,22 @@
       "researched_at": "2026-02-26T03:10:00.181371+00:00"
     },
     {
+      "keyword": "online tutoring comparison",
+      "interest": 4.75,
+      "word_count": 3,
+      "score": 9.49,
+      "lang": "en",
+      "researched_at": "2026-03-04T17:27:18.752036+00:00"
+    },
+    {
+      "keyword": "portable washing machine review",
+      "interest": 4.02,
+      "word_count": 4,
+      "score": 9.38,
+      "lang": "en",
+      "researched_at": "2026-03-04T17:27:18.752040+00:00"
+    },
+    {
       "keyword": "how to reduce food bill",
       "interest": 3.49,
       "word_count": 5,
@@ -655,6 +679,14 @@
       "score": 9.13,
       "lang": "en",
       "researched_at": "2026-03-03T05:08:40.146522+00:00"
+    },
+    {
+      "keyword": "best money saving apps",
+      "interest": 3.78,
+      "word_count": 4,
+      "score": 8.82,
+      "lang": "en",
+      "researched_at": "2026-03-04T17:27:18.752043+00:00"
     },
     {
       "keyword": "best walking shoes women comfort",
@@ -703,6 +735,14 @@
       "score": 7.94,
       "lang": "en",
       "researched_at": "2026-03-01T15:47:59.543413+00:00"
+    },
+    {
+      "keyword": "best smart home for elderly",
+      "interest": 2.98,
+      "word_count": 5,
+      "score": 7.94,
+      "lang": "en",
+      "researched_at": "2026-03-04T17:27:18.752046+00:00"
     },
     {
       "keyword": "best robot vacuum for hardwood floors",
@@ -1343,6 +1383,14 @@
       "score": 4.31,
       "lang": "ja",
       "researched_at": "2026-03-03T19:54:34.219729+00:00"
+    },
+    {
+      "keyword": "親の介護 費用 誰が払う",
+      "interest": 2.14,
+      "word_count": 3,
+      "score": 4.29,
+      "lang": "ja",
+      "researched_at": "2026-03-04T17:26:49.127380+00:00"
     },
     {
       "keyword": "足のむくみ 解消 マッサージ",
@@ -2327,6 +2375,14 @@
       "score": 2.93,
       "lang": "en",
       "researched_at": "2026-03-04T11:03:00.847140+00:00"
+    },
+    {
+      "keyword": "eye strain from screen solution",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-04T17:27:18.752049+00:00"
     },
     {
       "keyword": "ふるさと納税 やり方 サラリーマン",
@@ -3345,12 +3401,28 @@
       "researched_at": "2026-03-03T05:08:40.146538+00:00"
     },
     {
+      "keyword": "疲労回復 サプリ おすすめ",
+      "interest": 1.16,
+      "word_count": 3,
+      "score": 2.33,
+      "lang": "ja",
+      "researched_at": "2026-03-04T17:26:49.127400+00:00"
+    },
+    {
       "keyword": "冷え性 対策 グッズ 手",
       "interest": 0.99,
       "word_count": 4,
       "score": 2.31,
       "lang": "ja",
       "researched_at": "2026-02-28T04:37:37.852864+00:00"
+    },
+    {
+      "keyword": "水道代 節約 一人暮らし",
+      "interest": 1.15,
+      "word_count": 3,
+      "score": 2.31,
+      "lang": "ja",
+      "researched_at": "2026-03-04T17:26:49.127404+00:00"
     },
     {
       "keyword": "介護保険 サービス 使い方",
@@ -3761,6 +3833,30 @@
       "researched_at": "2026-03-04T14:11:20.137044+00:00"
     },
     {
+      "keyword": "ロボット掃除機 おすすめ 安い",
+      "interest": 1.1,
+      "word_count": 3,
+      "score": 2.2,
+      "lang": "ja",
+      "researched_at": "2026-03-04T17:26:49.127407+00:00"
+    },
+    {
+      "keyword": "加湿器 おすすめ リビング",
+      "interest": 1.1,
+      "word_count": 3,
+      "score": 2.2,
+      "lang": "ja",
+      "researched_at": "2026-03-04T17:26:49.127409+00:00"
+    },
+    {
+      "keyword": "介護保険 使い方 要支援",
+      "interest": 1.1,
+      "word_count": 3,
+      "score": 2.2,
+      "lang": "ja",
+      "researched_at": "2026-03-04T17:26:49.127411+00:00"
+    },
+    {
       "keyword": "衣類乾燥機 おすすめ 除湿機",
       "interest": 1.1,
       "word_count": 3,
@@ -3903,103 +3999,7 @@
       "score": 2.15,
       "lang": "ja",
       "researched_at": "2026-02-26T18:05:58.533876+00:00"
-    },
-    {
-      "keyword": "健康診断 数値改善 方法",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-26T18:05:58.533880+00:00"
-    },
-    {
-      "keyword": "effective natural sleep aids review",
-      "interest": 0.81,
-      "word_count": 5,
-      "score": 2.15,
-      "lang": "en",
-      "researched_at": "2026-02-26T18:06:28.453208+00:00"
-    },
-    {
-      "keyword": "目の疲れ 目薬 おすすめ",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-26T22:02:39.729819+00:00"
-    },
-    {
-      "keyword": "習い事 子供 いらないもの",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-26T22:02:39.729823+00:00"
-    },
-    {
-      "keyword": "食洗機 据え置き おすすめ",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-27T05:08:10.054824+00:00"
-    },
-    {
-      "keyword": "食洗機 据え置き型 おすすめ",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-27T08:01:51.365238+00:00"
-    },
-    {
-      "keyword": "美顔器 40代 たるみ",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-27T08:01:51.365241+00:00"
-    },
-    {
-      "keyword": "親の介護 費用 いくら",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-27T11:06:46.284685+00:00"
-    },
-    {
-      "keyword": "補聴器 おすすめ 値段",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-27T11:06:46.284690+00:00"
-    },
-    {
-      "keyword": "子供2人 教育費 貯め方",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-27T14:11:48.932294+00:00"
-    },
-    {
-      "keyword": "学資保険 おすすめ 知恵袋",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-27T14:11:48.932296+00:00"
-    },
-    {
-      "keyword": "子供 タブレット学習 比較",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-27T14:11:48.932299+00:00"
     }
   ],
-  "last_updated": "2026-03-04T14:11:44.412650+00:00"
+  "last_updated": "2026-03-04T17:27:18.752184+00:00"
 }
