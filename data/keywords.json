@@ -657,6 +657,14 @@
       "researched_at": "2026-03-03T05:08:40.146522+00:00"
     },
     {
+      "keyword": "best walking shoes women comfort",
+      "interest": 3.2,
+      "word_count": 5,
+      "score": 8.53,
+      "lang": "en",
+      "researched_at": "2026-03-04T11:03:00.847111+00:00"
+    },
+    {
       "keyword": "Wearable fall detection devices",
       "interest": 3.57,
       "word_count": 4,
@@ -719,6 +727,14 @@
       "score": 7.76,
       "lang": "en",
       "researched_at": "2026-02-28T19:01:26.931442+00:00"
+    },
+    {
+      "keyword": "best robot vacuums for pet hair",
+      "interest": 2.58,
+      "word_count": 6,
+      "score": 7.75,
+      "lang": "en",
+      "researched_at": "2026-03-04T11:03:00.847128+00:00"
     },
     {
       "keyword": "炊飯器 おすすめ 5合",
@@ -1055,6 +1071,14 @@
       "score": 5.27,
       "lang": "ja",
       "researched_at": "2026-02-26T03:33:17.774761+00:00"
+    },
+    {
+      "keyword": "best smart home devices families",
+      "interest": 1.98,
+      "word_count": 5,
+      "score": 5.27,
+      "lang": "en",
+      "researched_at": "2026-03-04T11:03:00.847132+00:00"
     },
     {
       "keyword": "Best energy efficient refrigerators",
@@ -1575,6 +1599,14 @@
       "score": 3.64,
       "lang": "ja",
       "researched_at": "2026-03-03T17:31:44.811122+00:00"
+    },
+    {
+      "keyword": "ガス代 節約術",
+      "interest": 2.16,
+      "word_count": 2,
+      "score": 3.61,
+      "lang": "ja",
+      "researched_at": "2026-03-04T11:02:30.563634+00:00"
     },
     {
       "keyword": "血圧計 おすすめ 家庭用",
@@ -2257,6 +2289,30 @@
       "researched_at": "2026-03-03T22:00:36.038879+00:00"
     },
     {
+      "keyword": "top rated essential oils stress",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-04T11:03:00.847135+00:00"
+    },
+    {
+      "keyword": "medical alert systems review features",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-04T11:03:00.847138+00:00"
+    },
+    {
+      "keyword": "aging parent care tips guide",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-04T11:03:00.847140+00:00"
+    },
+    {
       "keyword": "ふるさと納税 やり方 サラリーマン",
       "interest": 1.46,
       "word_count": 3,
@@ -2551,6 +2607,14 @@
       "score": 2.7,
       "lang": "en",
       "researched_at": "2026-03-03T07:59:18.867074+00:00"
+    },
+    {
+      "keyword": "best family budgeting software",
+      "interest": 1.15,
+      "word_count": 4,
+      "score": 2.69,
+      "lang": "en",
+      "researched_at": "2026-03-04T11:03:00.847143+00:00"
     },
     {
       "keyword": "how to save on electricity bill",
@@ -3031,6 +3095,14 @@
       "score": 2.51,
       "lang": "en",
       "researched_at": "2026-03-02T17:34:04.014591+00:00"
+    },
+    {
+      "keyword": "パソコン 目の疲れ 対策 グッズ",
+      "interest": 1.08,
+      "word_count": 4,
+      "score": 2.51,
+      "lang": "ja",
+      "researched_at": "2026-03-04T11:02:30.563657+00:00"
     },
     {
       "keyword": "top rated free budgeting apps",
@@ -3617,6 +3689,38 @@
       "researched_at": "2026-03-04T05:00:18.807668+00:00"
     },
     {
+      "keyword": "空気清浄機 比較 おすすめ",
+      "interest": 1.1,
+      "word_count": 3,
+      "score": 2.2,
+      "lang": "ja",
+      "researched_at": "2026-03-04T11:02:30.563661+00:00"
+    },
+    {
+      "keyword": "コードレス掃除機 おすすめ 安い",
+      "interest": 1.1,
+      "word_count": 3,
+      "score": 2.2,
+      "lang": "ja",
+      "researched_at": "2026-03-04T11:02:30.563665+00:00"
+    },
+    {
+      "keyword": "電子レンジ おすすめ オーブン付き",
+      "interest": 1.1,
+      "word_count": 3,
+      "score": 2.2,
+      "lang": "ja",
+      "researched_at": "2026-03-04T11:02:30.563668+00:00"
+    },
+    {
+      "keyword": "訪問看護 介護保険 使い方",
+      "interest": 1.1,
+      "word_count": 3,
+      "score": 2.2,
+      "lang": "ja",
+      "researched_at": "2026-03-04T11:02:30.563670+00:00"
+    },
+    {
       "keyword": "衣類乾燥機 おすすめ 除湿機",
       "interest": 1.1,
       "word_count": 3,
@@ -3895,111 +3999,7 @@
       "score": 2.15,
       "lang": "ja",
       "researched_at": "2026-02-27T21:56:06.405146+00:00"
-    },
-    {
-      "keyword": "ガス代 節約 冬",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:09:17.948044+00:00"
-    },
-    {
-      "keyword": "日用品 節約 コツ",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:09:17.948047+00:00"
-    },
-    {
-      "keyword": "教育費 貯め方 ブログ",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:09:17.948050+00:00"
-    },
-    {
-      "keyword": "介護保険 使い方 要支援",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:09:17.948053+00:00"
-    },
-    {
-      "keyword": "衣類乾燥機 おすすめ 電気代",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:37:37.852873+00:00"
-    },
-    {
-      "keyword": "コードレス掃除機 おすすめ 軽い",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:37:37.852875+00:00"
-    },
-    {
-      "keyword": "ガス代 節約 プロパン",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:37:37.852878+00:00"
-    },
-    {
-      "keyword": "学資保険 おすすめ 東京海上日動",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:37:37.852880+00:00"
-    },
-    {
-      "keyword": "シニア 杖 おすすめ",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:37:37.852883+00:00"
-    },
-    {
-      "keyword": "水道代 節約 一人暮らし",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T07:17:34.864604+00:00"
-    },
-    {
-      "keyword": "スマホ 目の疲れ 対策",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T07:17:34.864609+00:00"
-    },
-    {
-      "keyword": "除湿機 おすすめ 小型",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T09:50:17.678728+00:00"
-    },
-    {
-      "keyword": "水道代 節約 意味ない",
-      "interest": 1.08,
-      "word_count": 3,
-      "score": 2.15,
-      "lang": "ja",
-      "researched_at": "2026-02-28T09:50:17.678731+00:00"
     }
   ],
-  "last_updated": "2026-03-04T07:54:54.694265+00:00"
+  "last_updated": "2026-03-04T11:03:00.847302+00:00"
 }
