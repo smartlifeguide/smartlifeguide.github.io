@@ -1593,6 +1593,14 @@
       "researched_at": "2026-03-03T19:54:34.219729+00:00"
     },
     {
+      "keyword": "senior friendly smartphones",
+      "interest": 2.15,
+      "word_count": 3,
+      "score": 4.31,
+      "lang": "en",
+      "researched_at": "2026-03-06T17:07:40.083081+00:00"
+    },
+    {
       "keyword": "親の介護 費用 誰が払う",
       "interest": 2.14,
       "word_count": 3,
@@ -2063,6 +2071,14 @@
       "score": 3.48,
       "lang": "ja",
       "researched_at": "2026-03-05T05:06:46.697170+00:00"
+    },
+    {
+      "keyword": "ロボット掃除機 おすすめメーカー",
+      "interest": 2.09,
+      "word_count": 2,
+      "score": 3.48,
+      "lang": "ja",
+      "researched_at": "2026-03-06T17:07:22.469520+00:00"
     },
     {
       "keyword": "Best apps for tracking expenses",
@@ -2873,6 +2889,14 @@
       "researched_at": "2026-02-27T19:50:21.854773+00:00"
     },
     {
+      "keyword": "除湿機 おすすめ ハイブリッド",
+      "interest": 1.44,
+      "word_count": 3,
+      "score": 2.88,
+      "lang": "ja",
+      "researched_at": "2026-03-06T17:07:22.469534+00:00"
+    },
+    {
       "keyword": "natural remedies for better sleep",
       "interest": 1.08,
       "word_count": 5,
@@ -3465,6 +3489,14 @@
       "researched_at": "2026-02-26T08:05:23.959019+00:00"
     },
     {
+      "keyword": "jitterbug smart4 senior friendly smartphone",
+      "interest": 0.95,
+      "word_count": 5,
+      "score": 2.52,
+      "lang": "en",
+      "researched_at": "2026-03-06T17:07:40.083099+00:00"
+    },
+    {
       "keyword": "portable laundry machine review",
       "interest": 1.08,
       "word_count": 4,
@@ -3967,39 +3999,7 @@
       "score": 2.33,
       "lang": "en",
       "researched_at": "2026-02-26T22:03:09.763929+00:00"
-    },
-    {
-      "keyword": "腰痛 マットレス 高反発 比較",
-      "interest": 1.0,
-      "word_count": 4,
-      "score": 2.33,
-      "lang": "ja",
-      "researched_at": "2026-02-27T08:01:51.365235+00:00"
-    },
-    {
-      "keyword": "compare internet providers families",
-      "interest": 1.0,
-      "word_count": 4,
-      "score": 2.33,
-      "lang": "en",
-      "researched_at": "2026-02-27T11:07:16.091726+00:00"
-    },
-    {
-      "keyword": "肩こり 解消 グッズ 磁気",
-      "interest": 1.0,
-      "word_count": 4,
-      "score": 2.33,
-      "lang": "ja",
-      "researched_at": "2026-02-28T19:01:04.012588+00:00"
-    },
-    {
-      "keyword": "加湿器 おすすめ ニトリ",
-      "interest": 1.16,
-      "word_count": 3,
-      "score": 2.33,
-      "lang": "ja",
-      "researched_at": "2026-03-02T04:02:17.334973+00:00"
     }
   ],
-  "last_updated": "2026-03-06T14:08:12.359140+00:00"
+  "last_updated": "2026-03-06T17:07:40.083246+00:00"
 }
