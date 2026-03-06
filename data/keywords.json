@@ -1177,6 +1177,14 @@
       "researched_at": "2026-03-02T04:02:36.289371+00:00"
     },
     {
+      "keyword": "senior friendly phones",
+      "interest": 2.79,
+      "word_count": 3,
+      "score": 5.58,
+      "lang": "en",
+      "researched_at": "2026-03-06T07:55:27.339787+00:00"
+    },
+    {
       "keyword": "肩こり 解消 グッズ",
       "interest": 2.78,
       "word_count": 3,
@@ -1695,6 +1703,14 @@
       "score": 4.12,
       "lang": "ja",
       "researched_at": "2026-03-02T17:33:46.762781+00:00"
+    },
+    {
+      "keyword": "足のむくみ 解消 食べ物",
+      "interest": 2.05,
+      "word_count": 3,
+      "score": 4.11,
+      "lang": "ja",
+      "researched_at": "2026-03-06T07:55:10.216896+00:00"
     },
     {
       "keyword": "what is the best back pain gel",
@@ -3977,29 +3993,13 @@
       "researched_at": "2026-03-05T05:06:46.697174+00:00"
     },
     {
-      "keyword": "冷え性 対策 グッズ 手",
-      "interest": 0.99,
-      "word_count": 4,
-      "score": 2.31,
-      "lang": "ja",
-      "researched_at": "2026-02-28T04:37:37.852864+00:00"
-    },
-    {
-      "keyword": "水道代 節約 一人暮らし",
-      "interest": 1.15,
+      "keyword": "食費 節約 コツ",
+      "interest": 1.16,
       "word_count": 3,
-      "score": 2.31,
+      "score": 2.33,
       "lang": "ja",
-      "researched_at": "2026-03-04T17:26:49.127404+00:00"
-    },
-    {
-      "keyword": "除湿機 おすすめ 小型",
-      "interest": 1.15,
-      "word_count": 3,
-      "score": 2.31,
-      "lang": "ja",
-      "researched_at": "2026-03-05T05:06:46.697177+00:00"
+      "researched_at": "2026-03-06T07:55:10.216920+00:00"
     }
   ],
-  "last_updated": "2026-03-06T05:02:46.480473+00:00"
+  "last_updated": "2026-03-06T07:55:27.339991+00:00"
 }
