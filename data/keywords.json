@@ -1625,6 +1625,14 @@
       "researched_at": "2026-02-17T07:43:19.991308+00:00"
     },
     {
+      "keyword": "電子レンジ おすすめ オーブン付き",
+      "interest": 2.24,
+      "word_count": 3,
+      "score": 4.48,
+      "lang": "ja",
+      "researched_at": "2026-03-08T05:03:03.873704+00:00"
+    },
+    {
       "keyword": "肩こり 解消 グッズ ドラッグストア",
       "interest": 1.91,
       "word_count": 4,
@@ -3169,6 +3177,22 @@
       "researched_at": "2026-03-07T21:42:51.474406+00:00"
     },
     {
+      "keyword": "quietest dishwashers for open concept",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-08T05:03:29.466943+00:00"
+    },
+    {
+      "keyword": "mobility aids for elderly reviews",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-08T05:03:29.466962+00:00"
+    },
+    {
       "keyword": "ふるさと納税 やり方 サラリーマン",
       "interest": 1.46,
       "word_count": 3,
@@ -3975,31 +3999,7 @@
       "score": 2.51,
       "lang": "en",
       "researched_at": "2026-02-26T22:03:09.763926+00:00"
-    },
-    {
-      "keyword": "睡眠 質 改善 アプリ",
-      "interest": 1.08,
-      "word_count": 4,
-      "score": 2.51,
-      "lang": "ja",
-      "researched_at": "2026-02-27T08:01:51.365232+00:00"
-    },
-    {
-      "keyword": "タブレット 通信教育 中学生 比較",
-      "interest": 1.08,
-      "word_count": 4,
-      "score": 2.51,
-      "lang": "ja",
-      "researched_at": "2026-02-27T11:06:46.284662+00:00"
-    },
-    {
-      "keyword": "塾 通信教育 比較 中学生",
-      "interest": 1.08,
-      "word_count": 4,
-      "score": 2.51,
-      "lang": "ja",
-      "researched_at": "2026-02-27T14:11:48.932290+00:00"
     }
   ],
-  "last_updated": "2026-03-07T21:42:51.474531+00:00"
+  "last_updated": "2026-03-08T05:03:29.467186+00:00"
 }
