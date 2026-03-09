@@ -1545,6 +1545,14 @@
       "researched_at": "2026-03-06T21:57:05.353203+00:00"
     },
     {
+      "keyword": "体組成計 体重計 おすすめ 正確",
+      "interest": 2.12,
+      "word_count": 4,
+      "score": 4.95,
+      "lang": "ja",
+      "researched_at": "2026-03-09T19:55:22.529439+00:00"
+    },
+    {
       "keyword": "食洗機 工事不要 おすすめ 一人暮らし",
       "interest": 2.1,
       "word_count": 4,
@@ -3377,6 +3385,14 @@
       "researched_at": "2026-03-09T05:14:23.482305+00:00"
     },
     {
+      "keyword": "jitterbug smart4 senior friendly smartphone",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-09T19:55:40.543458+00:00"
+    },
+    {
       "keyword": "ふるさと納税 やり方 サラリーマン",
       "interest": 1.46,
       "word_count": 3,
@@ -3697,6 +3713,14 @@
       "researched_at": "2026-03-08T21:48:46.446528+00:00"
     },
     {
+      "keyword": "肩こり 解消 グッズ おすすめ",
+      "interest": 1.18,
+      "word_count": 4,
+      "score": 2.74,
+      "lang": "ja",
+      "researched_at": "2026-03-09T19:55:22.529467+00:00"
+    },
+    {
       "keyword": "medical alert systems comparison chart",
       "interest": 1.02,
       "word_count": 5,
@@ -3975,31 +3999,7 @@
       "score": 2.56,
       "lang": "ja",
       "researched_at": "2026-03-02T19:53:06.811005+00:00"
-    },
-    {
-      "keyword": "compare family utility providers",
-      "interest": 1.1,
-      "word_count": 4,
-      "score": 2.56,
-      "lang": "en",
-      "researched_at": "2026-03-02T19:53:40.256860+00:00"
-    },
-    {
-      "keyword": "college savings plan comparison",
-      "interest": 1.1,
-      "word_count": 4,
-      "score": 2.56,
-      "lang": "en",
-      "researched_at": "2026-03-03T11:07:36.846215+00:00"
-    },
-    {
-      "keyword": "affordable family vacation planning",
-      "interest": 1.1,
-      "word_count": 4,
-      "score": 2.56,
-      "lang": "en",
-      "researched_at": "2026-03-05T05:07:19.241768+00:00"
     }
   ],
-  "last_updated": "2026-03-09T15:15:11.847532+00:00"
+  "last_updated": "2026-03-09T19:55:40.543664+00:00"
 }
