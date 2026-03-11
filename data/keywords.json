@@ -1665,6 +1665,14 @@
       "researched_at": "2026-02-26T11:29:11.358317+00:00"
     },
     {
+      "keyword": "加湿器 おすすめ ニトリ",
+      "interest": 2.31,
+      "word_count": 3,
+      "score": 4.62,
+      "lang": "ja",
+      "researched_at": "2026-03-11T05:04:02.289651+00:00"
+    },
+    {
       "keyword": "シニア スマホ おすすめ キャリア",
       "interest": 1.97,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 2.58,
       "lang": "en",
       "researched_at": "2026-02-26T11:29:41.196491+00:00"
-    },
-    {
-      "keyword": "best ergonomic mouse for wrist",
-      "interest": 0.97,
-      "word_count": 5,
-      "score": 2.58,
-      "lang": "en",
-      "researched_at": "2026-03-09T22:00:09.058381+00:00"
     }
   ],
-  "last_updated": "2026-03-10T21:56:10.054191+00:00"
+  "last_updated": "2026-03-11T05:04:20.261619+00:00"
 }
