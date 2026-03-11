@@ -1585,6 +1585,14 @@
       "researched_at": "2026-03-09T19:55:22.529439+00:00"
     },
     {
+      "keyword": "portable laundry machine review",
+      "interest": 2.1,
+      "word_count": 4,
+      "score": 4.9,
+      "lang": "en",
+      "researched_at": "2026-03-11T21:59:55.899373+00:00"
+    },
+    {
       "keyword": "食洗機 工事不要 おすすめ 一人暮らし",
       "interest": 2.1,
       "word_count": 4,
@@ -1823,6 +1831,14 @@
       "score": 4.38,
       "lang": "en",
       "researched_at": "2026-03-04T07:54:54.694118+00:00"
+    },
+    {
+      "keyword": "ガス代 節約 お風呂 温度",
+      "interest": 1.88,
+      "word_count": 4,
+      "score": 4.38,
+      "lang": "ja",
+      "researched_at": "2026-03-11T21:59:40.059916+00:00"
     },
     {
       "keyword": "ロボット掃除機 おすすめ 安い",
@@ -3983,23 +3999,7 @@
       "score": 2.58,
       "lang": "ja",
       "researched_at": "2026-02-22T13:56:48.995442+00:00"
-    },
-    {
-      "keyword": "ふるさと納税 やり方 楽天",
-      "interest": 1.29,
-      "word_count": 3,
-      "score": 2.58,
-      "lang": "ja",
-      "researched_at": "2026-02-26T03:09:21.745645+00:00"
-    },
-    {
-      "keyword": "natural remedies for sleep improvement",
-      "interest": 0.97,
-      "word_count": 5,
-      "score": 2.58,
-      "lang": "en",
-      "researched_at": "2026-02-26T11:29:41.196491+00:00"
     }
   ],
-  "last_updated": "2026-03-11T19:54:58.178073+00:00"
+  "last_updated": "2026-03-11T21:59:55.899514+00:00"
 }
