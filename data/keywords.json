@@ -2217,6 +2217,14 @@
       "researched_at": "2026-03-09T22:00:09.058369+00:00"
     },
     {
+      "keyword": "ふるさと納税 やり方 さとふる",
+      "interest": 2.02,
+      "word_count": 3,
+      "score": 4.04,
+      "lang": "ja",
+      "researched_at": "2026-03-13T22:01:14.822983+00:00"
+    },
+    {
       "keyword": "ホットプレート おすすめ おしゃれ",
       "interest": 2.0,
       "word_count": 3,
@@ -2263,6 +2271,14 @@
       "score": 3.96,
       "lang": "ja",
       "researched_at": "2026-03-07T13:52:25.436189+00:00"
+    },
+    {
+      "keyword": "衣類乾燥機 おすすめ 部屋干し",
+      "interest": 1.97,
+      "word_count": 3,
+      "score": 3.93,
+      "lang": "ja",
+      "researched_at": "2026-03-13T22:01:14.823005+00:00"
     },
     {
       "keyword": "ドラム式洗濯機 おすすめ 4人家族",
@@ -2639,6 +2655,14 @@
       "score": 3.46,
       "lang": "en",
       "researched_at": "2026-03-07T09:55:10.232347+00:00"
+    },
+    {
+      "keyword": "best air purifier for allergies and pets",
+      "interest": 1.15,
+      "word_count": 7,
+      "score": 3.46,
+      "lang": "en",
+      "researched_at": "2026-03-13T22:01:37.817773+00:00"
     },
     {
       "keyword": "ポイ活 おすすめ ゲーム",
@@ -3287,6 +3311,14 @@
       "score": 3.05,
       "lang": "en",
       "researched_at": "2026-03-09T05:14:23.482303+00:00"
+    },
+    {
+      "keyword": "school savings plan for kids",
+      "interest": 1.14,
+      "word_count": 5,
+      "score": 3.05,
+      "lang": "en",
+      "researched_at": "2026-03-13T22:01:37.817790+00:00"
     },
     {
       "keyword": "fall prevention products for elderly",
@@ -3967,39 +3999,7 @@
       "score": 2.74,
       "lang": "ja",
       "researched_at": "2026-03-08T21:48:46.446506+00:00"
-    },
-    {
-      "keyword": "腕 血圧計 おすすめ 家庭用",
-      "interest": 1.18,
-      "word_count": 4,
-      "score": 2.74,
-      "lang": "ja",
-      "researched_at": "2026-03-08T21:48:46.446528+00:00"
-    },
-    {
-      "keyword": "肩こり 解消 グッズ おすすめ",
-      "interest": 1.18,
-      "word_count": 4,
-      "score": 2.74,
-      "lang": "ja",
-      "researched_at": "2026-03-09T19:55:22.529467+00:00"
-    },
-    {
-      "keyword": "食洗機 4人用 おすすめ 工事不要",
-      "interest": 1.18,
-      "word_count": 4,
-      "score": 2.74,
-      "lang": "ja",
-      "researched_at": "2026-03-09T21:59:34.139222+00:00"
-    },
-    {
-      "keyword": "medical alert systems comparison chart",
-      "interest": 1.02,
-      "word_count": 5,
-      "score": 2.72,
-      "lang": "en",
-      "researched_at": "2026-02-26T03:33:48.560767+00:00"
     }
   ],
-  "last_updated": "2026-03-13T19:50:04.944859+00:00"
+  "last_updated": "2026-03-13T22:01:37.817945+00:00"
 }
