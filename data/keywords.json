@@ -3793,6 +3793,14 @@
       "researched_at": "2026-03-13T19:50:04.944658+00:00"
     },
     {
+      "keyword": "medical alert systems comparison chart",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-14T19:18:58.995716+00:00"
+    },
+    {
       "keyword": "ふるさと納税 やり方 サラリーマン",
       "interest": 1.46,
       "word_count": 3,
@@ -3991,15 +3999,7 @@
       "score": 2.87,
       "lang": "en",
       "researched_at": "2026-03-02T05:09:54.798969+00:00"
-    },
-    {
-      "keyword": "パソコン 目の疲れ 対策 グッズ",
-      "interest": 1.22,
-      "word_count": 4,
-      "score": 2.85,
-      "lang": "ja",
-      "researched_at": "2026-03-14T07:52:48.365686+00:00"
     }
   ],
-  "last_updated": "2026-03-14T15:55:27.595107+00:00"
+  "last_updated": "2026-03-14T19:18:58.995937+00:00"
 }
