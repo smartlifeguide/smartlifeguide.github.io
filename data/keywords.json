@@ -1497,6 +1497,14 @@
       "researched_at": "2026-03-02T19:53:40.256848+00:00"
     },
     {
+      "keyword": "炊飯器 おすすめレシピ",
+      "interest": 3.2,
+      "word_count": 2,
+      "score": 5.33,
+      "lang": "ja",
+      "researched_at": "2026-03-14T05:04:10.365059+00:00"
+    },
+    {
       "keyword": "炊飯器 おすすめ 象印",
       "interest": 2.66,
       "word_count": 3,
@@ -1663,6 +1671,14 @@
       "score": 4.89,
       "lang": "ja",
       "researched_at": "2026-02-17T07:43:19.991305+00:00"
+    },
+    {
+      "keyword": "life alert system comparisons",
+      "interest": 2.09,
+      "word_count": 4,
+      "score": 4.87,
+      "lang": "en",
+      "researched_at": "2026-03-14T05:04:30.066804+00:00"
     },
     {
       "keyword": "dishwasher comparison site",
@@ -3983,23 +3999,7 @@
       "score": 2.75,
       "lang": "en",
       "researched_at": "2026-03-05T19:40:58.896659+00:00"
-    },
-    {
-      "keyword": "best tablets for students on a budget",
-      "interest": 0.91,
-      "word_count": 7,
-      "score": 2.74,
-      "lang": "en",
-      "researched_at": "2026-03-01T15:47:59.543435+00:00"
-    },
-    {
-      "keyword": "衣類乾燥機 おすすめ 部屋干し ハイブリッド",
-      "interest": 1.18,
-      "word_count": 4,
-      "score": 2.74,
-      "lang": "ja",
-      "researched_at": "2026-03-08T21:48:46.446506+00:00"
     }
   ],
-  "last_updated": "2026-03-13T22:01:37.817945+00:00"
+  "last_updated": "2026-03-14T05:04:30.066994+00:00"
 }
