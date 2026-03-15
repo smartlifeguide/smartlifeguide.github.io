@@ -633,6 +633,14 @@
       "researched_at": "2026-02-26T03:09:21.745628+00:00"
     },
     {
+      "keyword": "portable washing machine comparison",
+      "interest": 6.32,
+      "word_count": 4,
+      "score": 14.74,
+      "lang": "en",
+      "researched_at": "2026-03-15T07:58:19.962638+00:00"
+    },
+    {
       "keyword": "portable washing machine reviews",
       "interest": 6.3,
       "word_count": 4,
@@ -1663,6 +1671,14 @@
       "score": 5.03,
       "lang": "en",
       "researched_at": "2026-03-12T19:56:50.008572+00:00"
+    },
+    {
+      "keyword": "bosch dishwasher comparison chart",
+      "interest": 2.14,
+      "word_count": 4,
+      "score": 5.0,
+      "lang": "en",
+      "researched_at": "2026-03-15T07:58:19.962657+00:00"
     },
     {
       "keyword": "best portable air conditioner reviews",
@@ -3065,6 +3081,14 @@
       "researched_at": "2026-03-15T05:46:06.564873+00:00"
     },
     {
+      "keyword": "best tablets for students on a budget",
+      "interest": 1.1,
+      "word_count": 7,
+      "score": 3.3,
+      "lang": "en",
+      "researched_at": "2026-03-15T07:58:19.962661+00:00"
+    },
+    {
       "keyword": "best walking shoes for women over 60",
       "interest": 1.1,
       "word_count": 7,
@@ -3975,31 +3999,7 @@
       "score": 2.87,
       "lang": "en",
       "researched_at": "2026-02-27T17:02:07.627199+00:00"
-    },
-    {
-      "keyword": "best air purifier for allergies reddit",
-      "interest": 0.96,
-      "word_count": 6,
-      "score": 2.87,
-      "lang": "en",
-      "researched_at": "2026-02-28T07:18:03.043342+00:00"
-    },
-    {
-      "keyword": "mini washing machine review reddit",
-      "interest": 1.08,
-      "word_count": 5,
-      "score": 2.87,
-      "lang": "en",
-      "researched_at": "2026-02-28T07:18:03.043345+00:00"
-    },
-    {
-      "keyword": "education investment account for kids",
-      "interest": 1.08,
-      "word_count": 5,
-      "score": 2.87,
-      "lang": "en",
-      "researched_at": "2026-02-28T07:18:03.043348+00:00"
     }
   ],
-  "last_updated": "2026-03-15T05:46:06.565063+00:00"
+  "last_updated": "2026-03-15T07:58:19.962833+00:00"
 }
