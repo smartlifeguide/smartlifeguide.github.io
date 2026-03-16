@@ -2121,6 +2121,14 @@
       "researched_at": "2026-03-07T04:49:09.000337+00:00"
     },
     {
+      "keyword": "ロボット掃除機 おすすめ 日本製",
+      "interest": 2.15,
+      "word_count": 3,
+      "score": 4.31,
+      "lang": "ja",
+      "researched_at": "2026-03-16T06:07:02.364985+00:00"
+    },
+    {
       "keyword": "親の介護 費用 誰が払う",
       "interest": 2.14,
       "word_count": 3,
@@ -3961,6 +3969,14 @@
       "researched_at": "2026-03-15T15:56:11.754068+00:00"
     },
     {
+      "keyword": "education savings fund for kids",
+      "interest": 1.1,
+      "word_count": 5,
+      "score": 2.93,
+      "lang": "en",
+      "researched_at": "2026-03-16T06:07:19.506753+00:00"
+    },
+    {
       "keyword": "ふるさと納税 やり方 サラリーマン",
       "interest": 1.46,
       "word_count": 3,
@@ -3983,23 +3999,7 @@
       "score": 2.9,
       "lang": "en",
       "researched_at": "2026-03-14T13:59:16.290999+00:00"
-    },
-    {
-      "keyword": "除湿機 おすすめ ハイブリッド",
-      "interest": 1.44,
-      "word_count": 3,
-      "score": 2.88,
-      "lang": "ja",
-      "researched_at": "2026-03-06T17:07:22.469534+00:00"
-    },
-    {
-      "keyword": "natural remedies for better sleep",
-      "interest": 1.08,
-      "word_count": 5,
-      "score": 2.87,
-      "lang": "en",
-      "researched_at": "2026-02-26T05:14:48.373397+00:00"
     }
   ],
-  "last_updated": "2026-03-15T21:56:11.308732+00:00"
+  "last_updated": "2026-03-16T06:07:19.506918+00:00"
 }
