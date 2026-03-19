@@ -1489,6 +1489,14 @@
       "researched_at": "2026-02-26T18:06:28.453197+00:00"
     },
     {
+      "keyword": "水道代 節約 一人暮らし",
+      "interest": 2.88,
+      "word_count": 3,
+      "score": 5.76,
+      "lang": "ja",
+      "researched_at": "2026-03-19T07:07:58.514534+00:00"
+    },
+    {
       "keyword": "医療費控除 やり方 会社員",
       "interest": 2.87,
       "word_count": 3,
@@ -1751,6 +1759,14 @@
       "score": 5.0,
       "lang": "en",
       "researched_at": "2026-03-15T07:58:19.962657+00:00"
+    },
+    {
+      "keyword": "コンビニ 電気代 節約 方法",
+      "interest": 2.14,
+      "word_count": 4,
+      "score": 5.0,
+      "lang": "ja",
+      "researched_at": "2026-03-19T07:07:58.514558+00:00"
     },
     {
       "keyword": "best portable air conditioner reviews",
@@ -2719,6 +2735,14 @@
       "score": 3.78,
       "lang": "ja",
       "researched_at": "2026-03-12T05:08:59.614937+00:00"
+    },
+    {
+      "keyword": "学資保険 おすすめ ランキング",
+      "interest": 1.89,
+      "word_count": 3,
+      "score": 3.78,
+      "lang": "ja",
+      "researched_at": "2026-03-19T07:07:58.514562+00:00"
     },
     {
       "keyword": "ふるさと納税 やり方 初心者",
@@ -3975,31 +3999,7 @@
       "score": 2.93,
       "lang": "en",
       "researched_at": "2026-03-05T19:40:58.896653+00:00"
-    },
-    {
-      "keyword": "Financial literacy games for teens",
-      "interest": 1.1,
-      "word_count": 5,
-      "score": 2.93,
-      "lang": "en",
-      "researched_at": "2026-03-05T19:40:58.896657+00:00"
-    },
-    {
-      "keyword": "college essay writing services comparison",
-      "interest": 1.1,
-      "word_count": 5,
-      "score": 2.93,
-      "lang": "en",
-      "researched_at": "2026-03-05T22:03:00.132718+00:00"
-    },
-    {
-      "keyword": "home safety products for elderly",
-      "interest": 1.1,
-      "word_count": 5,
-      "score": 2.93,
-      "lang": "en",
-      "researched_at": "2026-03-05T22:03:00.132721+00:00"
     }
   ],
-  "last_updated": "2026-03-19T05:18:03.271983+00:00"
+  "last_updated": "2026-03-19T07:08:20.207923+00:00"
 }
