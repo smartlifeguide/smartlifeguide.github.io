@@ -1193,6 +1193,14 @@
       "researched_at": "2026-02-17T07:43:19.991297+00:00"
     },
     {
+      "keyword": "eye strain from phone screen",
+      "interest": 2.64,
+      "word_count": 5,
+      "score": 7.03,
+      "lang": "en",
+      "researched_at": "2026-03-19T21:43:47.430896+00:00"
+    },
+    {
       "keyword": "炊飯器 おすすめ 一人暮らし",
       "interest": 3.49,
       "word_count": 3,
@@ -2519,6 +2527,14 @@
       "score": 4.07,
       "lang": "ja",
       "researched_at": "2026-03-18T11:35:43.962026+00:00"
+    },
+    {
+      "keyword": "medical alert systems reviews aarp",
+      "interest": 1.53,
+      "word_count": 5,
+      "score": 4.07,
+      "lang": "en",
+      "researched_at": "2026-03-19T21:43:47.430914+00:00"
     },
     {
       "keyword": "best air purifier for allergies and dust",
@@ -3983,23 +3999,7 @@
       "score": 2.93,
       "lang": "en",
       "researched_at": "2026-03-04T17:27:18.752049+00:00"
-    },
-    {
-      "keyword": "best multi cooker review family",
-      "interest": 1.1,
-      "word_count": 5,
-      "score": 2.93,
-      "lang": "en",
-      "researched_at": "2026-03-04T22:03:12.648003+00:00"
-    },
-    {
-      "keyword": "best walk-in tubs for seniors",
-      "interest": 1.1,
-      "word_count": 5,
-      "score": 2.93,
-      "lang": "en",
-      "researched_at": "2026-03-05T05:07:19.241760+00:00"
     }
   ],
-  "last_updated": "2026-03-19T19:09:45.763261+00:00"
+  "last_updated": "2026-03-19T21:43:47.431532+00:00"
 }
