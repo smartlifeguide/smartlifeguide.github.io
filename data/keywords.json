@@ -1745,6 +1745,14 @@
       "researched_at": "2026-02-26T03:10:00.181387+00:00"
     },
     {
+      "keyword": "dishwasher comparisons and reviews",
+      "interest": 2.16,
+      "word_count": 4,
+      "score": 5.05,
+      "lang": "en",
+      "researched_at": "2026-03-20T15:52:35.874968+00:00"
+    },
+    {
       "keyword": "best countertop microwave oven",
       "interest": 2.15,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 2.93,
       "lang": "en",
       "researched_at": "2026-03-03T07:59:18.867072+00:00"
-    },
-    {
-      "keyword": "steps to improve sleep quality",
-      "interest": 1.1,
-      "word_count": 5,
-      "score": 2.93,
-      "lang": "en",
-      "researched_at": "2026-03-03T19:54:53.900135+00:00"
     }
   ],
-  "last_updated": "2026-03-20T13:16:33.589409+00:00"
+  "last_updated": "2026-03-20T15:52:35.875305+00:00"
 }
