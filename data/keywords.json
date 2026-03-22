@@ -2289,6 +2289,14 @@
       "researched_at": "2026-02-26T03:10:00.181392+00:00"
     },
     {
+      "keyword": "体重計 おすすめ 体組成計",
+      "interest": 2.18,
+      "word_count": 3,
+      "score": 4.35,
+      "lang": "ja",
+      "researched_at": "2026-03-22T09:41:22.633847+00:00"
+    },
+    {
       "keyword": "学資保険 おすすめ 返戻率",
       "interest": 2.16,
       "word_count": 3,
@@ -3991,15 +3999,7 @@
       "score": 3.05,
       "lang": "en",
       "researched_at": "2026-03-13T22:01:37.817790+00:00"
-    },
-    {
-      "keyword": "fall prevention products for elderly",
-      "interest": 1.14,
-      "word_count": 5,
-      "score": 3.04,
-      "lang": "en",
-      "researched_at": "2026-02-26T22:03:09.763901+00:00"
     }
   ],
-  "last_updated": "2026-03-22T07:01:20.151353+00:00"
+  "last_updated": "2026-03-22T09:41:41.494784+00:00"
 }
