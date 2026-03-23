@@ -2489,6 +2489,14 @@
       "researched_at": "2026-03-23T02:52:50.568793+00:00"
     },
     {
+      "keyword": "教育費 貯め方 口座",
+      "interest": 2.11,
+      "word_count": 3,
+      "score": 4.22,
+      "lang": "ja",
+      "researched_at": "2026-03-23T07:22:46.545175+00:00"
+    },
+    {
       "keyword": "除湿機 おすすめ 洗濯物",
       "interest": 2.1,
       "word_count": 3,
@@ -3991,15 +3999,7 @@
       "score": 3.05,
       "lang": "ja",
       "researched_at": "2026-03-03T14:33:44.967435+00:00"
-    },
-    {
-      "keyword": "Best humidifiers for baby room",
-      "interest": 1.14,
-      "word_count": 5,
-      "score": 3.05,
-      "lang": "en",
-      "researched_at": "2026-03-05T19:40:58.896650+00:00"
     }
   ],
-  "last_updated": "2026-03-23T05:11:03.167089+00:00"
+  "last_updated": "2026-03-23T07:23:04.869660+00:00"
 }
