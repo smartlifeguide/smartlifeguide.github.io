@@ -2545,6 +2545,14 @@
       "researched_at": "2026-02-27T08:02:20.560527+00:00"
     },
     {
+      "keyword": "介護保険 使い方 要支援",
+      "interest": 2.09,
+      "word_count": 3,
+      "score": 4.18,
+      "lang": "ja",
+      "researched_at": "2026-03-23T19:05:25.173413+00:00"
+    },
+    {
       "keyword": "食費 節約 こつ",
       "interest": 2.08,
       "word_count": 3,
@@ -2591,6 +2599,14 @@
       "score": 4.13,
       "lang": "ja",
       "researched_at": "2026-03-18T11:35:43.962023+00:00"
+    },
+    {
+      "keyword": "スマホ 目の疲れ 対策",
+      "interest": 2.07,
+      "word_count": 3,
+      "score": 4.13,
+      "lang": "ja",
+      "researched_at": "2026-03-23T19:05:25.173434+00:00"
     },
     {
       "keyword": "加湿器 おすすめランキング",
@@ -3015,6 +3031,14 @@
       "score": 3.67,
       "lang": "en",
       "researched_at": "2026-02-26T14:45:09.744013+00:00"
+    },
+    {
+      "keyword": "除湿機 おすすめ 冬",
+      "interest": 1.82,
+      "word_count": 3,
+      "score": 3.65,
+      "lang": "ja",
+      "researched_at": "2026-03-23T19:05:25.173437+00:00"
     },
     {
       "keyword": "親の介護 費用負担",
@@ -3975,31 +3999,7 @@
       "score": 3.06,
       "lang": "en",
       "researched_at": "2026-02-17T07:43:56.584474+00:00"
-    },
-    {
-      "keyword": "eye strain from screen time solution",
-      "interest": 1.02,
-      "word_count": 6,
-      "score": 3.06,
-      "lang": "en",
-      "researched_at": "2026-02-26T03:10:00.181409+00:00"
-    },
-    {
-      "keyword": "top smart scales for health tracking",
-      "interest": 1.02,
-      "word_count": 6,
-      "score": 3.06,
-      "lang": "en",
-      "researched_at": "2026-02-26T18:06:28.453203+00:00"
-    },
-    {
-      "keyword": "除湿機 おすすめ 静か",
-      "interest": 1.53,
-      "word_count": 3,
-      "score": 3.05,
-      "lang": "ja",
-      "researched_at": "2026-03-03T14:33:44.967435+00:00"
     }
   ],
-  "last_updated": "2026-03-23T16:05:18.276281+00:00"
+  "last_updated": "2026-03-23T19:05:43.595604+00:00"
 }
