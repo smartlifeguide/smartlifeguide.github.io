@@ -1697,6 +1697,14 @@
       "researched_at": "2026-02-26T14:45:09.744007+00:00"
     },
     {
+      "keyword": "家計簿 付け方 初心者",
+      "interest": 2.65,
+      "word_count": 3,
+      "score": 5.3,
+      "lang": "ja",
+      "researched_at": "2026-03-24T19:15:17.540084+00:00"
+    },
+    {
       "keyword": "ガス代 節約",
       "interest": 3.16,
       "word_count": 2,
@@ -2751,6 +2759,14 @@
       "score": 4.04,
       "lang": "ja",
       "researched_at": "2026-03-20T13:16:12.740638+00:00"
+    },
+    {
+      "keyword": "電子レンジ おすすめ 2025",
+      "interest": 2.02,
+      "word_count": 3,
+      "score": 4.04,
+      "lang": "ja",
+      "researched_at": "2026-03-24T19:15:17.540108+00:00"
     },
     {
       "keyword": "ホットプレート おすすめ おしゃれ",
@@ -3983,23 +3999,7 @@
       "score": 3.11,
       "lang": "en",
       "researched_at": "2026-03-20T21:38:58.840545+00:00"
-    },
-    {
-      "keyword": "空気清浄機 比較表",
-      "interest": 1.86,
-      "word_count": 2,
-      "score": 3.1,
-      "lang": "ja",
-      "researched_at": "2026-03-05T11:08:49.842387+00:00"
-    },
-    {
-      "keyword": "how to save on electricity bill in summer",
-      "interest": 1.03,
-      "word_count": 8,
-      "score": 3.1,
-      "lang": "en",
-      "researched_at": "2026-03-07T21:42:51.474389+00:00"
     }
   ],
-  "last_updated": "2026-03-24T16:12:56.716674+00:00"
+  "last_updated": "2026-03-24T19:15:40.795373+00:00"
 }
