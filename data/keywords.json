@@ -2137,6 +2137,14 @@
       "researched_at": "2026-03-09T05:14:23.482298+00:00"
     },
     {
+      "keyword": "体組成計 体重計 スマホ連動 おすすめ",
+      "interest": 1.93,
+      "word_count": 4,
+      "score": 4.51,
+      "lang": "ja",
+      "researched_at": "2026-03-25T07:13:01.036085+00:00"
+    },
+    {
       "keyword": "食費 日用品 節約 コツ",
       "interest": 1.92,
       "word_count": 4,
@@ -3097,6 +3105,14 @@
       "researched_at": "2026-02-26T14:45:09.744013+00:00"
     },
     {
+      "keyword": "学資保険 おすすめ 東京海上日動",
+      "interest": 1.84,
+      "word_count": 3,
+      "score": 3.67,
+      "lang": "ja",
+      "researched_at": "2026-03-25T07:13:01.036107+00:00"
+    },
+    {
       "keyword": "除湿機 おすすめ 冬",
       "interest": 1.82,
       "word_count": 3,
@@ -3983,23 +3999,7 @@
       "score": 3.12,
       "lang": "ja",
       "researched_at": "2026-03-13T05:07:29.715286+00:00"
-    },
-    {
-      "keyword": "top 5 free budgeting apps",
-      "interest": 1.16,
-      "word_count": 5,
-      "score": 3.11,
-      "lang": "en",
-      "researched_at": "2026-03-02T11:12:11.732307+00:00"
-    },
-    {
-      "keyword": "mini washing machine review reddit",
-      "interest": 1.16,
-      "word_count": 5,
-      "score": 3.11,
-      "lang": "en",
-      "researched_at": "2026-03-17T22:56:21.563278+00:00"
     }
   ],
-  "last_updated": "2026-03-25T05:01:56.322424+00:00"
+  "last_updated": "2026-03-25T07:13:23.621584+00:00"
 }
