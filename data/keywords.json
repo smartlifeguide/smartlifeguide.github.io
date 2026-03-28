@@ -1297,6 +1297,14 @@
       "researched_at": "2026-02-26T03:10:00.181382+00:00"
     },
     {
+      "keyword": "how to cut grocery bill by 90 percent",
+      "interest": 2.15,
+      "word_count": 8,
+      "score": 6.46,
+      "lang": "en",
+      "researched_at": "2026-03-28T13:11:20.857557+00:00"
+    },
+    {
       "keyword": "空気清浄機 比較 おすすめ",
       "interest": 3.21,
       "word_count": 3,
@@ -3991,15 +3999,7 @@
       "score": 3.23,
       "lang": "en",
       "researched_at": "2026-02-26T03:33:48.560761+00:00"
-    },
-    {
-      "keyword": "top sleep masks for better rest",
-      "interest": 1.08,
-      "word_count": 6,
-      "score": 3.23,
-      "lang": "en",
-      "researched_at": "2026-02-26T08:05:23.958985+00:00"
     }
   ],
-  "last_updated": "2026-03-28T09:47:38.573930+00:00"
+  "last_updated": "2026-03-28T13:11:20.857757+00:00"
 }
