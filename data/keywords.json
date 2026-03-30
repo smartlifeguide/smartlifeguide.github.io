@@ -2049,6 +2049,14 @@
       "researched_at": "2026-03-27T03:17:17.597279+00:00"
     },
     {
+      "keyword": "小学生 習い事 スポーツ おすすめ",
+      "interest": 2.09,
+      "word_count": 4,
+      "score": 4.87,
+      "lang": "ja",
+      "researched_at": "2026-03-30T19:11:11.296026+00:00"
+    },
+    {
       "keyword": "dishwasher comparison site",
       "interest": 2.43,
       "word_count": 3,
@@ -2207,6 +2215,14 @@
       "score": 4.67,
       "lang": "ja",
       "researched_at": "2026-02-26T11:29:11.358317+00:00"
+    },
+    {
+      "keyword": "冷え性 対策 グッズ 女性",
+      "interest": 2.0,
+      "word_count": 4,
+      "score": 4.67,
+      "lang": "ja",
+      "researched_at": "2026-03-30T19:11:11.296049+00:00"
     },
     {
       "keyword": "加湿器 おすすめ ニトリ",
@@ -2887,6 +2903,14 @@
       "score": 4.13,
       "lang": "ja",
       "researched_at": "2026-03-30T10:23:59.052149+00:00"
+    },
+    {
+      "keyword": "親の介護 費用 控除",
+      "interest": 2.07,
+      "word_count": 3,
+      "score": 4.13,
+      "lang": "ja",
+      "researched_at": "2026-03-30T19:11:11.296053+00:00"
     },
     {
       "keyword": "加湿器 おすすめランキング",
@@ -3975,31 +3999,7 @@
       "score": 3.3,
       "lang": "en",
       "researched_at": "2026-03-15T05:46:06.564873+00:00"
-    },
-    {
-      "keyword": "best tablets for students on a budget",
-      "interest": 1.1,
-      "word_count": 7,
-      "score": 3.3,
-      "lang": "en",
-      "researched_at": "2026-03-15T07:58:19.962661+00:00"
-    },
-    {
-      "keyword": "meal planning ideas on a budget",
-      "interest": 1.1,
-      "word_count": 6,
-      "score": 3.3,
-      "lang": "en",
-      "researched_at": "2026-03-15T14:02:07.121257+00:00"
-    },
-    {
-      "keyword": "how to reduce grocery bill canada",
-      "interest": 1.1,
-      "word_count": 6,
-      "score": 3.3,
-      "lang": "en",
-      "researched_at": "2026-03-17T05:15:53.944817+00:00"
     }
   ],
-  "last_updated": "2026-03-30T16:10:27.748774+00:00"
+  "last_updated": "2026-03-30T19:11:42.000714+00:00"
 }
