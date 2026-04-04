@@ -1809,6 +1809,14 @@
       "researched_at": "2026-04-02T19:07:05.767436+00:00"
     },
     {
+      "keyword": "小学生 低 学年 習い事 おすすめ",
+      "interest": 2.09,
+      "word_count": 5,
+      "score": 5.57,
+      "lang": "ja",
+      "researched_at": "2026-04-04T18:55:07.585017+00:00"
+    },
+    {
       "keyword": "how to save on electricity bills at home",
       "interest": 1.85,
       "word_count": 8,
@@ -3649,6 +3657,14 @@
       "researched_at": "2026-04-04T09:48:37.648178+00:00"
     },
     {
+      "keyword": "best tablets for students on a budget",
+      "interest": 1.25,
+      "word_count": 7,
+      "score": 3.76,
+      "lang": "en",
+      "researched_at": "2026-04-04T18:55:36.627065+00:00"
+    },
+    {
       "keyword": "衣類乾燥機 おすすめ メーカー",
       "interest": 1.87,
       "word_count": 3,
@@ -3983,23 +3999,7 @@
       "score": 3.52,
       "lang": "en",
       "researched_at": "2026-03-31T02:57:46.839382+00:00"
-    },
-    {
-      "keyword": "目の疲れ 対策グッズ",
-      "interest": 2.11,
-      "word_count": 2,
-      "score": 3.52,
-      "lang": "ja",
-      "researched_at": "2026-04-03T07:21:25.099393+00:00"
-    },
-    {
-      "keyword": "eye strain from screen time solution",
-      "interest": 1.16,
-      "word_count": 6,
-      "score": 3.49,
-      "lang": "en",
-      "researched_at": "2026-03-25T10:01:32.677202+00:00"
     }
   ],
-  "last_updated": "2026-04-04T15:40:21.107241+00:00"
+  "last_updated": "2026-04-04T18:55:36.627375+00:00"
 }
