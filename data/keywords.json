@@ -3937,6 +3937,14 @@
       "researched_at": "2026-02-28T09:50:43.901026+00:00"
     },
     {
+      "keyword": "ロボット掃除機 おすすめメーカー",
+      "interest": 2.13,
+      "word_count": 2,
+      "score": 3.55,
+      "lang": "ja",
+      "researched_at": "2026-04-05T03:23:25.926695+00:00"
+    },
+    {
       "keyword": "加湿器 おすすめ 一人暮らし",
       "interest": 1.77,
       "word_count": 3,
@@ -3991,15 +3999,7 @@
       "score": 3.52,
       "lang": "en",
       "researched_at": "2026-02-26T14:45:09.744016+00:00"
-    },
-    {
-      "keyword": "school savings plan for kids",
-      "interest": 1.32,
-      "word_count": 5,
-      "score": 3.52,
-      "lang": "en",
-      "researched_at": "2026-03-31T02:57:46.839382+00:00"
     }
   ],
-  "last_updated": "2026-04-04T21:39:38.979232+00:00"
+  "last_updated": "2026-04-05T03:23:57.806256+00:00"
 }
