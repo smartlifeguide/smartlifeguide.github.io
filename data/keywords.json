@@ -3153,6 +3153,14 @@
       "researched_at": "2026-03-23T07:22:46.545175+00:00"
     },
     {
+      "keyword": "ふるさと納税 やり方 amazon",
+      "interest": 2.11,
+      "word_count": 3,
+      "score": 4.22,
+      "lang": "ja",
+      "researched_at": "2026-04-07T21:51:14.408354+00:00"
+    },
+    {
       "keyword": "除湿機 おすすめ 洗濯物",
       "interest": 2.1,
       "word_count": 3,
@@ -3991,15 +3999,7 @@
       "score": 3.6,
       "lang": "ja",
       "researched_at": "2026-03-08T13:53:28.874758+00:00"
-    },
-    {
-      "keyword": "ドラム式洗濯機 おすすめ パナソニック",
-      "interest": 1.8,
-      "word_count": 3,
-      "score": 3.6,
-      "lang": "ja",
-      "researched_at": "2026-03-12T19:56:32.246945+00:00"
     }
   ],
-  "last_updated": "2026-04-07T19:16:18.076299+00:00"
+  "last_updated": "2026-04-07T21:51:43.014253+00:00"
 }
