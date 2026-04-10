@@ -1433,6 +1433,14 @@
       "researched_at": "2026-04-07T03:17:30.770659+00:00"
     },
     {
+      "keyword": "education savings account for kids",
+      "interest": 2.51,
+      "word_count": 5,
+      "score": 6.68,
+      "lang": "en",
+      "researched_at": "2026-04-10T21:49:04.833591+00:00"
+    },
+    {
       "keyword": "how to get rid of eye strain from screens",
       "interest": 2.2,
       "word_count": 9,
@@ -1783,6 +1791,14 @@
       "score": 6.02,
       "lang": "ja",
       "researched_at": "2026-02-26T08:04:52.692206+00:00"
+    },
+    {
+      "keyword": "how to cut grocery bill in half",
+      "interest": 2.0,
+      "word_count": 7,
+      "score": 6.0,
+      "lang": "en",
+      "researched_at": "2026-04-10T21:49:04.833613+00:00"
     },
     {
       "keyword": "教育費 貯め方 おすすめ",
@@ -3983,23 +3999,7 @@
       "score": 3.74,
       "lang": "en",
       "researched_at": "2026-03-05T22:03:00.132710+00:00"
-    },
-    {
-      "keyword": "水道代 節約方法",
-      "interest": 2.24,
-      "word_count": 2,
-      "score": 3.74,
-      "lang": "ja",
-      "researched_at": "2026-03-12T18:00:31.046405+00:00"
-    },
-    {
-      "keyword": "食費 節約 コツ",
-      "interest": 1.87,
-      "word_count": 3,
-      "score": 3.74,
-      "lang": "ja",
-      "researched_at": "2026-03-16T22:54:20.895689+00:00"
     }
   ],
-  "last_updated": "2026-04-10T19:05:31.493819+00:00"
+  "last_updated": "2026-04-10T21:49:04.834228+00:00"
 }
