@@ -1161,6 +1161,14 @@
       "researched_at": "2026-04-03T05:13:17.844899+00:00"
     },
     {
+      "keyword": "eye strain from screen time solution",
+      "interest": 2.74,
+      "word_count": 6,
+      "score": 8.21,
+      "lang": "en",
+      "researched_at": "2026-04-11T02:52:06.405668+00:00"
+    },
+    {
       "keyword": "コードレス掃除機 おすすめ シャーク",
       "interest": 4.05,
       "word_count": 3,
@@ -3991,15 +3999,7 @@
       "score": 3.74,
       "lang": "ja",
       "researched_at": "2026-03-02T11:11:54.240609+00:00"
-    },
-    {
-      "keyword": "dishwasher comparison tool",
-      "interest": 1.87,
-      "word_count": 3,
-      "score": 3.74,
-      "lang": "en",
-      "researched_at": "2026-03-05T22:03:00.132710+00:00"
     }
   ],
-  "last_updated": "2026-04-10T21:49:04.834228+00:00"
+  "last_updated": "2026-04-11T02:52:06.405846+00:00"
 }
