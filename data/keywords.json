@@ -3241,6 +3241,14 @@
       "researched_at": "2026-04-10T03:27:37.762042+00:00"
     },
     {
+      "keyword": "学資保険 おすすめ 日本生命",
+      "interest": 2.13,
+      "word_count": 3,
+      "score": 4.26,
+      "lang": "ja",
+      "researched_at": "2026-04-15T03:25:39.971421+00:00"
+    },
+    {
       "keyword": "コードレス掃除機 おすすめ 軽い",
       "interest": 2.12,
       "word_count": 3,
@@ -3455,6 +3463,14 @@
       "score": 4.15,
       "lang": "ja",
       "researched_at": "2026-04-03T13:19:53.934805+00:00"
+    },
+    {
+      "keyword": "肩こり 解消 グッズ 磁気",
+      "interest": 1.78,
+      "word_count": 4,
+      "score": 4.15,
+      "lang": "ja",
+      "researched_at": "2026-04-15T03:25:39.971443+00:00"
     },
     {
       "keyword": "how to improve sleep.quality",
@@ -3983,23 +3999,7 @@
       "score": 3.84,
       "lang": "en",
       "researched_at": "2026-03-09T22:00:09.058372+00:00"
-    },
-    {
-      "keyword": "ポイ活 おすすめ アプリ",
-      "interest": 1.91,
-      "word_count": 3,
-      "score": 3.83,
-      "lang": "ja",
-      "researched_at": "2026-02-26T03:33:17.774764+00:00"
-    },
-    {
-      "keyword": "best free budget app for family",
-      "interest": 1.26,
-      "word_count": 6,
-      "score": 3.79,
-      "lang": "en",
-      "researched_at": "2026-04-03T09:58:40.872370+00:00"
     }
   ],
-  "last_updated": "2026-04-14T21:58:39.878913+00:00"
+  "last_updated": "2026-04-15T03:25:55.972633+00:00"
 }
