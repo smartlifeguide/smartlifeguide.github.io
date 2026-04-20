@@ -3521,6 +3521,14 @@
       "researched_at": "2026-04-15T03:25:39.971421+00:00"
     },
     {
+      "keyword": "水道代 節約 トイレ",
+      "interest": 2.13,
+      "word_count": 3,
+      "score": 4.26,
+      "lang": "ja",
+      "researched_at": "2026-04-20T10:55:04.998651+00:00"
+    },
+    {
       "keyword": "コードレス掃除機 おすすめ 軽い",
       "interest": 2.12,
       "word_count": 3,
@@ -3543,6 +3551,14 @@
       "score": 4.24,
       "lang": "ja",
       "researched_at": "2026-03-28T21:37:38.792214+00:00"
+    },
+    {
+      "keyword": "疲労回復 サプリ おすすめ",
+      "interest": 2.12,
+      "word_count": 3,
+      "score": 4.24,
+      "lang": "ja",
+      "researched_at": "2026-04-20T10:55:04.998675+00:00"
     },
     {
       "keyword": "cheap meal planning ideas",
@@ -3735,6 +3751,14 @@
       "score": 4.18,
       "lang": "ja",
       "researched_at": "2026-04-04T15:39:55.794303+00:00"
+    },
+    {
+      "keyword": "senior-friendly cell phones",
+      "interest": 2.09,
+      "word_count": 3,
+      "score": 4.18,
+      "lang": "en",
+      "researched_at": "2026-04-20T10:55:24.122329+00:00"
     },
     {
       "keyword": "食費 節約 こつ",
@@ -3975,31 +3999,7 @@
       "score": 4.07,
       "lang": "ja",
       "researched_at": "2026-04-15T21:58:36.179931+00:00"
-    },
-    {
-      "keyword": "ふるさと納税 やり方 公務員",
-      "interest": 2.03,
-      "word_count": 3,
-      "score": 4.07,
-      "lang": "ja",
-      "researched_at": "2026-04-16T19:26:19.670432+00:00"
-    },
-    {
-      "keyword": "dishwasher comparison tool",
-      "interest": 2.03,
-      "word_count": 3,
-      "score": 4.07,
-      "lang": "en",
-      "researched_at": "2026-04-17T03:29:33.916833+00:00"
-    },
-    {
-      "keyword": "best air purifier for allergies and dust",
-      "interest": 1.35,
-      "word_count": 7,
-      "score": 4.06,
-      "lang": "en",
-      "researched_at": "2026-02-17T07:43:56.584466+00:00"
     }
   ],
-  "last_updated": "2026-04-20T08:22:04.507877+00:00"
+  "last_updated": "2026-04-20T10:55:24.122554+00:00"
 }
