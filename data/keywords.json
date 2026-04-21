@@ -2297,6 +2297,14 @@
       "researched_at": "2026-04-01T19:14:53.949435+00:00"
     },
     {
+      "keyword": "加湿器 おすすめ 卓上",
+      "interest": 2.7,
+      "word_count": 3,
+      "score": 5.41,
+      "lang": "ja",
+      "researched_at": "2026-04-21T03:30:21.897827+00:00"
+    },
+    {
       "keyword": "衣類乾燥機 おすすめ 電気",
       "interest": 2.69,
       "word_count": 3,
@@ -3425,6 +3433,14 @@
       "researched_at": "2026-03-30T10:23:59.052134+00:00"
     },
     {
+      "keyword": "ふるさと納税 やり方 初心者",
+      "interest": 2.15,
+      "word_count": 3,
+      "score": 4.31,
+      "lang": "ja",
+      "researched_at": "2026-04-21T03:30:21.897849+00:00"
+    },
+    {
       "keyword": "親の介護 費用 誰が払う",
       "interest": 2.14,
       "word_count": 3,
@@ -3983,23 +3999,7 @@
       "score": 4.07,
       "lang": "ja",
       "researched_at": "2026-04-03T07:21:25.099369+00:00"
-    },
-    {
-      "keyword": "中学生 通信教育 比較",
-      "interest": 2.03,
-      "word_count": 3,
-      "score": 4.07,
-      "lang": "ja",
-      "researched_at": "2026-04-04T04:58:07.147148+00:00"
-    },
-    {
-      "keyword": "除湿機 おすすめ 部屋干し",
-      "interest": 2.03,
-      "word_count": 3,
-      "score": 4.07,
-      "lang": "ja",
-      "researched_at": "2026-04-04T15:39:55.794328+00:00"
     }
   ],
-  "last_updated": "2026-04-20T21:55:20.043773+00:00"
+  "last_updated": "2026-04-21T03:30:40.644067+00:00"
 }
