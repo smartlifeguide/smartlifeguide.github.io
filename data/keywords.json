@@ -1801,6 +1801,14 @@
       "researched_at": "2026-04-18T07:21:02.753263+00:00"
     },
     {
+      "keyword": "the best personal alarms for the elderly",
+      "interest": 2.05,
+      "word_count": 7,
+      "score": 6.16,
+      "lang": "en",
+      "researched_at": "2026-04-22T21:57:22.823521+00:00"
+    },
+    {
       "keyword": "除湿機 おすすめ ハイブリッド",
       "interest": 3.08,
       "word_count": 3,
@@ -1935,6 +1943,14 @@
       "score": 6.0,
       "lang": "en",
       "researched_at": "2026-04-10T21:49:04.833613+00:00"
+    },
+    {
+      "keyword": "best lower back pain relief products",
+      "interest": 1.99,
+      "word_count": 6,
+      "score": 5.97,
+      "lang": "en",
+      "researched_at": "2026-04-22T21:57:22.823539+00:00"
     },
     {
       "keyword": "教育費 貯め方 おすすめ",
@@ -3983,23 +3999,7 @@
       "score": 4.09,
       "lang": "ja",
       "researched_at": "2026-04-11T07:11:28.931849+00:00"
-    },
-    {
-      "keyword": "水道代 節約 元栓",
-      "interest": 2.04,
-      "word_count": 3,
-      "score": 4.09,
-      "lang": "ja",
-      "researched_at": "2026-04-18T21:43:33.543198+00:00"
-    },
-    {
-      "keyword": "medical alert systems comparison",
-      "interest": 1.75,
-      "word_count": 4,
-      "score": 4.08,
-      "lang": "en",
-      "researched_at": "2026-03-02T05:09:54.798947+00:00"
     }
   ],
-  "last_updated": "2026-04-22T19:25:06.989163+00:00"
+  "last_updated": "2026-04-22T21:57:22.823700+00:00"
 }
