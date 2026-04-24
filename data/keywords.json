@@ -3969,6 +3969,14 @@
       "researched_at": "2026-04-02T16:06:34.905391+00:00"
     },
     {
+      "keyword": "dishwasher comparison tool",
+      "interest": 2.07,
+      "word_count": 3,
+      "score": 4.13,
+      "lang": "en",
+      "researched_at": "2026-04-24T19:04:41.926884+00:00"
+    },
+    {
       "keyword": "加湿器 おすすめランキング",
       "interest": 2.47,
       "word_count": 2,
@@ -3991,15 +3999,7 @@
       "score": 4.11,
       "lang": "ja",
       "researched_at": "2026-03-07T21:42:35.564878+00:00"
-    },
-    {
-      "keyword": "高校受験 塾 選び方",
-      "interest": 2.05,
-      "word_count": 3,
-      "score": 4.11,
-      "lang": "ja",
-      "researched_at": "2026-03-22T02:52:36.525013+00:00"
     }
   ],
-  "last_updated": "2026-04-24T16:09:40.294252+00:00"
+  "last_updated": "2026-04-24T19:04:41.927032+00:00"
 }
