@@ -3081,6 +3081,14 @@
       "researched_at": "2026-04-02T07:24:51.038007+00:00"
     },
     {
+      "keyword": "肩こり 解消 グッズ 磁気",
+      "interest": 2.0,
+      "word_count": 4,
+      "score": 4.67,
+      "lang": "ja",
+      "researched_at": "2026-05-02T03:33:54.096683+00:00"
+    },
+    {
       "keyword": "加湿器 おすすめ ニトリ",
       "interest": 2.31,
       "word_count": 3,
@@ -3825,6 +3833,14 @@
       "researched_at": "2026-05-01T16:02:36.984572+00:00"
     },
     {
+      "keyword": "ドラム式洗濯機 おすすめ 安い",
+      "interest": 2.12,
+      "word_count": 3,
+      "score": 4.24,
+      "lang": "ja",
+      "researched_at": "2026-05-02T03:33:54.096709+00:00"
+    },
+    {
       "keyword": "cheap meal planning ideas",
       "interest": 1.81,
       "word_count": 4,
@@ -3983,23 +3999,7 @@
       "score": 4.19,
       "lang": "ja",
       "researched_at": "2026-02-26T05:14:18.201402+00:00"
-    },
-    {
-      "keyword": "Online coding classes for kids",
-      "interest": 1.57,
-      "word_count": 5,
-      "score": 4.19,
-      "lang": "en",
-      "researched_at": "2026-02-27T08:02:20.560527+00:00"
-    },
-    {
-      "keyword": "best robot vacuum for pet hair hard floors",
-      "interest": 1.4,
-      "word_count": 8,
-      "score": 4.19,
-      "lang": "en",
-      "researched_at": "2026-04-15T19:38:37.361679+00:00"
     }
   ],
-  "last_updated": "2026-05-01T21:59:27.498553+00:00"
+  "last_updated": "2026-05-02T03:34:11.471475+00:00"
 }
