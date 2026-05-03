@@ -385,6 +385,14 @@
       "researched_at": "2026-02-26T03:10:00.181368+00:00"
     },
     {
+      "keyword": "best electric toothbrush for kids",
+      "interest": 10.56,
+      "word_count": 5,
+      "score": 28.15,
+      "lang": "en",
+      "researched_at": "2026-05-03T21:53:50.910702+00:00"
+    },
+    {
       "keyword": "best baby monitor with camera",
       "interest": 10.3,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 4.22,
       "lang": "ja",
       "researched_at": "2026-03-23T02:52:50.568793+00:00"
-    },
-    {
-      "keyword": "教育費 貯め方 口座",
-      "interest": 2.11,
-      "word_count": 3,
-      "score": 4.22,
-      "lang": "ja",
-      "researched_at": "2026-03-23T07:22:46.545175+00:00"
     }
   ],
-  "last_updated": "2026-05-03T19:11:05.130407+00:00"
+  "last_updated": "2026-05-03T21:53:50.910952+00:00"
 }
