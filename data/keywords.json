@@ -401,6 +401,14 @@
       "researched_at": "2026-03-07T04:49:37.555683+00:00"
     },
     {
+      "keyword": "Best supplements for joint health",
+      "interest": 10.13,
+      "word_count": 5,
+      "score": 27.02,
+      "lang": "en",
+      "researched_at": "2026-05-04T08:39:41.261357+00:00"
+    },
+    {
       "keyword": "best family credit cards rewards",
       "interest": 10.1,
       "word_count": 5,
@@ -703,6 +711,14 @@
       "score": 15.08,
       "lang": "ja",
       "researched_at": "2026-03-05T07:58:15.115993+00:00"
+    },
+    {
+      "keyword": "Natural remedies for sore throat",
+      "interest": 5.64,
+      "word_count": 5,
+      "score": 15.05,
+      "lang": "en",
+      "researched_at": "2026-05-04T08:39:41.261367+00:00"
     },
     {
       "keyword": "ふるさと納税 やり方 ワンストップ",
@@ -3983,23 +3999,7 @@
       "score": 4.23,
       "lang": "en",
       "researched_at": "2026-03-17T05:15:53.944800+00:00"
-    },
-    {
-      "keyword": "ふるさと納税 米 おすすめ",
-      "interest": 2.11,
-      "word_count": 3,
-      "score": 4.22,
-      "lang": "ja",
-      "researched_at": "2026-02-26T18:05:58.533853+00:00"
-    },
-    {
-      "keyword": "除湿機 おすすめ 小型",
-      "interest": 2.11,
-      "word_count": 3,
-      "score": 4.22,
-      "lang": "ja",
-      "researched_at": "2026-03-07T07:42:58.010167+00:00"
     }
   ],
-  "last_updated": "2026-05-04T03:53:53.566831+00:00"
+  "last_updated": "2026-05-04T08:39:41.261810+00:00"
 }
