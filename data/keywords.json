@@ -2185,6 +2185,14 @@
       "researched_at": "2026-02-26T05:14:18.201373+00:00"
     },
     {
+      "keyword": "top 5 free budgeting apps",
+      "interest": 2.2,
+      "word_count": 5,
+      "score": 5.87,
+      "lang": "en",
+      "researched_at": "2026-05-16T10:23:01.023844+00:00"
+    },
+    {
       "keyword": "how to reduce grocery bill",
       "interest": 2.2,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 4.26,
       "lang": "ja",
       "researched_at": "2026-02-26T04:03:45.470192+00:00"
-    },
-    {
-      "keyword": "見守りカメラ 高齢者 比較",
-      "interest": 2.13,
-      "word_count": 3,
-      "score": 4.26,
-      "lang": "ja",
-      "researched_at": "2026-03-05T05:06:46.697148+00:00"
     }
   ],
-  "last_updated": "2026-05-16T08:13:20.661035+00:00"
+  "last_updated": "2026-05-16T10:23:01.023987+00:00"
 }
