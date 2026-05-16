@@ -601,6 +601,14 @@
       "researched_at": "2026-02-26T02:56:47.097985+00:00"
     },
     {
+      "keyword": "best noise cancelling headphones kids",
+      "interest": 7.67,
+      "word_count": 5,
+      "score": 20.44,
+      "lang": "en",
+      "researched_at": "2026-05-16T16:03:53.811231+00:00"
+    },
+    {
       "keyword": "bosch dishwasher comparison",
       "interest": 10.19,
       "word_count": 3,
@@ -1135,6 +1143,14 @@
       "score": 9.97,
       "lang": "ja",
       "researched_at": "2026-03-12T19:56:32.246921+00:00"
+    },
+    {
+      "keyword": "grocery delivery services comparison",
+      "interest": 4.18,
+      "word_count": 4,
+      "score": 9.75,
+      "lang": "en",
+      "researched_at": "2026-05-16T16:03:53.811249+00:00"
     },
     {
       "keyword": "best smart home security cameras",
@@ -2681,12 +2697,28 @@
       "researched_at": "2026-04-26T15:52:18.044366+00:00"
     },
     {
+      "keyword": "eye strain relief glasses review",
+      "interest": 1.98,
+      "word_count": 5,
+      "score": 5.27,
+      "lang": "en",
+      "researched_at": "2026-05-16T16:03:53.811253+00:00"
+    },
+    {
       "keyword": "Best energy efficient refrigerators",
       "interest": 2.25,
       "word_count": 4,
       "score": 5.24,
       "lang": "en",
       "researched_at": "2026-02-27T08:02:20.560524+00:00"
+    },
+    {
+      "keyword": "save money on utilities",
+      "interest": 2.24,
+      "word_count": 4,
+      "score": 5.24,
+      "lang": "en",
+      "researched_at": "2026-05-16T16:03:53.811256+00:00"
     },
     {
       "keyword": "ふるさと納税 やり方 会社員",
@@ -3967,39 +3999,7 @@
       "score": 4.29,
       "lang": "ja",
       "researched_at": "2026-04-18T21:43:33.543194+00:00"
-    },
-    {
-      "keyword": "ガス代 節約 給湯温度",
-      "interest": 2.14,
-      "word_count": 3,
-      "score": 4.29,
-      "lang": "ja",
-      "researched_at": "2026-05-03T10:12:40.797098+00:00"
-    },
-    {
-      "keyword": "目の疲れ 対策 サプリ",
-      "interest": 2.13,
-      "word_count": 3,
-      "score": 4.27,
-      "lang": "ja",
-      "researched_at": "2026-05-01T19:21:53.858523+00:00"
-    },
-    {
-      "keyword": "ふるさと納税 やり方 わかりやすく",
-      "interest": 2.13,
-      "word_count": 3,
-      "score": 4.27,
-      "lang": "ja",
-      "researched_at": "2026-05-16T08:13:01.384979+00:00"
-    },
-    {
-      "keyword": "足のむくみ 解消 マッサージ",
-      "interest": 2.13,
-      "word_count": 3,
-      "score": 4.26,
-      "lang": "ja",
-      "researched_at": "2026-02-26T04:03:45.470192+00:00"
     }
   ],
-  "last_updated": "2026-05-16T13:48:04.965729+00:00"
+  "last_updated": "2026-05-16T16:03:53.811507+00:00"
 }
