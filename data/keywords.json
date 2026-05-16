@@ -121,6 +121,14 @@
       "researched_at": "2026-03-04T19:53:38.960912+00:00"
     },
     {
+      "keyword": "in home senior care services",
+      "interest": 26.06,
+      "word_count": 5,
+      "score": 69.48,
+      "lang": "en",
+      "researched_at": "2026-05-16T21:57:19.310707+00:00"
+    },
+    {
       "keyword": "best credit card for groceries",
       "interest": 25.31,
       "word_count": 5,
@@ -1161,6 +1169,14 @@
       "researched_at": "2026-03-09T22:00:09.058359+00:00"
     },
     {
+      "keyword": "robot vacuum mop combo review",
+      "interest": 3.59,
+      "word_count": 5,
+      "score": 9.57,
+      "lang": "en",
+      "researched_at": "2026-05-16T21:57:19.310724+00:00"
+    },
+    {
       "keyword": "online tutoring comparison",
       "interest": 4.75,
       "word_count": 3,
@@ -1271,6 +1287,14 @@
       "score": 8.51,
       "lang": "en",
       "researched_at": "2026-04-19T09:55:23.532470+00:00"
+    },
+    {
+      "keyword": "student loan repayment strategies",
+      "interest": 3.63,
+      "word_count": 4,
+      "score": 8.48,
+      "lang": "en",
+      "researched_at": "2026-05-16T21:57:19.310728+00:00"
     },
     {
       "keyword": "best robot vacuum for pet hair with mop",
@@ -3975,31 +3999,7 @@
       "score": 4.31,
       "lang": "ja",
       "researched_at": "2026-04-21T03:30:21.897849+00:00"
-    },
-    {
-      "keyword": "親の介護 費用 誰が払う",
-      "interest": 2.14,
-      "word_count": 3,
-      "score": 4.29,
-      "lang": "ja",
-      "researched_at": "2026-03-04T17:26:49.127380+00:00"
-    },
-    {
-      "keyword": "教育費 貯め方 ブログ",
-      "interest": 2.14,
-      "word_count": 3,
-      "score": 4.29,
-      "lang": "ja",
-      "researched_at": "2026-03-04T19:53:09.173353+00:00"
-    },
-    {
-      "keyword": "衣類乾燥機 おすすめ 省エネ",
-      "interest": 2.14,
-      "word_count": 3,
-      "score": 4.29,
-      "lang": "ja",
-      "researched_at": "2026-03-12T19:56:32.246943+00:00"
     }
   ],
-  "last_updated": "2026-05-16T19:16:17.856667+00:00"
+  "last_updated": "2026-05-16T21:57:19.310957+00:00"
 }
