@@ -49,6 +49,14 @@
       "researched_at": "2026-03-03T05:08:40.146515+00:00"
     },
     {
+      "keyword": "Best blue light blocking glasses",
+      "interest": 44.6,
+      "word_count": 5,
+      "score": 118.93,
+      "lang": "en",
+      "researched_at": "2026-05-17T08:30:02.265109+00:00"
+    },
+    {
       "keyword": "online learning platforms review",
       "interest": 46.71,
       "word_count": 4,
@@ -1511,6 +1519,14 @@
       "score": 7.71,
       "lang": "ja",
       "researched_at": "2026-03-02T05:09:34.440914+00:00"
+    },
+    {
+      "keyword": "Comparing car insurance quotes",
+      "interest": 3.28,
+      "word_count": 4,
+      "score": 7.65,
+      "lang": "en",
+      "researched_at": "2026-05-17T08:30:02.265127+00:00"
     },
     {
       "keyword": "best walking shoes for women comfort",
@@ -3983,23 +3999,7 @@
       "score": 4.31,
       "lang": "ja",
       "researched_at": "2026-03-16T06:07:02.364985+00:00"
-    },
-    {
-      "keyword": "ガス代 節約 暖房",
-      "interest": 2.15,
-      "word_count": 3,
-      "score": 4.31,
-      "lang": "ja",
-      "researched_at": "2026-03-20T21:38:39.782677+00:00"
-    },
-    {
-      "keyword": "食費 節約 買い物 コツ",
-      "interest": 1.85,
-      "word_count": 4,
-      "score": 4.31,
-      "lang": "ja",
-      "researched_at": "2026-03-30T10:23:59.052134+00:00"
     }
   ],
-  "last_updated": "2026-05-17T04:04:48.077519+00:00"
+  "last_updated": "2026-05-17T08:30:02.265428+00:00"
 }
