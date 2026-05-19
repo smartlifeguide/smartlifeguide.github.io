@@ -865,6 +865,14 @@
       "researched_at": "2026-04-08T03:19:21.917804+00:00"
     },
     {
+      "keyword": "Sunscreen recommendations for sensitive skin",
+      "interest": 5.32,
+      "word_count": 5,
+      "score": 14.19,
+      "lang": "en",
+      "researched_at": "2026-05-19T20:00:37.955212+00:00"
+    },
+    {
       "keyword": "コードレス掃除機 おすすめ マキタ",
       "interest": 7.02,
       "word_count": 3,
@@ -1311,6 +1319,14 @@
       "score": 8.66,
       "lang": "ja",
       "researched_at": "2026-03-13T05:07:29.715279+00:00"
+    },
+    {
+      "keyword": "Best workout apps for beginners",
+      "interest": 3.23,
+      "word_count": 5,
+      "score": 8.62,
+      "lang": "en",
+      "researched_at": "2026-05-19T20:00:37.955226+00:00"
     },
     {
       "keyword": "free printable weekly meal planner",
@@ -2415,6 +2431,14 @@
       "score": 5.71,
       "lang": "ja",
       "researched_at": "2026-03-17T22:56:02.771986+00:00"
+    },
+    {
+      "keyword": "ロボット掃除機 おすすめ 水拭き",
+      "interest": 2.86,
+      "word_count": 3,
+      "score": 5.71,
+      "lang": "ja",
+      "researched_at": "2026-05-19T20:00:11.013487+00:00"
     },
     {
       "keyword": "aging in place home modifications",
@@ -3975,31 +3999,7 @@
       "score": 4.35,
       "lang": "en",
       "researched_at": "2026-02-26T03:10:00.181392+00:00"
-    },
-    {
-      "keyword": "体重計 おすすめ 体組成計",
-      "interest": 2.18,
-      "word_count": 3,
-      "score": 4.35,
-      "lang": "ja",
-      "researched_at": "2026-03-22T09:41:22.633847+00:00"
-    },
-    {
-      "keyword": "子供 タブレット学習 比較",
-      "interest": 2.18,
-      "word_count": 3,
-      "score": 4.35,
-      "lang": "ja",
-      "researched_at": "2026-04-22T10:24:49.780829+00:00"
-    },
-    {
-      "keyword": "水道代 節約 洗濯機",
-      "interest": 2.18,
-      "word_count": 3,
-      "score": 4.35,
-      "lang": "ja",
-      "researched_at": "2026-04-29T22:06:13.396065+00:00"
     }
   ],
-  "last_updated": "2026-05-19T15:41:06.141719+00:00"
+  "last_updated": "2026-05-19T20:00:37.955573+00:00"
 }
