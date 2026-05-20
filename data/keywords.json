@@ -369,6 +369,14 @@
       "researched_at": "2026-02-26T03:10:00.181366+00:00"
     },
     {
+      "keyword": "how to reduce food waste at home",
+      "interest": 11.79,
+      "word_count": 7,
+      "score": 35.37,
+      "lang": "en",
+      "researched_at": "2026-05-20T04:13:00.269088+00:00"
+    },
+    {
       "keyword": "best credit cards for beginners",
       "interest": 12.9,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 4.36,
       "lang": "ja",
       "researched_at": "2026-05-15T04:04:18.724784+00:00"
-    },
-    {
-      "keyword": "空気清浄機 比較 実験",
-      "interest": 2.18,
-      "word_count": 3,
-      "score": 4.36,
-      "lang": "ja",
-      "researched_at": "2026-05-17T04:04:31.146741+00:00"
     }
   ],
-  "last_updated": "2026-05-19T22:21:46.636873+00:00"
+  "last_updated": "2026-05-20T04:13:00.269884+00:00"
 }
