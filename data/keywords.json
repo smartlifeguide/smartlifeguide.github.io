@@ -3817,6 +3817,14 @@
       "researched_at": "2026-02-27T21:56:06.405128+00:00"
     },
     {
+      "keyword": "ガス代 節約 給湯温度",
+      "interest": 2.21,
+      "word_count": 3,
+      "score": 4.42,
+      "lang": "ja",
+      "researched_at": "2026-05-25T04:26:20.454709+00:00"
+    },
+    {
       "keyword": "睡眠 質 改善 方法",
       "interest": 1.89,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 4.37,
       "lang": "ja",
       "researched_at": "2026-04-18T03:17:12.764566+00:00"
-    },
-    {
-      "keyword": "炊飯器 おすすめ アメリカ",
-      "interest": 2.19,
-      "word_count": 3,
-      "score": 4.37,
-      "lang": "ja",
-      "researched_at": "2026-04-18T13:17:45.471006+00:00"
     }
   ],
-  "last_updated": "2026-05-24T22:02:23.337270+00:00"
+  "last_updated": "2026-05-25T04:26:40.749652+00:00"
 }
