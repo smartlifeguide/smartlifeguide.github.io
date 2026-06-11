@@ -3521,6 +3521,14 @@
       "researched_at": "2026-05-14T22:16:16.266575+00:00"
     },
     {
+      "keyword": "best elderly monitoring systems",
+      "interest": 2.06,
+      "word_count": 4,
+      "score": 4.82,
+      "lang": "en",
+      "researched_at": "2026-06-11T20:29:49.339015+00:00"
+    },
+    {
       "keyword": "ロボット掃除機 おすすめメーカー",
       "interest": 2.89,
       "word_count": 2,
@@ -3991,15 +3999,7 @@
       "score": 4.4,
       "lang": "en",
       "researched_at": "2026-03-30T03:24:42.069615+00:00"
-    },
-    {
-      "keyword": "衣類乾燥機 おすすめ 小型",
-      "interest": 2.2,
-      "word_count": 3,
-      "score": 4.4,
-      "lang": "ja",
-      "researched_at": "2026-04-19T07:41:06.609239+00:00"
     }
   ],
-  "last_updated": "2026-06-11T16:15:20.501277+00:00"
+  "last_updated": "2026-06-11T20:29:49.339157+00:00"
 }
