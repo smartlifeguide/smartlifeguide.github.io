@@ -137,6 +137,14 @@
       "researched_at": "2026-05-19T15:41:06.141521+00:00"
     },
     {
+      "keyword": "best mattresses for back pain",
+      "interest": 27.16,
+      "word_count": 5,
+      "score": 72.43,
+      "lang": "en",
+      "researched_at": "2026-06-14T16:28:49.968900+00:00"
+    },
+    {
       "keyword": "best sunscreens for sensitive skin",
       "interest": 27.08,
       "word_count": 5,
@@ -2777,6 +2785,14 @@
       "researched_at": "2026-05-17T10:27:24.031870+00:00"
     },
     {
+      "keyword": "portable washing machine for apartments",
+      "interest": 2.05,
+      "word_count": 5,
+      "score": 5.48,
+      "lang": "en",
+      "researched_at": "2026-06-14T16:28:49.968919+00:00"
+    },
+    {
       "keyword": "how to reduce eye strain from screen",
       "interest": 1.82,
       "word_count": 7,
@@ -3983,23 +3999,7 @@
       "score": 4.42,
       "lang": "ja",
       "researched_at": "2026-05-25T04:26:20.454709+00:00"
-    },
-    {
-      "keyword": "睡眠 質 改善 方法",
-      "interest": 1.89,
-      "word_count": 4,
-      "score": 4.41,
-      "lang": "ja",
-      "researched_at": "2026-03-15T10:01:04.997290+00:00"
-    },
-    {
-      "keyword": "パソコン 目の疲れ 対策 グッズ",
-      "interest": 1.89,
-      "word_count": 4,
-      "score": 4.41,
-      "lang": "ja",
-      "researched_at": "2026-04-02T16:06:08.090796+00:00"
     }
   ],
-  "last_updated": "2026-06-14T14:20:22.037021+00:00"
+  "last_updated": "2026-06-14T16:28:49.969536+00:00"
 }
