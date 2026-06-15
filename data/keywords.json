@@ -3393,6 +3393,14 @@
       "researched_at": "2026-05-16T19:16:17.856482+00:00"
     },
     {
+      "keyword": "水道代 節約 100 均",
+      "interest": 2.12,
+      "word_count": 4,
+      "score": 4.94,
+      "lang": "ja",
+      "researched_at": "2026-06-15T05:08:46.061071+00:00"
+    },
+    {
       "keyword": "ガス代 節約 給湯器 電源",
       "interest": 2.11,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 4.44,
       "lang": "ja",
       "researched_at": "2026-03-16T20:00:11.951055+00:00"
-    },
-    {
-      "keyword": "目の疲れ 対策",
-      "interest": 2.66,
-      "word_count": 2,
-      "score": 4.43,
-      "lang": "ja",
-      "researched_at": "2026-03-03T19:54:34.219707+00:00"
     }
   ],
-  "last_updated": "2026-06-14T22:19:19.056758+00:00"
+  "last_updated": "2026-06-15T05:09:08.218068+00:00"
 }
