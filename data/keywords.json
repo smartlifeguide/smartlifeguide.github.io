@@ -249,6 +249,14 @@
       "researched_at": "2026-03-03T07:59:18.867040+00:00"
     },
     {
+      "keyword": "ergonomic pillows for neck pain",
+      "interest": 19.0,
+      "word_count": 5,
+      "score": 50.67,
+      "lang": "en",
+      "researched_at": "2026-06-17T11:09:49.014384+00:00"
+    },
+    {
       "keyword": "best walking shoes for plantar fasciitis",
       "interest": 16.54,
       "word_count": 6,
@@ -3489,6 +3497,14 @@
       "researched_at": "2026-03-30T19:11:11.296026+00:00"
     },
     {
+      "keyword": "best walking shoes for pronation",
+      "interest": 1.83,
+      "word_count": 5,
+      "score": 4.87,
+      "lang": "en",
+      "researched_at": "2026-06-17T11:09:49.014403+00:00"
+    },
+    {
       "keyword": "dishwasher comparison site",
       "interest": 2.43,
       "word_count": 3,
@@ -3983,23 +3999,7 @@
       "score": 4.46,
       "lang": "ja",
       "researched_at": "2026-03-09T11:12:29.145487+00:00"
-    },
-    {
-      "keyword": "肩こり 解消 グッズ ロフト",
-      "interest": 1.91,
-      "word_count": 4,
-      "score": 4.46,
-      "lang": "ja",
-      "researched_at": "2026-03-18T05:08:05.478254+00:00"
-    },
-    {
-      "keyword": "top elderly monitoring systems",
-      "interest": 1.91,
-      "word_count": 4,
-      "score": 4.46,
-      "lang": "en",
-      "researched_at": "2026-03-22T04:59:55.673594+00:00"
     }
   ],
-  "last_updated": "2026-06-17T04:54:01.581243+00:00"
+  "last_updated": "2026-06-17T11:09:49.014686+00:00"
 }
