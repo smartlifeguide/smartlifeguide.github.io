@@ -3825,6 +3825,14 @@
       "researched_at": "2026-05-01T16:02:19.093190+00:00"
     },
     {
+      "keyword": "食費 日用品 節約 コツ",
+      "interest": 2.01,
+      "word_count": 4,
+      "score": 4.69,
+      "lang": "ja",
+      "researched_at": "2026-06-21T09:59:49.334694+00:00"
+    },
+    {
       "keyword": "サブスク 解約 方法 忘れがち",
       "interest": 2.0,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 4.53,
       "lang": "en",
       "researched_at": "2026-05-25T10:23:51.764762+00:00"
-    },
-    {
-      "keyword": "best laptops for high school students",
-      "interest": 1.51,
-      "word_count": 6,
-      "score": 4.52,
-      "lang": "en",
-      "researched_at": "2026-03-09T05:14:23.482298+00:00"
     }
   ],
-  "last_updated": "2026-06-21T05:02:00.218151+00:00"
+  "last_updated": "2026-06-21T10:00:04.740887+00:00"
 }
