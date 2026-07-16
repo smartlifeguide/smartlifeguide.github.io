@@ -1289,6 +1289,14 @@
       "researched_at": "2026-05-16T16:03:53.811249+00:00"
     },
     {
+      "keyword": "senior friendly cell phones",
+      "interest": 4.11,
+      "word_count": 4,
+      "score": 9.59,
+      "lang": "en",
+      "researched_at": "2026-07-16T03:19:39.070693+00:00"
+    },
+    {
       "keyword": "best smart home security cameras",
       "interest": 3.59,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 4.69,
       "lang": "ja",
       "researched_at": "2026-06-21T09:59:49.334694+00:00"
-    },
-    {
-      "keyword": "サブスク 解約 方法 忘れがち",
-      "interest": 2.0,
-      "word_count": 4,
-      "score": 4.67,
-      "lang": "ja",
-      "researched_at": "2026-02-26T11:29:11.358317+00:00"
     }
   ],
-  "last_updated": "2026-07-15T22:08:28.355297+00:00"
+  "last_updated": "2026-07-16T03:19:39.070872+00:00"
 }
