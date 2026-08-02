@@ -128,10 +128,25 @@ def generate_keywords_with_gemini(
     existing_keywords: set[str],
     config: dict,
     count: int = 20,
+    published_slugs: set[str] | None = None,
 ) -> list[str]:
-    """Generate new keyword ideas using Gemini when Google Suggest is exhausted."""
+    """Generate new keyword ideas using Gemini when Google Suggest is exhausted.
+
+    ``published_slugs`` is the FULL set of already-published article slugs. It is
+    used two ways:
+      1. A large sample is shown to the model as an exclusion list (not just 50).
+      2. Every returned candidate is hard-filtered by ``_keyword_to_slug`` so that
+         no keyword whose slug collides with an already-published article can ever
+         be returned. This is what prevents the keyword deadlock from recurring.
+
+    NOTE: The actual Gemini call is CI-only (GEMINI_API_KEY is not present locally),
+    so the collision guarantee here is enforced by the post-generation slug filter
+    below, which is covered by unit-style verification rather than a live API call.
+    """
     from google import genai
     from google.genai import types
+
+    published_slugs = published_slugs or set()
 
     gemini_cfg = config.get("gemini", {})
     api_key = gemini_cfg.get("api_key")
@@ -151,7 +166,13 @@ def generate_keywords_with_gemini(
         seeds = n.get(lang_key, [])
         niche_info.append(f"- {name}: {', '.join(seeds)}")
 
-    existing_sample = sorted(existing_keywords)[:50]
+    # Show the model a large exclusion list: existing keyword phrases plus every
+    # published slug. Previously only 50 existing keywords were shown, which let
+    # the model keep proposing already-published topics.
+    existing_sample = sorted(existing_keywords)[:300]
+    published_sample = sorted(published_slugs)
+    if published_sample:
+        existing_sample = existing_sample + published_sample
 
     if lang == "ja":
         prompt = f"""あなたはSEOキーワードリサーチの専門家です。
@@ -216,8 +237,16 @@ Output only a JSON array of keywords:
         if match:
             keywords = json.loads(match.group(0))
             if isinstance(keywords, list):
-                result = [k.strip() for k in keywords if isinstance(k, str) and k.strip()]
-                logger.info("Gemini generated %d keyword candidates for %s", len(result), lang)
+                raw = [k.strip() for k in keywords if isinstance(k, str) and k.strip()]
+                # Hard slug-collision filter: never return a keyword whose slug is
+                # already published. This is the last line of defense against the
+                # keyword deadlock, independent of what the model actually returned.
+                result = [k for k in raw if _keyword_to_slug(k) not in published_slugs]
+                dropped = len(raw) - len(result)
+                logger.info(
+                    "Gemini generated %d candidates for %s (%d dropped as already-published)",
+                    len(raw), lang, dropped,
+                )
                 return result
     except Exception as e:
         logger.warning("Gemini keyword generation failed: %s", e)
@@ -242,6 +271,12 @@ def research_keywords(niches: list[dict], config: dict) -> dict:
         (k["keyword"].lower(), k["lang"]) for k in existing_data.get("keywords", [])
     }
 
+    # Load the FULL set of published slugs so we can guarantee no newly-researched
+    # keyword collides with an already-published article (the keyword-deadlock fix).
+    from pipeline.publisher import get_published_slugs
+
+    published_slugs = get_published_slugs()
+
     all_keywords: list[dict] = []
 
     for lang in languages:
@@ -250,10 +285,12 @@ def research_keywords(niches: list[dict], config: dict) -> dict:
         # Expand seed keywords via Google Suggest
         expanded = expand_keywords_from_niches(niches, lang)
 
-        # Filter out already-known keywords
+        # Filter out already-known keywords AND anything whose slug is already
+        # published (Google Suggest routinely returns already-covered topics).
         new_expanded = [
             kw for kw in expanded
             if (kw.lower().strip(), lang) not in existing_kws
+            and _keyword_to_slug(kw) not in published_slugs
         ]
         logger.info(
             "Found %d expanded keywords for %s (%d new)",
@@ -266,10 +303,14 @@ def research_keywords(niches: list[dict], config: dict) -> dict:
             existing_for_lang = {k for (k, l) in existing_kws if l == lang}
             ai_keywords = generate_keywords_with_gemini(
                 niches, lang, existing_for_lang, config, count=20,
+                published_slugs=published_slugs,
             )
-            # Add AI keywords that aren't duplicates
+            # Add AI keywords that aren't duplicates and aren't already published
             for kw in ai_keywords:
-                if (kw.lower().strip(), lang) not in existing_kws:
+                if (
+                    (kw.lower().strip(), lang) not in existing_kws
+                    and _keyword_to_slug(kw) not in published_slugs
+                ):
                     new_expanded.append(kw)
 
         if not new_expanded:
@@ -292,6 +333,8 @@ def research_keywords(niches: list[dict], config: dict) -> dict:
         k
         for k in all_keywords
         if (k["keyword"].lower(), k["lang"]) not in existing_kws
+        # Final hard guard: never persist a keyword that is already published.
+        and _keyword_to_slug(k["keyword"]) not in published_slugs
     ]
 
     merged = existing_data.get("keywords", []) + new_keywords
