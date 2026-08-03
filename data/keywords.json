@@ -1009,6 +1009,14 @@
       "researched_at": "2026-02-17T07:43:56.584444+00:00"
     },
     {
+      "keyword": "Best mattresses for side sleepers",
+      "interest": 14.55,
+      "word_count": 5,
+      "score": 38.8,
+      "lang": "en",
+      "researched_at": "2026-08-03T22:13:23.718104+00:00"
+    },
+    {
       "keyword": "comfortable walking shoes for men",
       "interest": 14.46,
       "word_count": 5,
@@ -2207,6 +2215,14 @@
       "score": 8.31,
       "lang": "ja",
       "researched_at": "2026-04-19T21:43:27.735516+00:00"
+    },
+    {
+      "keyword": "In home care vs assisted living",
+      "interest": 2.76,
+      "word_count": 6,
+      "score": 8.29,
+      "lang": "en",
+      "researched_at": "2026-08-03T22:13:23.718124+00:00"
     },
     {
       "keyword": "best robot vacuum for pet hair reddit",
@@ -3505,6 +3521,14 @@
       "researched_at": "2026-06-28T22:08:16.416265+00:00"
     },
     {
+      "keyword": "Best apps for family budgeting",
+      "interest": 2.12,
+      "word_count": 5,
+      "score": 5.65,
+      "lang": "en",
+      "researched_at": "2026-08-03T22:13:23.718127+00:00"
+    },
+    {
       "keyword": "best air purifier for allergies and pets reddit",
       "interest": 1.88,
       "word_count": 8,
@@ -3975,31 +3999,7 @@
       "score": 5.25,
       "lang": "en",
       "researched_at": "2026-07-04T03:47:08.124070+00:00"
-    },
-    {
-      "keyword": "Best energy efficient refrigerators",
-      "interest": 2.25,
-      "word_count": 4,
-      "score": 5.24,
-      "lang": "en",
-      "researched_at": "2026-02-27T08:02:20.560524+00:00"
-    },
-    {
-      "keyword": "save money on utilities",
-      "interest": 2.24,
-      "word_count": 4,
-      "score": 5.24,
-      "lang": "en",
-      "researched_at": "2026-05-16T16:03:53.811256+00:00"
-    },
-    {
-      "keyword": "ふるさと納税 やり方 会社員",
-      "interest": 2.62,
-      "word_count": 3,
-      "score": 5.23,
-      "lang": "ja",
-      "researched_at": "2026-03-02T11:11:54.240584+00:00"
     }
   ],
-  "last_updated": "2026-08-03T19:47:23.309351+00:00"
+  "last_updated": "2026-08-03T22:13:23.718493+00:00"
 }
