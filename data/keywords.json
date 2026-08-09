@@ -3825,6 +3825,14 @@
       "researched_at": "2026-07-25T13:50:10.238154+00:00"
     },
     {
+      "keyword": "in home senior care options",
+      "interest": 2.06,
+      "word_count": 5,
+      "score": 5.51,
+      "lang": "en",
+      "researched_at": "2026-08-09T04:23:27.928651+00:00"
+    },
+    {
       "keyword": "best educational apps for preschoolers",
       "interest": 2.05,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 5.39,
       "lang": "en",
       "researched_at": "2026-08-09T02:11:37.290568+00:00"
-    },
-    {
-      "keyword": "衣類乾燥機 おすすめ 電気",
-      "interest": 2.69,
-      "word_count": 3,
-      "score": 5.38,
-      "lang": "ja",
-      "researched_at": "2026-03-06T14:07:56.218020+00:00"
     }
   ],
-  "last_updated": "2026-08-09T02:11:37.291047+00:00"
+  "last_updated": "2026-08-09T04:23:27.928995+00:00"
 }
