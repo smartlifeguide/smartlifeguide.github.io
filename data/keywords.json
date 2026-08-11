@@ -1401,6 +1401,14 @@
       "researched_at": "2026-04-08T03:19:21.917782+00:00"
     },
     {
+      "keyword": "best noise cancelling headphones for kids",
+      "interest": 6.97,
+      "word_count": 6,
+      "score": 20.9,
+      "lang": "en",
+      "researched_at": "2026-08-11T02:10:41.375292+00:00"
+    },
+    {
       "keyword": "best insoles for walking",
       "interest": 8.89,
       "word_count": 4,
@@ -1575,6 +1583,14 @@
       "score": 16.48,
       "lang": "en",
       "researched_at": "2026-06-15T23:07:19.620494+00:00"
+    },
+    {
+      "keyword": "top portable vacuum for car",
+      "interest": 6.13,
+      "word_count": 5,
+      "score": 16.34,
+      "lang": "en",
+      "researched_at": "2026-08-11T02:10:41.375310+00:00"
     },
     {
       "keyword": "best whole house water filter systems",
@@ -3983,23 +3999,7 @@
       "score": 5.45,
       "lang": "en",
       "researched_at": "2026-02-22T05:15:37.617432+00:00"
-    },
-    {
-      "keyword": "best ergonomic keyboards for home",
-      "interest": 2.04,
-      "word_count": 5,
-      "score": 5.45,
-      "lang": "en",
-      "researched_at": "2026-03-02T19:53:40.256845+00:00"
-    },
-    {
-      "keyword": "education investment plan for kids",
-      "interest": 2.04,
-      "word_count": 5,
-      "score": 5.45,
-      "lang": "en",
-      "researched_at": "2026-04-10T07:52:54.960463+00:00"
     }
   ],
-  "last_updated": "2026-08-10T21:50:27.625488+00:00"
+  "last_updated": "2026-08-11T02:10:41.375710+00:00"
 }
