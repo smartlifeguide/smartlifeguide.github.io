@@ -185,6 +185,14 @@
       "researched_at": "2026-08-02T15:00:08.963280+00:00"
     },
     {
+      "keyword": "best protein powder for women",
+      "interest": 53.01,
+      "word_count": 5,
+      "score": 141.36,
+      "lang": "en",
+      "researched_at": "2026-08-14T19:03:24.424193+00:00"
+    },
+    {
       "keyword": "how much to save for college per month",
       "interest": 46.7,
       "word_count": 8,
@@ -3991,15 +3999,7 @@
       "score": 5.51,
       "lang": "en",
       "researched_at": "2026-08-09T04:23:27.928651+00:00"
-    },
-    {
-      "keyword": "best educational apps for preschoolers",
-      "interest": 2.05,
-      "word_count": 5,
-      "score": 5.48,
-      "lang": "en",
-      "researched_at": "2026-02-26T18:06:28.453200+00:00"
     }
   ],
-  "last_updated": "2026-08-14T15:58:06.103068+00:00"
+  "last_updated": "2026-08-14T19:03:24.424678+00:00"
 }
