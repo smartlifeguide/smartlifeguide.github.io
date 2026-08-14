@@ -1201,6 +1201,14 @@
       "researched_at": "2026-02-27T08:02:20.560516+00:00"
     },
     {
+      "keyword": "comfortable sandals for walking all day",
+      "interest": 9.86,
+      "word_count": 6,
+      "score": 29.58,
+      "lang": "en",
+      "researched_at": "2026-08-14T15:58:06.102643+00:00"
+    },
+    {
       "keyword": "in home care technology review",
       "interest": 10.97,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 5.48,
       "lang": "en",
       "researched_at": "2026-02-26T18:06:28.453200+00:00"
-    },
-    {
-      "keyword": "blue light filter glasses review",
-      "interest": 2.06,
-      "word_count": 5,
-      "score": 5.48,
-      "lang": "en",
-      "researched_at": "2026-05-17T10:27:24.031870+00:00"
     }
   ],
-  "last_updated": "2026-08-14T13:21:22.283326+00:00"
+  "last_updated": "2026-08-14T15:58:06.103068+00:00"
 }
