@@ -2825,6 +2825,14 @@
       "researched_at": "2026-03-02T17:34:04.014580+00:00"
     },
     {
+      "keyword": "budget friendly family meals",
+      "interest": 2.94,
+      "word_count": 4,
+      "score": 6.85,
+      "lang": "en",
+      "researched_at": "2026-08-15T15:28:31.594293+00:00"
+    },
+    {
       "keyword": "ガス代 節約方法",
       "interest": 4.09,
       "word_count": 2,
@@ -3913,6 +3921,14 @@
       "researched_at": "2026-03-06T07:55:27.339787+00:00"
     },
     {
+      "keyword": "how to teach kids about money management",
+      "interest": 1.86,
+      "word_count": 7,
+      "score": 5.58,
+      "lang": "en",
+      "researched_at": "2026-08-15T15:28:31.594311+00:00"
+    },
+    {
       "keyword": "肩こり 解消 グッズ",
       "interest": 2.78,
       "word_count": 3,
@@ -3983,23 +3999,7 @@
       "score": 5.54,
       "lang": "ja",
       "researched_at": "2026-07-19T08:28:37.671107+00:00"
-    },
-    {
-      "keyword": "シニア スマホ おすすめ",
-      "interest": 2.76,
-      "word_count": 3,
-      "score": 5.53,
-      "lang": "ja",
-      "researched_at": "2026-02-26T05:14:18.201395+00:00"
-    },
-    {
-      "keyword": "教育費 貯め方 知恵袋",
-      "interest": 2.76,
-      "word_count": 3,
-      "score": 5.53,
-      "lang": "ja",
-      "researched_at": "2026-02-27T21:56:06.405124+00:00"
     }
   ],
-  "last_updated": "2026-08-15T12:50:39.156308+00:00"
+  "last_updated": "2026-08-15T15:28:31.595168+00:00"
 }
