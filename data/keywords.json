@@ -3585,6 +3585,14 @@
       "researched_at": "2026-08-04T22:18:10.818629+00:00"
     },
     {
+      "keyword": "best online coding courses for teens",
+      "interest": 1.96,
+      "word_count": 6,
+      "score": 5.87,
+      "lang": "en",
+      "researched_at": "2026-08-15T09:32:51.616879+00:00"
+    },
+    {
       "keyword": "how to reduce grocery bill",
       "interest": 2.2,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 5.53,
       "lang": "en",
       "researched_at": "2026-06-12T04:46:58.469758+00:00"
-    },
-    {
-      "keyword": "financial literacy books for teens",
-      "interest": 2.08,
-      "word_count": 5,
-      "score": 5.53,
-      "lang": "en",
-      "researched_at": "2026-08-07T21:47:12.087257+00:00"
     }
   ],
-  "last_updated": "2026-08-15T06:49:52.854879+00:00"
+  "last_updated": "2026-08-15T09:32:51.617769+00:00"
 }
