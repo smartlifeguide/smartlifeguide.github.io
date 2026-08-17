@@ -2385,6 +2385,14 @@
       "researched_at": "2026-07-16T19:22:36.237751+00:00"
     },
     {
+      "keyword": "meal planning services for busy families",
+      "interest": 2.8,
+      "word_count": 6,
+      "score": 8.39,
+      "lang": "en",
+      "researched_at": "2026-08-17T09:50:55.382353+00:00"
+    },
+    {
       "keyword": "best robot vacuum for pet hair with mop",
       "interest": 2.79,
       "word_count": 8,
@@ -3991,15 +3999,7 @@
       "score": 5.6,
       "lang": "en",
       "researched_at": "2026-05-03T10:13:14.230507+00:00"
-    },
-    {
-      "keyword": "senior friendly phones",
-      "interest": 2.79,
-      "word_count": 3,
-      "score": 5.58,
-      "lang": "en",
-      "researched_at": "2026-03-06T07:55:27.339787+00:00"
     }
   ],
-  "last_updated": "2026-08-17T07:07:41.835627+00:00"
+  "last_updated": "2026-08-17T09:50:55.382928+00:00"
 }
