@@ -2729,6 +2729,14 @@
       "researched_at": "2026-07-15T19:22:39.974218+00:00"
     },
     {
+      "keyword": "Workout equipment for small spaces",
+      "interest": 2.87,
+      "word_count": 5,
+      "score": 7.66,
+      "lang": "en",
+      "researched_at": "2026-08-19T06:55:23.347076+00:00"
+    },
+    {
       "keyword": "Comparing car insurance quotes",
       "interest": 3.28,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 5.66,
       "lang": "en",
       "researched_at": "2026-03-17T20:03:30.582317+00:00"
-    },
-    {
-      "keyword": "portable washing machine reviews canada",
-      "interest": 2.12,
-      "word_count": 5,
-      "score": 5.66,
-      "lang": "en",
-      "researched_at": "2026-03-26T13:46:00.116586+00:00"
     }
   ],
-  "last_updated": "2026-08-19T03:52:26.346090+00:00"
+  "last_updated": "2026-08-19T06:55:23.347565+00:00"
 }
