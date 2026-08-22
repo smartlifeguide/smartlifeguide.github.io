@@ -2897,6 +2897,14 @@
       "researched_at": "2026-03-02T11:12:11.732284+00:00"
     },
     {
+      "keyword": "natural remedies for children's coughs",
+      "interest": 2.66,
+      "word_count": 5,
+      "score": 7.08,
+      "lang": "en",
+      "researched_at": "2026-08-22T01:38:35.649879+00:00"
+    },
+    {
       "keyword": "肩こり 解消 グッズ 寝ながら",
       "interest": 3.01,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 5.69,
       "lang": "en",
       "researched_at": "2026-05-03T08:10:20.803716+00:00"
-    },
-    {
-      "keyword": "best air purifier for allergies and mold",
-      "interest": 1.89,
-      "word_count": 7,
-      "score": 5.68,
-      "lang": "en",
-      "researched_at": "2026-02-17T07:43:56.584463+00:00"
     }
   ],
-  "last_updated": "2026-08-21T21:31:24.750258+00:00"
+  "last_updated": "2026-08-22T01:38:35.650223+00:00"
 }
