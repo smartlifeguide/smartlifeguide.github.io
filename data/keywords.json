@@ -2617,6 +2617,14 @@
       "researched_at": "2026-03-14T10:00:46.837991+00:00"
     },
     {
+      "keyword": "senior smart watch fall detection",
+      "interest": 3.03,
+      "word_count": 5,
+      "score": 8.09,
+      "lang": "en",
+      "researched_at": "2026-08-23T03:56:05.291748+00:00"
+    },
+    {
       "keyword": "Cordless handheld vacuum reviews",
       "interest": 3.44,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 5.72,
       "lang": "en",
       "researched_at": "2026-05-04T22:09:51.604961+00:00"
-    },
-    {
-      "keyword": "how to cut grocery bill and still eat healthy",
-      "interest": 1.9,
-      "word_count": 9,
-      "score": 5.71,
-      "lang": "en",
-      "researched_at": "2026-02-26T03:10:00.181384+00:00"
     }
   ],
-  "last_updated": "2026-08-23T01:48:13.181057+00:00"
+  "last_updated": "2026-08-23T03:56:05.292149+00:00"
 }
