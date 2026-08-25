@@ -1449,6 +1449,14 @@
       "researched_at": "2026-02-26T03:09:21.745622+00:00"
     },
     {
+      "keyword": "relief for neck and shoulder pain",
+      "interest": 7.4,
+      "word_count": 6,
+      "score": 22.19,
+      "lang": "en",
+      "researched_at": "2026-08-25T09:42:42.694497+00:00"
+    },
+    {
       "keyword": "best outdoor security camera systems",
       "interest": 8.16,
       "word_count": 5,
@@ -1895,6 +1903,14 @@
       "score": 13.05,
       "lang": "en",
       "researched_at": "2026-08-17T03:55:57.371298+00:00"
+    },
+    {
+      "keyword": "best over the counter pain relief",
+      "interest": 4.28,
+      "word_count": 6,
+      "score": 12.84,
+      "lang": "en",
+      "researched_at": "2026-08-25T09:42:42.694516+00:00"
     },
     {
       "keyword": "best air purifier for allergies 2026",
@@ -3983,23 +3999,7 @@
       "score": 5.83,
       "lang": "en",
       "researched_at": "2026-03-31T10:11:52.388716+00:00"
-    },
-    {
-      "keyword": "best sleep masks for light sleepers",
-      "interest": 1.94,
-      "word_count": 6,
-      "score": 5.83,
-      "lang": "en",
-      "researched_at": "2026-05-16T19:16:17.856460+00:00"
-    },
-    {
-      "keyword": "best cashback credit cards for families",
-      "interest": 1.94,
-      "word_count": 6,
-      "score": 5.81,
-      "lang": "en",
-      "researched_at": "2026-02-26T18:06:28.453197+00:00"
     }
   ],
-  "last_updated": "2026-08-25T06:58:20.406747+00:00"
+  "last_updated": "2026-08-25T09:42:42.695011+00:00"
 }
