@@ -865,6 +865,14 @@
       "researched_at": "2026-02-26T02:56:47.097958+00:00"
     },
     {
+      "keyword": "best savings account for kids",
+      "interest": 24.34,
+      "word_count": 5,
+      "score": 64.92,
+      "lang": "en",
+      "researched_at": "2026-08-26T09:50:29.029789+00:00"
+    },
+    {
       "keyword": "コードレス掃除機 おすすめ",
       "interest": 37.97,
       "word_count": 2,
@@ -3991,15 +3999,7 @@
       "score": 5.86,
       "lang": "en",
       "researched_at": "2026-03-15T19:42:58.584048+00:00"
-    },
-    {
-      "keyword": "腰痛 マットレス おすすめ",
-      "interest": 2.92,
-      "word_count": 3,
-      "score": 5.85,
-      "lang": "ja",
-      "researched_at": "2026-02-26T03:33:17.774758+00:00"
     }
   ],
-  "last_updated": "2026-08-26T06:59:46.231709+00:00"
+  "last_updated": "2026-08-26T09:50:29.030636+00:00"
 }
