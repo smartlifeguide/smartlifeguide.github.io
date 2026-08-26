@@ -2465,6 +2465,14 @@
       "researched_at": "2026-08-08T21:37:26.607413+00:00"
     },
     {
+      "keyword": "best budget laundry detergent",
+      "interest": 3.84,
+      "word_count": 4,
+      "score": 8.96,
+      "lang": "en",
+      "researched_at": "2026-08-26T19:55:46.047751+00:00"
+    },
+    {
       "keyword": "best probiotic supplements for gut health",
       "interest": 2.97,
       "word_count": 6,
@@ -3991,15 +3999,7 @@
       "score": 5.87,
       "lang": "ja",
       "researched_at": "2026-02-26T05:14:18.201373+00:00"
-    },
-    {
-      "keyword": "top 5 free budgeting apps",
-      "interest": 2.2,
-      "word_count": 5,
-      "score": 5.87,
-      "lang": "en",
-      "researched_at": "2026-05-16T10:23:01.023844+00:00"
     }
   ],
-  "last_updated": "2026-08-26T16:23:39.393924+00:00"
+  "last_updated": "2026-08-26T19:55:46.048233+00:00"
 }
