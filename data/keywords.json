@@ -2265,6 +2265,14 @@
       "researched_at": "2026-02-26T03:33:17.774753+00:00"
     },
     {
+      "keyword": "best stand mixer for beginners",
+      "interest": 3.9,
+      "word_count": 5,
+      "score": 10.41,
+      "lang": "en",
+      "researched_at": "2026-08-28T15:13:52.366182+00:00"
+    },
+    {
       "keyword": "best pillows for side sleepers neck pain",
       "interest": 3.45,
       "word_count": 7,
@@ -3991,15 +3999,7 @@
       "score": 5.9,
       "lang": "en",
       "researched_at": "2026-08-15T18:38:19.264561+00:00"
-    },
-    {
-      "keyword": "best noise cancelling headphones for studying",
-      "interest": 1.97,
-      "word_count": 6,
-      "score": 5.9,
-      "lang": "en",
-      "researched_at": "2026-08-16T12:52:10.757688+00:00"
     }
   ],
-  "last_updated": "2026-08-28T00:21:40.576754+00:00"
+  "last_updated": "2026-08-28T15:13:52.366721+00:00"
 }
