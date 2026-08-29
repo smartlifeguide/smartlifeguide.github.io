@@ -2481,6 +2481,14 @@
       "researched_at": "2026-03-05T07:58:43.529587+00:00"
     },
     {
+      "keyword": "best smart scales for family use",
+      "interest": 3.05,
+      "word_count": 6,
+      "score": 9.16,
+      "lang": "en",
+      "researched_at": "2026-08-29T09:56:17.338298+00:00"
+    },
+    {
       "keyword": "best sleep tracking devices",
       "interest": 3.91,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 5.92,
       "lang": "en",
       "researched_at": "2026-03-05T07:58:43.529594+00:00"
-    },
-    {
-      "keyword": "best stand mixer for baking",
-      "interest": 2.22,
-      "word_count": 5,
-      "score": 5.91,
-      "lang": "en",
-      "researched_at": "2026-08-14T21:31:35.586759+00:00"
     }
   ],
-  "last_updated": "2026-08-29T01:40:17.156378+00:00"
+  "last_updated": "2026-08-29T09:56:17.338830+00:00"
 }
