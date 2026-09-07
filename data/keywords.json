@@ -1161,6 +1161,14 @@
       "researched_at": "2026-08-03T22:13:23.718104+00:00"
     },
     {
+      "keyword": "best standing desk for home office",
+      "interest": 12.91,
+      "word_count": 6,
+      "score": 38.74,
+      "lang": "en",
+      "researched_at": "2026-09-07T19:05:29.592216+00:00"
+    },
+    {
       "keyword": "comfortable walking shoes for men",
       "interest": 14.46,
       "word_count": 5,
@@ -3201,6 +3209,14 @@
       "researched_at": "2026-09-05T14:59:09.670329+00:00"
     },
     {
+      "keyword": "best senior friendly cell phones",
+      "interest": 2.88,
+      "word_count": 5,
+      "score": 7.68,
+      "lang": "en",
+      "researched_at": "2026-09-07T19:05:29.592235+00:00"
+    },
+    {
       "keyword": "Workout equipment for small spaces",
       "interest": 2.87,
       "word_count": 5,
@@ -3983,23 +3999,7 @@
       "score": 6.2,
       "lang": "en",
       "researched_at": "2026-03-09T05:14:23.482284+00:00"
-    },
-    {
-      "keyword": "best robot vacuum for pet hair without mop",
-      "interest": 2.07,
-      "word_count": 8,
-      "score": 6.2,
-      "lang": "en",
-      "researched_at": "2026-04-18T07:21:02.753263+00:00"
-    },
-    {
-      "keyword": "how to teach kids about money",
-      "interest": 2.06,
-      "word_count": 6,
-      "score": 6.19,
-      "lang": "en",
-      "researched_at": "2026-08-18T03:51:03.601024+00:00"
     }
   ],
-  "last_updated": "2026-09-07T12:11:49.113733+00:00"
+  "last_updated": "2026-09-07T19:05:29.592676+00:00"
 }
