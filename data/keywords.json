@@ -2209,6 +2209,14 @@
       "researched_at": "2026-04-20T21:55:20.043615+00:00"
     },
     {
+      "keyword": "Best comfortable nursing shoes",
+      "interest": 5.26,
+      "word_count": 4,
+      "score": 12.27,
+      "lang": "en",
+      "researched_at": "2026-09-08T21:01:06.507091+00:00"
+    },
+    {
       "keyword": "how to budget for family vacation",
       "interest": 4.08,
       "word_count": 6,
@@ -3991,15 +3999,7 @@
       "score": 6.22,
       "lang": "en",
       "researched_at": "2026-09-07T04:07:14.810225+00:00"
-    },
-    {
-      "keyword": "炊飯器 おすすめ ランキング",
-      "interest": 3.1,
-      "word_count": 3,
-      "score": 6.2,
-      "lang": "ja",
-      "researched_at": "2026-03-02T05:09:34.440921+00:00"
     }
   ],
-  "last_updated": "2026-09-08T16:27:47.215985+00:00"
+  "last_updated": "2026-09-08T21:01:06.507539+00:00"
 }
