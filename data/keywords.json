@@ -3817,6 +3817,14 @@
       "researched_at": "2026-09-09T23:08:34.266511+00:00"
     },
     {
+      "keyword": "daily living aids for seniors",
+      "interest": 2.41,
+      "word_count": 5,
+      "score": 6.42,
+      "lang": "en",
+      "researched_at": "2026-09-11T04:12:00.530956+00:00"
+    },
+    {
       "keyword": "コードレス掃除機 おすすめ コスパ",
       "interest": 3.2,
       "word_count": 3,
@@ -3991,15 +3999,7 @@
       "score": 6.26,
       "lang": "ja",
       "researched_at": "2026-03-26T02:56:10.645438+00:00"
-    },
-    {
-      "keyword": "how to save on electricity bill reddit",
-      "interest": 2.09,
-      "word_count": 7,
-      "score": 6.26,
-      "lang": "en",
-      "researched_at": "2026-03-31T10:11:52.388701+00:00"
     }
   ],
-  "last_updated": "2026-09-10T23:03:52.150558+00:00"
+  "last_updated": "2026-09-11T04:12:00.531451+00:00"
 }
