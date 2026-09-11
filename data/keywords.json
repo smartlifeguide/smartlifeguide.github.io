@@ -3113,6 +3113,14 @@
       "researched_at": "2026-04-07T19:16:18.075943+00:00"
     },
     {
+      "keyword": "compare home internet providers",
+      "interest": 3.42,
+      "word_count": 4,
+      "score": 7.98,
+      "lang": "en",
+      "researched_at": "2026-09-11T11:01:43.867053+00:00"
+    },
+    {
       "keyword": "education savings plan for child",
       "interest": 2.98,
       "word_count": 5,
@@ -3271,6 +3279,14 @@
       "score": 7.68,
       "lang": "en",
       "researched_at": "2026-09-07T19:05:29.592235+00:00"
+    },
+    {
+      "keyword": "best online coding courses for beginners",
+      "interest": 2.56,
+      "word_count": 6,
+      "score": 7.68,
+      "lang": "en",
+      "researched_at": "2026-09-11T11:01:43.867073+00:00"
     },
     {
       "keyword": "Workout equipment for small spaces",
@@ -3983,23 +3999,7 @@
       "score": 6.3,
       "lang": "ja",
       "researched_at": "2026-06-17T22:48:59.757341+00:00"
-    },
-    {
-      "keyword": "腰痛 マットレス おすすめ コスパ",
-      "interest": 2.69,
-      "word_count": 4,
-      "score": 6.28,
-      "lang": "ja",
-      "researched_at": "2026-03-15T21:55:51.349126+00:00"
-    },
-    {
-      "keyword": "腰痛 マットレス おすすめ ランキング",
-      "interest": 2.68,
-      "word_count": 4,
-      "score": 6.26,
-      "lang": "ja",
-      "researched_at": "2026-03-26T02:56:10.645438+00:00"
     }
   ],
-  "last_updated": "2026-09-11T04:12:00.531451+00:00"
+  "last_updated": "2026-09-11T11:01:43.867420+00:00"
 }
