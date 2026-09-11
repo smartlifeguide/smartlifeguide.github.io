@@ -209,6 +209,14 @@
       "researched_at": "2026-08-02T15:00:08.963280+00:00"
     },
     {
+      "keyword": "best eye cream for wrinkles",
+      "interest": 50.85,
+      "word_count": 5,
+      "score": 135.6,
+      "lang": "en",
+      "researched_at": "2026-09-11T23:09:51.445153+00:00"
+    },
+    {
       "keyword": "best magnesium supplement for sleep",
       "interest": 50.14,
       "word_count": 5,
@@ -1367,6 +1375,14 @@
       "score": 29.53,
       "lang": "en",
       "researched_at": "2026-08-16T09:34:18.020422+00:00"
+    },
+    {
+      "keyword": "best air fryer oven combo",
+      "interest": 11.02,
+      "word_count": 5,
+      "score": 29.39,
+      "lang": "en",
+      "researched_at": "2026-09-11T23:09:51.445171+00:00"
     },
     {
       "keyword": "in home care technology review",
@@ -3983,23 +3999,7 @@
       "score": 6.3,
       "lang": "en",
       "researched_at": "2026-03-03T07:59:18.867066+00:00"
-    },
-    {
-      "keyword": "how to save on electricity bill in apartment",
-      "interest": 2.1,
-      "word_count": 8,
-      "score": 6.3,
-      "lang": "en",
-      "researched_at": "2026-03-31T02:57:46.839361+00:00"
-    },
-    {
-      "keyword": "ロボット掃除機 おすすめ 安い",
-      "interest": 3.15,
-      "word_count": 3,
-      "score": 6.3,
-      "lang": "ja",
-      "researched_at": "2026-06-04T10:07:20.781686+00:00"
     }
   ],
-  "last_updated": "2026-09-11T20:50:12.490014+00:00"
+  "last_updated": "2026-09-11T23:09:51.445922+00:00"
 }
