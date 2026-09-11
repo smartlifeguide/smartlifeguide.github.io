@@ -1409,6 +1409,14 @@
       "researched_at": "2026-02-26T03:10:00.181368+00:00"
     },
     {
+      "keyword": "best family coffee machine",
+      "interest": 12.1,
+      "word_count": 4,
+      "score": 28.23,
+      "lang": "en",
+      "researched_at": "2026-09-11T20:50:12.489025+00:00"
+    },
+    {
       "keyword": "best electric toothbrush for kids",
       "interest": 10.56,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 6.3,
       "lang": "ja",
       "researched_at": "2026-06-04T10:07:20.781686+00:00"
-    },
-    {
-      "keyword": "ガス代 節約 プロパン",
-      "interest": 3.15,
-      "word_count": 3,
-      "score": 6.3,
-      "lang": "ja",
-      "researched_at": "2026-06-17T22:48:59.757341+00:00"
     }
   ],
-  "last_updated": "2026-09-11T16:17:47.644070+00:00"
+  "last_updated": "2026-09-11T20:50:12.490014+00:00"
 }
