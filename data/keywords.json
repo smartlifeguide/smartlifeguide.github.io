@@ -2529,6 +2529,14 @@
       "researched_at": "2026-08-21T06:57:50.602738+00:00"
     },
     {
+      "keyword": "compare home energy providers",
+      "interest": 4.43,
+      "word_count": 4,
+      "score": 10.34,
+      "lang": "en",
+      "researched_at": "2026-09-12T20:26:42.293098+00:00"
+    },
+    {
       "keyword": "dishwasher comparison uk",
       "interest": 5.15,
       "word_count": 3,
@@ -3207,6 +3215,14 @@
       "score": 7.91,
       "lang": "en",
       "researched_at": "2026-08-27T14:02:59.241930+00:00"
+    },
+    {
+      "keyword": "how to choose a family laptop",
+      "interest": 2.63,
+      "word_count": 6,
+      "score": 7.9,
+      "lang": "en",
+      "researched_at": "2026-09-12T20:26:42.293116+00:00"
     },
     {
       "keyword": "dishwasher comparison australia",
@@ -3983,23 +3999,7 @@
       "score": 6.32,
       "lang": "en",
       "researched_at": "2026-02-28T15:44:46.370859+00:00"
-    },
-    {
-      "keyword": "kitchenaid dishwasher comparison chart",
-      "interest": 2.71,
-      "word_count": 4,
-      "score": 6.32,
-      "lang": "en",
-      "researched_at": "2026-07-04T13:49:30.970232+00:00"
-    },
-    {
-      "keyword": "Best blender for family smoothies",
-      "interest": 2.37,
-      "word_count": 5,
-      "score": 6.32,
-      "lang": "en",
-      "researched_at": "2026-07-23T14:22:08.237655+00:00"
     }
   ],
-  "last_updated": "2026-09-12T15:24:22.641779+00:00"
+  "last_updated": "2026-09-12T20:26:42.293602+00:00"
 }
