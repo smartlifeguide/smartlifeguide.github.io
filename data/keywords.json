@@ -3497,6 +3497,14 @@
       "researched_at": "2026-08-22T01:38:35.649879+00:00"
     },
     {
+      "keyword": "Gentle skincare routine for sensitive skin",
+      "interest": 2.35,
+      "word_count": 6,
+      "score": 7.06,
+      "lang": "en",
+      "researched_at": "2026-09-13T04:23:40.190219+00:00"
+    },
+    {
       "keyword": "肩こり 解消 グッズ 寝ながら",
       "interest": 3.01,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 6.35,
       "lang": "ja",
       "researched_at": "2026-08-26T01:45:20.753852+00:00"
-    },
-    {
-      "keyword": "how to save on electric bill in florida",
-      "interest": 2.11,
-      "word_count": 8,
-      "score": 6.32,
-      "lang": "en",
-      "researched_at": "2026-02-28T15:44:46.370859+00:00"
     }
   ],
-  "last_updated": "2026-09-12T22:56:54.884131+00:00"
+  "last_updated": "2026-09-13T04:23:40.190715+00:00"
 }
