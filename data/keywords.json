@@ -2385,6 +2385,14 @@
       "researched_at": "2026-03-21T15:34:19.514932+00:00"
     },
     {
+      "keyword": "best energy efficient washing machine",
+      "interest": 4.48,
+      "word_count": 5,
+      "score": 11.96,
+      "lang": "en",
+      "researched_at": "2026-09-18T11:00:17.040474+00:00"
+    },
+    {
       "keyword": "best budget espresso machines",
       "interest": 5.11,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 6.42,
       "lang": "en",
       "researched_at": "2026-08-21T21:31:24.749959+00:00"
-    },
-    {
-      "keyword": "best smart door locks for families",
-      "interest": 2.14,
-      "word_count": 6,
-      "score": 6.42,
-      "lang": "en",
-      "researched_at": "2026-09-09T23:08:34.266511+00:00"
     }
   ],
-  "last_updated": "2026-09-18T04:16:46.945758+00:00"
+  "last_updated": "2026-09-18T11:00:17.041340+00:00"
 }
