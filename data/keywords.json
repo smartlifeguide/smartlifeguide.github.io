@@ -377,6 +377,14 @@
       "researched_at": "2026-08-02T15:00:08.963280+00:00"
     },
     {
+      "keyword": "best eye cream for dark circles",
+      "interest": 39.87,
+      "word_count": 6,
+      "score": 119.61,
+      "lang": "en",
+      "researched_at": "2026-09-19T22:51:20.655137+00:00"
+    },
+    {
       "keyword": "Best blue light blocking glasses",
       "interest": 44.6,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 6.46,
       "lang": "en",
       "researched_at": "2026-03-29T03:22:00.170700+00:00"
-    },
-    {
-      "keyword": "best robot vacuum for pet hair self-emptying no mop",
-      "interest": 2.15,
-      "word_count": 9,
-      "score": 6.46,
-      "lang": "en",
-      "researched_at": "2026-04-27T19:43:36.029058+00:00"
     }
   ],
-  "last_updated": "2026-09-19T20:26:02.230475+00:00"
+  "last_updated": "2026-09-19T22:51:20.655468+00:00"
 }
