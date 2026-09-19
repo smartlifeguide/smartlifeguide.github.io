@@ -1625,6 +1625,14 @@
       "researched_at": "2026-04-07T19:16:18.075932+00:00"
     },
     {
+      "keyword": "How to save on gas prices",
+      "interest": 7.45,
+      "word_count": 6,
+      "score": 22.35,
+      "lang": "en",
+      "researched_at": "2026-09-19T20:26:02.229937+00:00"
+    },
+    {
       "keyword": "ふるさと納税 やり方 確定申告",
       "interest": 11.15,
       "word_count": 3,
@@ -3897,6 +3905,14 @@
       "researched_at": "2026-09-02T20:54:51.471705+00:00"
     },
     {
+      "keyword": "サプリ おすすめ 男 疲労回復",
+      "interest": 2.82,
+      "word_count": 4,
+      "score": 6.57,
+      "lang": "ja",
+      "researched_at": "2026-09-19T20:25:32.290485+00:00"
+    },
+    {
       "keyword": "best tablets for students under 20000",
       "interest": 2.19,
       "word_count": 6,
@@ -3983,23 +3999,7 @@
       "score": 6.46,
       "lang": "en",
       "researched_at": "2026-04-27T19:43:36.029058+00:00"
-    },
-    {
-      "keyword": "best tablets for students with pen and keyboard",
-      "interest": 2.15,
-      "word_count": 8,
-      "score": 6.46,
-      "lang": "en",
-      "researched_at": "2026-04-27T19:43:36.029077+00:00"
-    },
-    {
-      "keyword": "Tips for caring for elderly parents",
-      "interest": 2.15,
-      "word_count": 6,
-      "score": 6.45,
-      "lang": "en",
-      "researched_at": "2026-08-09T18:52:01.924041+00:00"
     }
   ],
-  "last_updated": "2026-09-19T15:45:46.926498+00:00"
+  "last_updated": "2026-09-19T20:26:02.230475+00:00"
 }
