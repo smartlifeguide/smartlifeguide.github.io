@@ -3801,6 +3801,14 @@
       "researched_at": "2026-09-17T16:44:26.964266+00:00"
     },
     {
+      "keyword": "best non toxic cleaning products",
+      "interest": 2.56,
+      "word_count": 5,
+      "score": 6.82,
+      "lang": "en",
+      "researched_at": "2026-09-22T21:09:45.800623+00:00"
+    },
+    {
       "keyword": "ガス代 節約方法",
       "interest": 4.09,
       "word_count": 2,
@@ -3991,15 +3999,7 @@
       "score": 6.52,
       "lang": "en",
       "researched_at": "2026-09-10T23:03:52.150194+00:00"
-    },
-    {
-      "keyword": "how to save on electric bill with ac",
-      "interest": 2.16,
-      "word_count": 8,
-      "score": 6.49,
-      "lang": "en",
-      "researched_at": "2026-04-02T13:43:57.368202+00:00"
     }
   ],
-  "last_updated": "2026-09-22T16:43:58.958839+00:00"
+  "last_updated": "2026-09-22T21:09:45.801463+00:00"
 }
