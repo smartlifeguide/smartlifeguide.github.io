@@ -3361,6 +3361,14 @@
       "researched_at": "2026-08-06T08:47:53.690249+00:00"
     },
     {
+      "keyword": "financial literacy games for teenagers",
+      "interest": 3.0,
+      "word_count": 5,
+      "score": 8.0,
+      "lang": "en",
+      "researched_at": "2026-10-02T22:04:01.840312+00:00"
+    },
+    {
       "keyword": "best walking shoes for women with bunions",
       "interest": 2.66,
       "word_count": 7,
@@ -3991,15 +3999,7 @@
       "score": 6.68,
       "lang": "en",
       "researched_at": "2026-09-24T21:25:09.643406+00:00"
-    },
-    {
-      "keyword": "best robot vacuum for pet hair on hard floors",
-      "interest": 2.21,
-      "word_count": 9,
-      "score": 6.63,
-      "lang": "en",
-      "researched_at": "2026-05-15T22:04:24.247991+00:00"
     }
   ],
-  "last_updated": "2026-10-02T17:45:51.835634+00:00"
+  "last_updated": "2026-10-02T22:04:01.841253+00:00"
 }
