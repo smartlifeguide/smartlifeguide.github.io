@@ -2633,6 +2633,14 @@
       "researched_at": "2026-08-28T15:13:52.366182+00:00"
     },
     {
+      "keyword": "Quiet portable air conditioner for bedroom",
+      "interest": 3.46,
+      "word_count": 6,
+      "score": 10.39,
+      "lang": "en",
+      "researched_at": "2026-10-04T23:55:44.402243+00:00"
+    },
+    {
       "keyword": "aging in place technology",
       "interest": 4.44,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 6.68,
       "lang": "en",
       "researched_at": "2026-04-10T21:49:04.833591+00:00"
-    },
-    {
-      "keyword": "how to choose online tutor",
-      "interest": 2.51,
-      "word_count": 5,
-      "score": 6.68,
-      "lang": "en",
-      "researched_at": "2026-08-30T04:58:19.549021+00:00"
     }
   ],
-  "last_updated": "2026-10-04T18:36:40.158321+00:00"
+  "last_updated": "2026-10-04T23:55:44.402804+00:00"
 }
