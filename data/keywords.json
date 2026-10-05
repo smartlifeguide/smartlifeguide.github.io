@@ -1609,6 +1609,14 @@
       "researched_at": "2026-03-09T22:00:09.058341+00:00"
     },
     {
+      "keyword": "how to choose a college major",
+      "interest": 7.96,
+      "word_count": 6,
+      "score": 23.87,
+      "lang": "en",
+      "researched_at": "2026-10-05T21:57:18.679667+00:00"
+    },
+    {
       "keyword": "best energy saving tips home",
       "interest": 8.95,
       "word_count": 5,
@@ -1935,6 +1943,14 @@
       "score": 16.81,
       "lang": "en",
       "researched_at": "2026-08-27T14:02:59.241908+00:00"
+    },
+    {
+      "keyword": "best credit cards for cashback rewards",
+      "interest": 5.54,
+      "word_count": 6,
+      "score": 16.61,
+      "lang": "en",
+      "researched_at": "2026-10-05T21:57:18.679688+00:00"
     },
     {
       "keyword": "comfortable work shoes for standing",
@@ -3983,23 +3999,7 @@
       "score": 6.7,
       "lang": "en",
       "researched_at": "2026-09-03T16:15:07.116173+00:00"
-    },
-    {
-      "keyword": "compare personal alarms for the elderly",
-      "interest": 2.23,
-      "word_count": 6,
-      "score": 6.69,
-      "lang": "en",
-      "researched_at": "2026-04-07T03:17:30.770659+00:00"
-    },
-    {
-      "keyword": "education savings account for kids",
-      "interest": 2.51,
-      "word_count": 5,
-      "score": 6.68,
-      "lang": "en",
-      "researched_at": "2026-04-10T21:49:04.833591+00:00"
     }
   ],
-  "last_updated": "2026-10-05T14:17:08.270066+00:00"
+  "last_updated": "2026-10-05T21:57:18.679967+00:00"
 }
