@@ -3593,6 +3593,14 @@
       "researched_at": "2026-08-19T06:55:23.347076+00:00"
     },
     {
+      "keyword": "Best essential oils for stress",
+      "interest": 2.87,
+      "word_count": 5,
+      "score": 7.66,
+      "lang": "en",
+      "researched_at": "2026-10-06T05:56:40.687059+00:00"
+    },
+    {
       "keyword": "Comparing car insurance quotes",
       "interest": 3.28,
       "word_count": 4,
@@ -3991,15 +3999,7 @@
       "score": 6.72,
       "lang": "en",
       "researched_at": "2026-07-06T20:07:49.668466+00:00"
-    },
-    {
-      "keyword": "budget meal planning ideas",
-      "interest": 2.87,
-      "word_count": 4,
-      "score": 6.7,
-      "lang": "en",
-      "researched_at": "2026-09-03T16:15:07.116173+00:00"
     }
   ],
-  "last_updated": "2026-10-05T21:57:18.679967+00:00"
+  "last_updated": "2026-10-06T05:56:40.687925+00:00"
 }
