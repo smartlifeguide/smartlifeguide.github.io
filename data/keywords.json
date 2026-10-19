@@ -1673,6 +1673,14 @@
       "researched_at": "2026-08-25T09:42:42.694497+00:00"
     },
     {
+      "keyword": "best protein powder for kids",
+      "interest": 8.31,
+      "word_count": 5,
+      "score": 22.16,
+      "lang": "en",
+      "researched_at": "2026-10-19T12:48:19.228350+00:00"
+    },
+    {
       "keyword": "best walking sandals for women",
       "interest": 8.25,
       "word_count": 5,
@@ -3991,15 +3999,7 @@
       "score": 6.94,
       "lang": "en",
       "researched_at": "2026-02-27T19:50:21.854755+00:00"
-    },
-    {
-      "keyword": "best stand mixer for bread",
-      "interest": 2.6,
-      "word_count": 5,
-      "score": 6.94,
-      "lang": "en",
-      "researched_at": "2026-08-24T18:50:29.599271+00:00"
     }
   ],
-  "last_updated": "2026-10-19T04:14:59.849445+00:00"
+  "last_updated": "2026-10-19T12:48:19.228655+00:00"
 }
