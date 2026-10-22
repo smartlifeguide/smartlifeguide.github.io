@@ -1473,6 +1473,14 @@
       "researched_at": "2026-05-19T15:41:06.141550+00:00"
     },
     {
+      "keyword": "comfortable shoes for standing all day",
+      "interest": 9.67,
+      "word_count": 6,
+      "score": 29.0,
+      "lang": "en",
+      "researched_at": "2026-10-22T11:34:17.098489+00:00"
+    },
+    {
       "keyword": "best walking shoes for women travel",
       "interest": 9.66,
       "word_count": 6,
@@ -3991,15 +3999,7 @@
       "score": 7.03,
       "lang": "ja",
       "researched_at": "2026-08-29T20:48:41.594636+00:00"
-    },
-    {
-      "keyword": "ergonomic pillows for neck pain relief",
-      "interest": 2.33,
-      "word_count": 6,
-      "score": 7.0,
-      "lang": "en",
-      "researched_at": "2026-08-22T21:28:37.725486+00:00"
     }
   ],
-  "last_updated": "2026-10-22T04:17:24.440223+00:00"
+  "last_updated": "2026-10-22T11:34:17.098924+00:00"
 }
